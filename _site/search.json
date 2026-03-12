@@ -14,34 +14,6 @@
     "text": "This project is motivated by the need to examine how Sailor Shift’s rise from a local Oceanus Folk artist to an internationally recognised musician reflects broader processes of artistic influence, collaboration, and genre transformation. Her career provides a valuable case through which to study not only individual success, but also the ways in which a regional musical tradition can gain wider cultural visibility and reshape the contemporary music landscape.\nThe study is further motivated by the analytical potential of knowledge graph data, which captures relationships among artists, albums, songs, genres, collaborations, and influences over time. By applying visual analytics to this interconnected data, the project seeks to produce a clearer understanding of Sailor Shift’s development, the spread of Oceanus Folk, and the conditions that may give rise to the next generation of prominent artists within this musical community."
   },
   {
-    "objectID": "about.html#project-motivation",
-    "href": "about.html#project-motivation",
-    "title": "Project Proposal",
-    "section": "Project Motivation",
-    "text": "Project Motivation\nThis project is motivated by the need to examine how Sailor Shift’s rise from a local Oceanus Folk artist to an internationally recognised musician reflects broader processes of artistic influence, collaboration, and genre transformation. Her career provides a valuable case through which to study not only individual success, but also the ways in which a regional musical tradition can gain wider cultural visibility and reshape the contemporary music landscape.\nThe study is further motivated by the analytical potential of knowledge graph data, which captures relationships among artists, albums, songs, genres, collaborations, and influences over time. By applying visual analytics to this interconnected data, the project seeks to produce a clearer understanding of Sailor Shift’s development, the spread of Oceanus Folk, and the conditions that may give rise to the next generation of prominent artists within this musical community."
-  },
-  {
-    "objectID": "about.html#project-objective-and-research-questions",
-    "href": "about.html#project-objective-and-research-questions",
-    "title": "Project Proposal",
-    "section": "Project Objective and Research Questions",
-    "text": "Project Objective and Research Questions\n\nProject Objective\nThe objective of this project is to develop a visual analytics website that examines Sailor Shift’s career trajectory, analyses the spread and evolution of Oceanus Folk, and identifies artists who demonstrate strong potential to emerge as future Oceanus Folk stars.\n\n\nResearch Questions\n\nHow did Sailor Shift’s career develop over time in terms of collaborations, genre transitions, and growth in prominence?\nWhich artists and genres influenced Sailor Shift, and whom has she directly or indirectly influenced in return?\nHow has Oceanus Folk spread across the wider music landscape, and did this influence develop gradually or through key turning points?\nWhich genres and major artists have been most significantly influenced by Oceanus Folk?\nHow has Oceanus Folk evolved during Sailor Shift’s rise, and which genres now shape its contemporary form?\nWhat characteristics define a rising star within this music ecosystem, and which three artists appear most likely to become the next prominent Oceanus Folk stars over the next five years?"
-  },
-  {
-    "objectID": "about.html#scope-of-work",
-    "href": "about.html#scope-of-work",
-    "title": "Project Proposal",
-    "section": "Scope of Work",
-    "text": "Scope of Work\nThis project will be presented through a Quarto website and will focus on the visual analysis of a music knowledge graph containing information on artists, albums, songs, genres, collaborations, and influence relationships.\nThe work will begin with data understanding and preparation, followed by the development of visualizations that profile Sailor Shift’s career and highlight important stages in her artistic development. It will then examine her collaboration and influence networks in order to identify the relationships that shaped her rise and the extent of her impact on other artists and the broader Oceanus Folk community.\nThe project will also investigate how Oceanus Folk has spread into other musical contexts and how the genre itself has evolved over time. In addition, it will compare the careers of three selected artists to identify shared characteristics associated with emerging success. Based on these patterns, the project will provide three evidence-based predictions of potential future Oceanus Folk stars. The overall emphasis will be on clear, interpretable, and well-supported visual analysis rather than complex predictive modelling."
-  },
-  {
-    "objectID": "about.html#expected-outcome",
-    "href": "about.html#expected-outcome",
-    "title": "Project Proposal",
-    "section": "Expected Outcome",
-    "text": "Expected Outcome\nThe expected outcome of this project is a clear and coherent visual analytics website that explains Sailor Shift’s artistic development, illustrates the diffusion and evolution of Oceanus Folk, and presents justified predictions of future emerging artists within this musical community."
-  },
-  {
     "objectID": "about.html#project-objective",
     "href": "about.html#project-objective",
     "title": "Project Proposal",
