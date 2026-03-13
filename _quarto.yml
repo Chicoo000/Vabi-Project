@@ -2,12 +2,25 @@ project:
   type: website
 
 website:
-  title: "website"
+  title: "Visual Analytics Project"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: overview.qmd
+        text: Overview
+      - href: proposal.qmd
+        text: Proposal
+      - href: prototypes.qmd
+        text: Prototypes
+      - href: storyboards.qmd
+        text: Storyboards
+      - href: analysis_and_results.qmd
+        text: Analysis & Results
+      - href: poster.qmd
+        text: Poster
+      - href: user_guide.qmd
+        text: User Guide
 
 format:
   html:

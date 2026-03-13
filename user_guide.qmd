@@ -1,0 +1,7 @@
+---
+title: "User Guide"
+---
+
+This user guide will explain how to use our visual analytics application.
+
+It will provide step-by-step instructions on how to interact with the visualizations and interpret the results.

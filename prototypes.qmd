@@ -1,0 +1,7 @@
+---
+title: "Prototypes"
+---
+
+This section will showcase the prototypes of our visual analytics application.
+
+We will include initial sketches, wireframes, and interactive prototypes that we develop throughout the project.

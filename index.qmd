@@ -1,9 +1,12 @@
 ---
-title: "Visual Analytics Project - Mini Challenge 1"
+title: "Welcome to our Visual Analytics Project"
 ---
 
-This is a Quarto website.
+Welcome to our project website. This website documents our journey through the VAST Challenge 2025, Mini Challenge 1.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Our project team is composed of:
+- Liew Zhen Jie
+- Ewan Lim
+- Team Member 3
 
-Hi this is Ewan
+Use the navigation bar to explore the different sections of our project.

@@ -1,0 +1,7 @@
+---
+title: "Project Poster"
+---
+
+This section will contain our project poster.
+
+The poster will provide a concise overview of our project, including the motivation, objectives, methods, results, and conclusions.

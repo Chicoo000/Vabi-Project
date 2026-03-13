@@ -1,0 +1,7 @@
+---
+title: "Storyboards"
+---
+
+In this section, we will present the storyboards that guide the user experience of our visual analytics tool.
+
+Our storyboards will illustrate how users can interact with the visualizations to gain insights into the music knowledge graph.

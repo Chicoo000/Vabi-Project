@@ -1,30 +1,72 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Visual Analytics Project - Mini Challenge 1",
+    "objectID": "user_guide.html",
+    "href": "user_guide.html",
+    "title": "User Guide",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nHi this is Ewan"
+    "text": "This user guide will explain how to use our visual analytics application.\nIt will provide step-by-step instructions on how to interact with the visualizations and interpret the results."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "prototypes.html",
+    "href": "prototypes.html",
+    "title": "Prototypes",
+    "section": "",
+    "text": "This section will showcase the prototypes of our visual analytics application.\nWe will include initial sketches, wireframes, and interactive prototypes that we develop throughout the project."
+  },
+  {
+    "objectID": "poster.html",
+    "href": "poster.html",
+    "title": "Project Poster",
+    "section": "",
+    "text": "This section will contain our project poster.\nThe poster will provide a concise overview of our project, including the motivation, objectives, methods, results, and conclusions."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to our Visual Analytics Project",
+    "section": "",
+    "text": "Welcome to our project website. This website documents our journey through the VAST Challenge 2025, Mini Challenge 1.\nOur project team is composed of: - Liew Zhen Jie - Ewan Lim - Team Member 3\nUse the navigation bar to explore the different sections of our project."
+  },
+  {
+    "objectID": "analysis_and_results.html",
+    "href": "analysis_and_results.html",
+    "title": "Analysis and Results",
+    "section": "",
+    "text": "This section will detail the analysis we performed and the results we obtained.\nWe will present the visualizations we created and discuss the insights we gained from them, addressing the research questions outlined in our project proposal."
+  },
+  {
+    "objectID": "overview.html",
+    "href": "overview.html",
+    "title": "Project Overview",
+    "section": "",
+    "text": "This project, part of the VAST Challenge 2025, Mini Challenge 1, aims to analyze the career of musician Sailor Shift and the rise of the Oceanus Folk genre.\nOur primary objective is to develop a visual analytics website to explore: - Sailor Shift’s career development and collaborations. - The influence network of Sailor Shift and Oceanus Folk. - The evolution and spread of the Oceanus Folk genre. - Identification of potential future stars in the Oceanus Folk scene.\nThis website will present our analysis, visualizations, and findings."
+  },
+  {
+    "objectID": "proposal.html",
+    "href": "proposal.html",
     "title": "Project Proposal",
     "section": "",
     "text": "This project is motivated by the need to examine how Sailor Shift’s rise from a local Oceanus Folk artist to an internationally recognised musician reflects broader processes of artistic influence, collaboration, and genre transformation. Her career provides a valuable case through which to study not only individual success, but also the ways in which a regional musical tradition can gain wider cultural visibility and reshape the contemporary music landscape.\nThe study is further motivated by the analytical potential of knowledge graph data, which captures relationships among artists, albums, songs, genres, collaborations, and influences over time. By applying visual analytics to this interconnected data, the project seeks to produce a clearer understanding of Sailor Shift’s development, the spread of Oceanus Folk, and the conditions that may give rise to the next generation of prominent artists within this musical community."
   },
   {
-    "objectID": "about.html#project-objective",
-    "href": "about.html#project-objective",
+    "objectID": "proposal.html#project-objective",
+    "href": "proposal.html#project-objective",
     "title": "Project Proposal",
     "section": "Project Objective",
     "text": "Project Objective\nThe objective of this project is to develop a visual analytics website that examines Sailor Shift’s career trajectory, analyses the spread and evolution of Oceanus Folk, and identifies artists who demonstrate strong potential to emerge as future Oceanus Folk stars."
   },
   {
-    "objectID": "about.html#research-questions",
-    "href": "about.html#research-questions",
+    "objectID": "proposal.html#research-questions",
+    "href": "proposal.html#research-questions",
     "title": "Project Proposal",
     "section": "Research Questions",
     "text": "Research Questions\n\nHow did Sailor Shift’s career develop over time in terms of collaborations, genre transitions, and growth in prominence?\nWhich artists and genres influenced Sailor Shift, and whom has she directly or indirectly influenced in return?\nHow has Oceanus Folk spread across the wider music landscape, and did this influence develop gradually or through key turning points?\nWhich genres and major artists have been most significantly influenced by Oceanus Folk?\nHow has Oceanus Folk evolved during Sailor Shift’s rise, and which genres now shape its contemporary form?\nWhat characteristics define a rising star within this music ecosystem, and which three artists appear most likely to become the next prominent Oceanus Folk stars over the next five years?"
+  },
+  {
+    "objectID": "storyboards.html",
+    "href": "storyboards.html",
+    "title": "Storyboards",
+    "section": "",
+    "text": "In this section, we will present the storyboards that guide the user experience of our visual analytics tool.\nOur storyboards will illustrate how users can interact with the visualizations to gain insights into the music knowledge graph."
   }
 ]

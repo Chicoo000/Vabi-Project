@@ -1,0 +1,7 @@
+---
+title: "Analysis and Results"
+---
+
+This section will detail the analysis we performed and the results we obtained.
+
+We will present the visualizations we created and discuss the insights we gained from them, addressing the research questions outlined in our project proposal.
