@@ -5,7 +5,8 @@ title: "Welcome to our Visual Analytics Project"
 Welcome to our project website. This website documents our journey through the VAST Challenge 2025, Mini Challenge 1.
 
 Our project team is composed of:
-- Liew Zhen Jie
-- Ewan Lim
+
+- Liew Zhen Jie ([zjliew.2023@scis.smu.edu.sg](mailto:zjliew.2023@scis.smu.edu.sg))
+- Ewan Lim ([ewanlim.2023@scis.smu.edu.sg](mailto:ewanlim.2023@scis.smu.edu.sg))
 
 Use the navigation bar to explore the different sections of our project.
