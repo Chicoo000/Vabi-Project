@@ -7,6 +7,5 @@ Welcome to our project website. This website documents our journey through the V
 Our project team is composed of:
 - Liew Zhen Jie
 - Ewan Lim
-- Team Member 3
 
 Use the navigation bar to explore the different sections of our project.
