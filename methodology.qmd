@@ -1,0 +1,171 @@
+## Methodology
+
+### 4.1 Data Description
+
+The dataset used in this study is derived from **Mini-Challenge 1 of the 2025 VAST Challenge**. It consists of a synthetic music knowledge graph representing entities and relationships within a fictional but realistic music ecosystem. The data is provided in CSV format and can be modeled as a **directed multigraph** for network analysis using Python libraries such as `networkx`.
+
+The dataset is split into two files:
+
+- `mc1_nodes.csv`: stores the graph entities
+- `mc1_edges.csv`: stores the relationships between entities
+
+### 4.2 Graph Overview
+
+- **Number of nodes:** 17,412
+- **Number of edges:** 37,857
+- **Graph type:** Directed multigraph
+- **File format:** CSV
+
+This structure allows the analysis of artist careers, collaborations, production roles, and influence pathways across the music industry.
+
+### 4.3 Node Types
+
+The graph includes **five distinct node types**. Each node has an `id` attribute that uniquely identifies it in the graph.
+
+#### 1. Person
+
+Represents individuals in the music industry, such as singers, composers, instrumentalists, lyricists, and producers.
+
+**Attributes:**
+
+- `id` *(integer)*: Unique node identifier
+- `name` *(string)*: Name of the person
+- `stage_name` *(string, optional)*: Stage name of the musician
+
+#### 2. MusicalGroup
+
+Represents officially organized musical groups such as bands.
+
+**Attributes:**
+
+- `id` *(integer)*: Unique node identifier
+- `name` *(string)*: Name of the group
+
+#### 3. RecordLabel
+
+Represents organizations involved in recording, production, or distribution.
+
+**Attributes:**
+
+- `id` *(integer)*: Unique node identifier
+- `name` *(string)*: Name of the record label
+
+#### 4. Song
+
+Represents an individual musical work.
+
+**Attributes:**
+
+- `id` *(integer)*: Unique node identifier
+- `name` *(string)*: Song title
+- `genre` *(string)*: Genre label
+- `release_date` *(numeric)*: Year of release
+- `written_date` *(numeric, optional)*: Year the song was written
+- `single` *(boolean)*: Whether the song was released as a single
+- `notable` *(boolean)*: Whether the song is marked as notable
+- `notoriety_date` *(numeric, optional)*: Year the song became notable
+
+#### 5. Album
+
+Represents a collection of songs released together.
+
+**Attributes:**
+
+- `id` *(integer)*: Unique node identifier
+- `name` *(string)*: Album title
+- `genre` *(string)*: Genre label
+- `release_date` *(numeric)*: Year of release
+- `written_date` *(numeric, optional)*: Year associated with writing or creation
+- `notable` *(boolean)*: Whether the album is marked as notable
+- `notoriety_date` *(numeric, optional)*: Year the album became notable
+
+### 4.4 Edge Types
+
+Each edge describes a relationship between two nodes. The edge file contains the following attributes:
+
+**Attributes:**
+
+- `source` *(integer)*: Starting node ID
+- `target` *(integer)*: Ending node ID
+- `Edge Type` *(string)*: Type of relationship
+- `key` *(integer)*: Distinguishes multiple edges between the same pair of nodes
+
+Here, both `source` and `target` reference the `id` field in the node table.
+
+The edge types can be grouped into the following categories:
+
+#### 1. Creative Roles
+
+- **PerformerOf:** A `Person` or `MusicalGroup` performed a `Song` or `Album`
+- **ComposerOf:** A `Person` composed a `Song` or `Album`
+- **LyricistOf:** A `Person` wrote lyrics for a `Song` or `Album`
+- **ProducerOf:** A `Person` or `RecordLabel` contributed to the production of a `Song` or `Album`
+
+#### 2. Industry Roles
+
+- **RecordedBy:** A `Song` or `Album` was recorded by a `RecordLabel`
+- **DistributedBy:** A `Song` or `Album` was distributed by a `RecordLabel`
+- **MemberOf:** A `Person` is a member of a `MusicalGroup`
+
+#### 3. Musical Relationships and Influences
+
+- **InStyleOf:** A work is stylistically influenced by another work or artist
+- **InterpolatesFrom:** A work incorporates melodic or musical material from another work
+- **CoverOf:** A work is a cover version of an existing work
+- **DirectlySamples:** A work directly samples another work
+- **LyricalReferenceTo:** A work references another work lyrically
+
+### 4.5 Analytical Procedure
+
+The analysis was carried out in the following stages:
+
+#### 1. Data Preparation
+
+- Loaded the node and edge tables into Python
+- Verified that all `source` and `target` values map correctly to node `id` values
+- Checked node types, edge types, and available attributes
+- Cleaned and organized the data for graph analysis
+
+#### 2. Graph Construction
+
+- Converted the dataset into a directed multigraph
+- Linked node attributes and edge relationships into one graph structure
+- Preserved multiple relationship types between the same pair of nodes using the `key` attribute
+
+#### 3. Career and Influence Analysis
+
+- Filtered the graph around Sailor Shift and related entities
+- Examined:
+  - artists who influenced Sailor Shift
+  - her collaborators
+  - artists and communities she influenced directly or indirectly
+
+#### 4. Temporal Analysis
+
+Used `release_date`, `written_date`, and `notoriety_date` to study:
+
+- Sailor Shift’s career growth over time
+- the spread of Oceanus Folk
+- changes in influence patterns across years
+
+#### 5. Comparative and Predictive Analysis
+
+Compared the careers of selected artists using:
+
+- release activity
+- collaborations
+- notable works
+- influence connections
+
+Used these patterns to identify characteristics of a rising star.
+
+Predicted **three likely future Oceanus Folk stars** based on observed trends.
+
+### 4.6 Visualization Design
+
+To support interpretation of the knowledge graph, multiple visualization types were used:
+
+- **Network graphs** to show collaboration and influence relationships
+- **Timelines** to show career progression and genre spread over time
+- **Genre comparison charts** to show how Oceanus Folk influenced other genres and how it evolved
+- **Artist comparison views** to compare rising-star trajectories

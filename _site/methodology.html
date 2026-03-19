@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to our Visual Analytics Project – Visual Analytics Project</title>
+<title>methodology – Visual Analytics Project</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -103,6 +103,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./proposal.html"> 
 <span class="menu-text">Proposal</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./methodology.html" aria-current="page"> 
+<span class="menu-text">Methodology</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./prototypes.html"> 
@@ -135,40 +139,218 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link active" data-scroll-target="#methodology">Methodology</a>
+  <ul class="collapse">
+  <li><a href="#data-description" id="toc-data-description" class="nav-link" data-scroll-target="#data-description">4.1 Data Description</a></li>
+  <li><a href="#graph-overview" id="toc-graph-overview" class="nav-link" data-scroll-target="#graph-overview">4.2 Graph Overview</a></li>
+  <li><a href="#node-types" id="toc-node-types" class="nav-link" data-scroll-target="#node-types">4.3 Node Types</a></li>
+  <li><a href="#edge-types" id="toc-edge-types" class="nav-link" data-scroll-target="#edge-types">4.4 Edge Types</a></li>
+  <li><a href="#analytical-procedure" id="toc-analytical-procedure" class="nav-link" data-scroll-target="#analytical-procedure">4.5 Analytical Procedure</a></li>
+  <li><a href="#visualization-design" id="toc-visualization-design" class="nav-link" data-scroll-target="#visualization-design">4.6 Visualization Design</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Welcome to our Visual Analytics Project</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Welcome to our project website. This website documents our journey through the VAST Challenge 2025, Mini Challenge 1.</p>
-<p>Our project team is composed of:</p>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<section id="data-description" class="level3">
+<h3 class="anchored" data-anchor-id="data-description">4.1 Data Description</h3>
+<p>The dataset used in this study is derived from <strong>Mini-Challenge 1 of the 2025 VAST Challenge</strong>. It consists of a synthetic music knowledge graph representing entities and relationships within a fictional but realistic music ecosystem. The data is provided in CSV format and can be modeled as a <strong>directed multigraph</strong> for network analysis using Python libraries such as <code>networkx</code>.</p>
+<p>The dataset is split into two files:</p>
 <ul>
-<li>Liew Zhen Jie (<a href="mailto:zjliew.2023@scis.smu.edu.sg">zjliew.2023@scis.smu.edu.sg</a>)</li>
-<li>Ewan Lim (<a href="mailto:ewanlim.2023@scis.smu.edu.sg">ewanlim.2023@scis.smu.edu.sg</a>)</li>
+<li><code>mc1_nodes.csv</code>: stores the graph entities</li>
+<li><code>mc1_edges.csv</code>: stores the relationships between entities</li>
 </ul>
-<p>Use the navigation bar to explore the different sections of our project.</p>
+</section>
+<section id="graph-overview" class="level3">
+<h3 class="anchored" data-anchor-id="graph-overview">4.2 Graph Overview</h3>
+<ul>
+<li><strong>Number of nodes:</strong> 17,412</li>
+<li><strong>Number of edges:</strong> 37,857</li>
+<li><strong>Graph type:</strong> Directed multigraph</li>
+<li><strong>File format:</strong> CSV</li>
+</ul>
+<p>This structure allows the analysis of artist careers, collaborations, production roles, and influence pathways across the music industry.</p>
+</section>
+<section id="node-types" class="level3">
+<h3 class="anchored" data-anchor-id="node-types">4.3 Node Types</h3>
+<p>The graph includes <strong>five distinct node types</strong>. Each node has an <code>id</code> attribute that uniquely identifies it in the graph.</p>
+<section id="person" class="level4">
+<h4 class="anchored" data-anchor-id="person">1. Person</h4>
+<p>Represents individuals in the music industry, such as singers, composers, instrumentalists, lyricists, and producers.</p>
+<p><strong>Attributes:</strong></p>
+<ul>
+<li><code>id</code> <em>(integer)</em>: Unique node identifier</li>
+<li><code>name</code> <em>(string)</em>: Name of the person</li>
+<li><code>stage_name</code> <em>(string, optional)</em>: Stage name of the musician</li>
+</ul>
+</section>
+<section id="musicalgroup" class="level4">
+<h4 class="anchored" data-anchor-id="musicalgroup">2. MusicalGroup</h4>
+<p>Represents officially organized musical groups such as bands.</p>
+<p><strong>Attributes:</strong></p>
+<ul>
+<li><code>id</code> <em>(integer)</em>: Unique node identifier</li>
+<li><code>name</code> <em>(string)</em>: Name of the group</li>
+</ul>
+</section>
+<section id="recordlabel" class="level4">
+<h4 class="anchored" data-anchor-id="recordlabel">3. RecordLabel</h4>
+<p>Represents organizations involved in recording, production, or distribution.</p>
+<p><strong>Attributes:</strong></p>
+<ul>
+<li><code>id</code> <em>(integer)</em>: Unique node identifier</li>
+<li><code>name</code> <em>(string)</em>: Name of the record label</li>
+</ul>
+</section>
+<section id="song" class="level4">
+<h4 class="anchored" data-anchor-id="song">4. Song</h4>
+<p>Represents an individual musical work.</p>
+<p><strong>Attributes:</strong></p>
+<ul>
+<li><code>id</code> <em>(integer)</em>: Unique node identifier</li>
+<li><code>name</code> <em>(string)</em>: Song title</li>
+<li><code>genre</code> <em>(string)</em>: Genre label</li>
+<li><code>release_date</code> <em>(numeric)</em>: Year of release</li>
+<li><code>written_date</code> <em>(numeric, optional)</em>: Year the song was written</li>
+<li><code>single</code> <em>(boolean)</em>: Whether the song was released as a single</li>
+<li><code>notable</code> <em>(boolean)</em>: Whether the song is marked as notable</li>
+<li><code>notoriety_date</code> <em>(numeric, optional)</em>: Year the song became notable</li>
+</ul>
+</section>
+<section id="album" class="level4">
+<h4 class="anchored" data-anchor-id="album">5. Album</h4>
+<p>Represents a collection of songs released together.</p>
+<p><strong>Attributes:</strong></p>
+<ul>
+<li><code>id</code> <em>(integer)</em>: Unique node identifier</li>
+<li><code>name</code> <em>(string)</em>: Album title</li>
+<li><code>genre</code> <em>(string)</em>: Genre label</li>
+<li><code>release_date</code> <em>(numeric)</em>: Year of release</li>
+<li><code>written_date</code> <em>(numeric, optional)</em>: Year associated with writing or creation</li>
+<li><code>notable</code> <em>(boolean)</em>: Whether the album is marked as notable</li>
+<li><code>notoriety_date</code> <em>(numeric, optional)</em>: Year the album became notable</li>
+</ul>
+</section>
+</section>
+<section id="edge-types" class="level3">
+<h3 class="anchored" data-anchor-id="edge-types">4.4 Edge Types</h3>
+<p>Each edge describes a relationship between two nodes. The edge file contains the following attributes:</p>
+<p><strong>Attributes:</strong></p>
+<ul>
+<li><code>source</code> <em>(integer)</em>: Starting node ID</li>
+<li><code>target</code> <em>(integer)</em>: Ending node ID</li>
+<li><code>Edge Type</code> <em>(string)</em>: Type of relationship</li>
+<li><code>key</code> <em>(integer)</em>: Distinguishes multiple edges between the same pair of nodes</li>
+</ul>
+<p>Here, both <code>source</code> and <code>target</code> reference the <code>id</code> field in the node table.</p>
+<p>The edge types can be grouped into the following categories:</p>
+<section id="creative-roles" class="level4">
+<h4 class="anchored" data-anchor-id="creative-roles">1. Creative Roles</h4>
+<ul>
+<li><strong>PerformerOf:</strong> A <code>Person</code> or <code>MusicalGroup</code> performed a <code>Song</code> or <code>Album</code></li>
+<li><strong>ComposerOf:</strong> A <code>Person</code> composed a <code>Song</code> or <code>Album</code></li>
+<li><strong>LyricistOf:</strong> A <code>Person</code> wrote lyrics for a <code>Song</code> or <code>Album</code></li>
+<li><strong>ProducerOf:</strong> A <code>Person</code> or <code>RecordLabel</code> contributed to the production of a <code>Song</code> or <code>Album</code></li>
+</ul>
+</section>
+<section id="industry-roles" class="level4">
+<h4 class="anchored" data-anchor-id="industry-roles">2. Industry Roles</h4>
+<ul>
+<li><strong>RecordedBy:</strong> A <code>Song</code> or <code>Album</code> was recorded by a <code>RecordLabel</code></li>
+<li><strong>DistributedBy:</strong> A <code>Song</code> or <code>Album</code> was distributed by a <code>RecordLabel</code></li>
+<li><strong>MemberOf:</strong> A <code>Person</code> is a member of a <code>MusicalGroup</code></li>
+</ul>
+</section>
+<section id="musical-relationships-and-influences" class="level4">
+<h4 class="anchored" data-anchor-id="musical-relationships-and-influences">3. Musical Relationships and Influences</h4>
+<ul>
+<li><strong>InStyleOf:</strong> A work is stylistically influenced by another work or artist</li>
+<li><strong>InterpolatesFrom:</strong> A work incorporates melodic or musical material from another work</li>
+<li><strong>CoverOf:</strong> A work is a cover version of an existing work</li>
+<li><strong>DirectlySamples:</strong> A work directly samples another work</li>
+<li><strong>LyricalReferenceTo:</strong> A work references another work lyrically</li>
+</ul>
+</section>
+</section>
+<section id="analytical-procedure" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-procedure">4.5 Analytical Procedure</h3>
+<p>The analysis was carried out in the following stages:</p>
+<section id="data-preparation" class="level4">
+<h4 class="anchored" data-anchor-id="data-preparation">1. Data Preparation</h4>
+<ul>
+<li>Loaded the node and edge tables into Python</li>
+<li>Verified that all <code>source</code> and <code>target</code> values map correctly to node <code>id</code> values</li>
+<li>Checked node types, edge types, and available attributes</li>
+<li>Cleaned and organized the data for graph analysis</li>
+</ul>
+</section>
+<section id="graph-construction" class="level4">
+<h4 class="anchored" data-anchor-id="graph-construction">2. Graph Construction</h4>
+<ul>
+<li>Converted the dataset into a directed multigraph</li>
+<li>Linked node attributes and edge relationships into one graph structure</li>
+<li>Preserved multiple relationship types between the same pair of nodes using the <code>key</code> attribute</li>
+</ul>
+</section>
+<section id="career-and-influence-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="career-and-influence-analysis">3. Career and Influence Analysis</h4>
+<ul>
+<li>Filtered the graph around Sailor Shift and related entities</li>
+<li>Examined:
+<ul>
+<li>artists who influenced Sailor Shift</li>
+<li>her collaborators</li>
+<li>artists and communities she influenced directly or indirectly</li>
+</ul></li>
+</ul>
+</section>
+<section id="temporal-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="temporal-analysis">4. Temporal Analysis</h4>
+<p>Used <code>release_date</code>, <code>written_date</code>, and <code>notoriety_date</code> to study:</p>
+<ul>
+<li>Sailor Shift’s career growth over time</li>
+<li>the spread of Oceanus Folk</li>
+<li>changes in influence patterns across years</li>
+</ul>
+</section>
+<section id="comparative-and-predictive-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="comparative-and-predictive-analysis">5. Comparative and Predictive Analysis</h4>
+<p>Compared the careers of selected artists using:</p>
+<ul>
+<li>release activity</li>
+<li>collaborations</li>
+<li>notable works</li>
+<li>influence connections</li>
+</ul>
+<p>Used these patterns to identify characteristics of a rising star.</p>
+<p>Predicted <strong>three likely future Oceanus Folk stars</strong> based on observed trends.</p>
+</section>
+</section>
+<section id="visualization-design" class="level3">
+<h3 class="anchored" data-anchor-id="visualization-design">4.6 Visualization Design</h3>
+<p>To support interpretation of the knowledge graph, multiple visualization types were used:</p>
+<ul>
+<li><strong>Network graphs</strong> to show collaboration and influence relationships</li>
+<li><strong>Timelines</strong> to show career progression and genre spread over time</li>
+<li><strong>Genre comparison charts</strong> to show how Oceanus Folk influenced other genres and how it evolved</li>
+<li><strong>Artist comparison views</strong> to compare rising-star trajectories</li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
