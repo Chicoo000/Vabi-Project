@@ -40,7 +40,11 @@ The project will also investigate how Oceanus Folk has spread into other musical
 # Project Schedule (Gantt Chart)
 
 ![](images/paste-1.png)
-![](images/6239791031398812193.jpg)
 
+# Methodology
+The project will employ a combination of data analysis, visual analytics, and interpretive synthesis. The methodology will include:
+1.  **Data Understanding and Preparation**: The project will begin with an exploration of the music knowledge graph to understand its structure, content, and limitations. This will involve identifying relevant nodes and relationships, cleaning the data as necessary, and preparing it for analysis.
+2. **Data Cleaning and Preprocessing**: The project will involve cleaning the data to ensure accuracy and consistency. This may include using Gephi to visualise and extract data points related to Sailor Shift and Oceanus Folk, as well as handling missing or inconsistent data.
+3. **Visual Analytics**: TBC
 
    
