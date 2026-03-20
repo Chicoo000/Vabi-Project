@@ -12,7 +12,7 @@ website:
       - href: proposal.qmd
         text: Proposal
       - href: methodology.qmd
-        text: Methodology
+        text: Methodology 
       - href: prototypes.qmd
         text: Prototypes
       - href: storyboards.qmd
