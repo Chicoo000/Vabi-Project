@@ -5,3 +5,23 @@ title: "Analysis and Results"
 This section will detail the analysis we performed and the results we obtained.
 
 We will present the visualizations we created and discuss the insights we gained from them, addressing the research questions outlined in our project proposal.
+
+
+### Sailor Shift Influence Network ###
+<iframe 
+  src="gephi/network/index.html" 
+  width="100%" 
+  height="600px" 
+  style="border: 1px solid #ccc; border-radius: 8px;">
+</iframe>
+
+The Sailor Shift Influence Network is a directed graph that illustrates the influence relationships between Sailor Shift and other entities that it interacts with. Each node represents an entity, and the directed edges indicate the direction of influence. The size of the nodes corresponds to their degree of influence, while the color coding helps to differentiate differentiate the names of the entities.
+
+### Who has she been most influenced by over time? ###
+<!-- ![](1a.svg){width=100% height=500px} -->
+::: {layout="[[70, 30]]"}
+![](images/1a.svg){width=100% height=500px}
+
+![](images/legend.png){width=500px height=500px}
+:::
+Based on the size of the nodes in the graph, we identify that Ivy Echos had the most influence on Sailor Shift. The larger the node, the more influential it is in terms of influencing Sailor Shift's career and musical style. And based on the edge type, it seems that Sailor Shift Directly Samples quite often from Ivy Echos and thus has been influenced by Ivy Echos' music, which may have contributed to her own musical style and success. This suggests that Ivy Echos played a significant role in shaping Sailor Shift's artistic development and may have had a strong impact on her musical direction and success.
