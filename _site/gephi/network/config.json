@@ -13,17 +13,17 @@
     "title": ""
   },
   "legend": {
-    "edgeLabel": "Edge Type",
-    "colorLabel": "",
-    "nodeLabel": "Name"
+    "edgeLabel": "",
+    "colorLabel": "Edge Type Colors",
+    "nodeLabel": ""
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Out-Degree",
+    "groupSelectorAttribute": "modularity_class",
     "hoverBehavior": "default"
   },
   "informationPanel": {
-    "groupByEdgeDirection": true,
+    "groupByEdgeDirection": false,
     "imageAttribute": false
   },
   "sigma": {

@@ -34,4 +34,5 @@ format:
 
 resources:
     - "gephi/" 
+    - "MC1_data/"
 

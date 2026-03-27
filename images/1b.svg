@@ -1,391 +1,391 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
-<svg contentScriptType="text/ecmascript" width="10323.977"
+<svg contentScriptType="text/ecmascript" width="10740.359"
      xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
      contentStyleType="text/css"
-     viewBox="-5060.304199 -3056.537109 10323.976563 6991.908203"
-     height="6991.908" preserveAspectRatio="xMidYMid meet"
+     viewBox="-5256.580078 -3094.483887 10740.359375 7052.278320"
+     height="7052.2783" preserveAspectRatio="xMidYMid meet"
      xmlns="http://www.w3.org/2000/svg" version="1.1">
     <g id="edges">
         <path stroke-linecap="round" fill="none" class="id_16943 id_17327"
               d="M -2180.995605,3134.671387 A 1690.963271,1690.963271 0,0 1,-262.093994,3084.395264"
-              stroke="#00a4bc" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16943 id_17314"
               d="M -2274.754639,3144.530518 A 3117.482379,3117.482379 0,0 1,-4027.620117,-36.612701"
-              stroke="#7f7349" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16952 id_17299"
               d="M 3652.586182,-1848.076538 A 825.409310,825.409310 0,0 1,2767.788574,-1693.295776"
-              stroke="#ff447b" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16960 id_17260"
               d="M -3371.527344,-1146.230957 A 880.740118,880.740118 0,0 1,-2705.115479,-1703.220459"
-              stroke="#94c77f" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16960 id_17314"
               d="M -3386.789551,-1039.213135 A 968.689435,968.689435 0,0 1,-3943.416504,-146.927994"
-              stroke="#c69a0d" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16966 id_17327"
               d="M 3711.606934,3137.231689 A 3293.221712,3293.221712 0,0 1,-131.234802,3176.439941"
-              stroke="#7fbfad" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16966 id_17192"
               d="M 3768.789063,3050.904785 A 1115.655575,1115.655575 0,0 1,4690.409668,2238.782471"
-              stroke="#f6bb2d" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16971 id_17314"
               d="M -4613.904785,-793.279724 A 789.413268,789.413268 0,0 1,-4030.246094,-194.850021"
-              stroke="#cc740d" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16971 id_17260"
               d="M -4639.620117,-851.741089 A 1932.747522,1932.747522 0,0 1,-2702.494873,-1750.395752"
-              stroke="#9aa17f" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16977 id_17314"
               d="M -49.060810,-1842.202515 A 3642.888039,3642.888039 0,0 1,-3939.001221,-98.887817"
-              stroke="#7f803b" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16977 id_17299"
               d="M 24.370562,-1919.782593 A 2268.724682,2268.724682 0,0 1,2633.839844,-1778.774902"
-              stroke="#7f5d71" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16987 id_17299"
               d="M 1096.498901,-1736.555786 A 1369.691209,1369.691209 0,0 1,2629.724365,-1773.275391"
-              stroke="#e97481" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#23966f" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16987 id_17314"
               d="M 1019.924194,-1659.345337 A 4426.957018,4426.957018 0,0 1,-3941.506104,-89.933174"
-              stroke="#e9974a" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16996 id_17260"
               d="M -393.211304,-2930.250488 A 2088.464883,2088.464883 0,0 1,-2366.185791,-1704.811401"
-              stroke="#c9baee" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_16996 id_17299"
               d="M -317.829956,-2994.028076 A 2760.706271,2760.706271 0,0 1,2653.682861,-1796.169800"
-              stroke="#fc6ab2" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17004 id_17299"
               d="M 1473.206543,2004.432739 A 3309.857046,3309.857046 0,0 1,2631.187500,-1680.931885"
-              stroke="#ff6595" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17004 id_17327"
               d="M 1470.611328,2107.651367 A 1666.145665,1666.145665 0,0 1,-116.226364,3133.868652"
-              stroke="#7fb9d1" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17012 id_17299"
               d="M 2714.171143,-2374.001709 A 560.339944,560.339944 0,0 1,2739.048096,-1795.424683"
-              stroke="#b53a43" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17022 id_17260"
               d="M -1590.748291,-1056.451050 A 998.058635,998.058635 0,0 1,-2464.889160,-1562.926392"
-              stroke="#aacea5" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17022 id_17255"
               d="M -1482.001099,-1046.738525 A 1449.684085,1449.684085 0,0 1,-394.628662,64.131363"
-              stroke="#c49b90" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17032 id_17327"
               d="M 301.853210,2110.538574 A 982.262636,982.262636 0,0 1,-127.559937,3088.400879"
-              stroke="#00afe4" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17032 id_17255"
               d="M 246.028915,2025.606812 A 1616.884396,1616.884396 0,0 1,-410.169250,397.205872"
-              stroke="#6778ce" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17046 id_17327"
               d="M -203.898987,3508.158691 A 337.560767,337.560767 0,0 1,-234.266663,3199.951904"
-              stroke="#00dcbe" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff7045" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17057 id_17299"
               d="M 3237.879150,-1369.235229 A 563.688485,563.688485 0,0 1,2730.019531,-1655.838501"
-              stroke="#d5537b" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17063 id_17299"
               d="M 1641.434570,-666.361816 A 1283.902842,1283.902842 0,0 1,2617.337891,-1712.402466"
-              stroke="#9b504b" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17063 id_17255"
               d="M 1605.398315,-564.817139 A 1811.362843,1811.362843 0,0 1,-202.506546,265.613464"
-              stroke="#836d72" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17071 id_17299"
               d="M 3298.709961,-1914.525024 A 547.813445,547.813445 0,0 1,2773.464111,-1709.049561"
-              stroke="#ed3e43" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17083 id_17327"
               d="M -373.179840,3860.665039 A 648.676834,648.676834 0,0 1,-253.188721,3185.693604"
-              stroke="#5abfff" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17091 id_17327"
               d="M 2114.829834,694.249512 A 2834.562876,2834.562876 0,0 1,-117.583153,3114.375732"
-              stroke="#58cadf" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17091 id_17299"
               d="M 2100.172119,588.786560 A 2030.398682,2030.398682 0,0 1,2635.049805,-1676.057129"
-              stroke="#d776a3" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17100 id_17260"
               d="M -1898.211914,2179.187500 A 3327.165192,3327.165192 0,0 1,-2609.278076,-1564.211548"
-              stroke="#777891" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17100 id_17327"
               d="M -1803.964233,2210.470459 A 1580.271238,1580.271238 0,0 1,-230.960678,3057.623535"
-              stroke="#2a7c91" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17110 id_17255"
               d="M -706.985901,-1063.746216 A 1153.047440,1153.047440 0,0 1,-320.437500,69.359688"
-              stroke="#67a2e4" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17110 id_17260"
               d="M -802.686646,-1082.161133 A 1575.078673,1575.078673 0,0 1,-2433.188477,-1581.866211"
-              stroke="#4dd5f9" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17120 id_17260"
               d="M -3958.645752,-1126.254395 A 1321.008757,1321.008757 0,0 1,-2703.418945,-1745.310059"
-              stroke="#82d0cb" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17120 id_17314"
               d="M -3956.588623,-1032.818115 A 802.879658,802.879658 0,0 1,-3970.333496,-180.786240"
-              stroke="#b5a358" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17126 id_17255"
               d="M -3406.888184,519.997070 A 2579.559020,2579.559020 0,0 1,-517.938477,149.906860"
-              stroke="#a84da1" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17126 id_17314"
               d="M -3500.698242,542.737244 A 734.685284,734.685284 0,0 1,-4008.113770,-36.440395"
-              stroke="#c05344" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17138 id_17299"
               d="M 3228.145996,-2412.123779 A 744.135357,744.135357 0,0 1,2771.154541,-1754.932251"
-              stroke="#8c3a77" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17146 id_17260"
               d="M -2753.511719,-2609.493408 A 787.023640,787.023640 0,0 1,-2489.524170,-1881.075195"
-              stroke="#4dd97f" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17155 id_17327"
               d="M -332.697937,2095.812744 A 906.089238,906.089238 0,0 1,-162.210648,3057.174805"
-              stroke="#5c809d" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17155 id_17255"
               d="M -403.326843,2011.889160 A 1520.247539,1520.247539 0,0 1,-463.584229,373.605682"
-              stroke="#c34987" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17230 id_17327"
               d="M 221.267761,3755.042236 A 648.446782,648.446782 0,0 1,-193.572266,3209.595215"
-              stroke="#7fa9ff" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17235 id_17260"
               d="M -4519.439453,-1865.490112 A 1694.589980,1694.589980 0,0 1,-2670.886475,-1820.564575"
-              stroke="#4dd1e7" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17235 id_17314"
               d="M -4521.553223,-1803.150879 A 1504.420615,1504.420615 0,0 1,-3992.902588,-192.158600"
-              stroke="#7fa474" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff7045" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17243 id_17299"
               d="M 1294.901855,-2742.811768 A 1478.374066,1478.374066 0,0 1,2668.636475,-1803.394775"
-              stroke="#8d3c5b" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17243 id_17260"
               d="M 1205.721436,-2698.812988 A 3260.110141,3260.110141 0,0 1,-2376.165527,-1658.782349"
-              stroke="#5b8c97" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17250 id_17327"
               d="M -3430.358154,2018.020142 A 2886.751594,2886.751594 0,0 1,-242.572708,3064.507813"
-              stroke="#1b9ee1" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff7045" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17250 id_17314"
               d="M -3524.810303,1999.552368 A 1846.887134,1846.887134 0,0 1,-4046.711426,-41.582626"
-              stroke="#9a6e6f" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17255 id_17260"
               d="M -468.591278,221.254440 A 2428.861801,2428.861801 0,0 1,-2408.202393,-1285.914185"
-              stroke="#b495e9" stroke-width="50.0" stroke-opacity="1.0"/>
+              stroke="#ff7045" stroke-width="50.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17255 id_17299"
               d="M -332.589417,139.158249 A 3031.894207,3031.894207 0,0 1,2615.925049,-1733.037720"
-              stroke="#e645ad" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17255 id_17327"
               d="M -306.121155,309.818207 A 2418.818670,2418.818670 0,0 1,-153.125839,3062.166992"
-              stroke="#6798e9" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17255 id_17192"
               d="M -272.600830,206.338562 A 4595.010397,4595.010397 0,0 1,4727.138184,2162.958740"
-              stroke="#dd946a" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17260 id_17167"
               d="M -2502.183838,-1623.259399 A 1458.233890,1458.233890 0,0 1,-2936.046875,-80.489159"
-              stroke="#cc9ff2" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17260 id_17314"
               d="M -2548.723877,-1618.320313 A 1818.050058,1818.050058 0,0 1,-3938.805664,-132.042328"
-              stroke="#cc9b8c" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17260 id_17299"
               d="M -2455.151611,-1776.713379 A 4359.582753,4359.582753 0,0 1,2631.240723,-1775.417847"
-              stroke="#cc78c3" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17260 id_17192"
               d="M -2436.703857,-1731.507324 A 6920.170623,6920.170623 0,0 1,4736.078125,2158.058838"
-              stroke="#c3c77f" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#d3b3b0" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17340 id_17192"
               d="M 4853.071289,1123.608032 A 962.080854,962.080854 0,0 1,4818.285156,2166.747803"
-              stroke="#f6b100" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17340 id_17299"
               d="M 4770.719727,1061.650146 A 2934.150071,2934.150071 0,0 1,2697.294922,-1648.152954"
-              stroke="#ff6243" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17349 id_17260"
               d="M -1631.519165,1514.310303 A 2833.372283,2833.372283 0,0 1,-2590.959473,-1556.697510"
-              stroke="#4dc293" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17349 id_17327"
               d="M -1534.226807,1559.869141 A 1755.794608,1755.794608 0,0 1,-204.168411,3050.041992"
-              stroke="#00c693" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#00c7ff" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17361 id_17255"
               d="M -1245.030884,-302.419678 A 892.192653,892.192653 0,0 1,-451.513489,83.478134"
-              stroke="#67a5e9" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff7045" stroke-width="10.0" stroke-opacity="1.0"/>
         <path stroke-linecap="round" fill="none" class="id_17361 id_17260"
               d="M -1353.348145,-309.648224 A 1568.961424,1568.961424 0,0 1,-2514.214844,-1548.835327"
-              stroke="#4dd8ff" stroke-width="10.0" stroke-opacity="1.0"/>
+              stroke="#ff8805" stroke-width="10.0" stroke-opacity="1.0"/>
     </g>
     <g id="arrows">
-        <polyline fill="#00a4bc" fill-opacity="1.0" class="id_16943 id_17327"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_16943 id_17327"
                   points="-204.361755,3123.980469 -281.886597,3113.261475 -242.301392,3055.529053"
                   stroke="none"/>
-        <polyline fill="#7f7349" fill-opacity="1.0" class="id_16943 id_17314"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_16943 id_17314"
                   points="-4018.472412,-106.012413 -3992.920166,-32.038868 -4062.320068,-41.186535"
                   stroke="none"/>
-        <polyline fill="#ff447b" fill-opacity="1.0" class="id_16952 id_17299"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_16952 id_17299"
                   points="2704.776611,-1723.783203 2783.032227,-1724.801758 2752.544922,-1661.789795"
                   stroke="none"/>
-        <polyline fill="#94c77f" fill-opacity="1.0" class="id_16960 id_17260"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_16960 id_17260"
                   points="-2635.361816,-1709.088135 -2702.181641,-1668.343628 -2708.049316,-1738.097290"
                   stroke="none"/>
-        <polyline fill="#c69a0d" fill-opacity="1.0" class="id_16960 id_17314"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_16960 id_17314"
                   points="-4007.947021,-119.801826 -3956.979492,-179.193176 -3929.853516,-114.662781"
                   stroke="none"/>
-        <polyline fill="#7fbfad" fill-opacity="1.0" class="id_16966 id_17327"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_16966 id_17327"
                   points="-188.004349,3135.486084 -110.757874,3148.055176 -151.711731,3204.824707"
                   stroke="none"/>
-        <polyline fill="#f6bb2d" fill-opacity="1.0" class="id_16966 id_17192"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_16966 id_17192"
                   points="4760.035645,2231.552246 4694.024902,2273.595215 4686.794434,2203.969727"
                   stroke="none"/>
-        <polyline fill="#cc740d" fill-opacity="1.0" class="id_16971 id_17314"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_16971 id_17314"
                   points="-4018.800537,-125.792076 -4064.775146,-189.127258 -3995.717041,-200.572784"
                   stroke="none"/>
-        <polyline fill="#9aa17f" fill-opacity="1.0" class="id_16971 id_17260"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_16971 id_17260"
                   points="-2633.820313,-1736.838257 -2709.273682,-1716.058472 -2695.716064,-1784.733032"
                   stroke="none"/>
-        <polyline fill="#7f803b" fill-opacity="1.0" class="id_16977 id_17314"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_16977 id_17314"
                   points="-4007.395020,-113.796806 -3931.546387,-133.084747 -3946.455566,-64.690880"
                   stroke="none"/>
-        <polyline fill="#7f5d71" fill-opacity="1.0" class="id_16977 id_17299"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_16977 id_17299"
                   points="2688.032959,-1734.468140 2611.686523,-1751.678345 2655.993164,-1805.871460"
                   stroke="none"/>
-        <polyline fill="#e97481" fill-opacity="1.0" class="id_16987 id_17299"
+        <polyline fill="#23966f" fill-opacity="1.0" class="id_16987 id_17299"
                   points="2687.518555,-1733.780640 2609.977051,-1744.378296 2649.471680,-1802.172485"
                   stroke="none"/>
-        <polyline fill="#e9974a" fill-opacity="1.0" class="id_16987 id_17314"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_16987 id_17314"
                   points="-4007.708008,-112.677475 -3930.134033,-123.034134 -3952.878174,-56.832195"
                   stroke="none"/>
-        <polyline fill="#c9baee" fill-opacity="1.0" class="id_16996 id_17260"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_16996 id_17260"
                   points="-2435.991455,-1710.023926 -2363.579590,-1739.714233 -2368.791992,-1669.908569"
                   stroke="none"/>
-        <polyline fill="#fc6ab2" fill-opacity="1.0" class="id_16996 id_17299"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_16996 id_17299"
                   points="2690.513428,-1736.642456 2623.919189,-1777.754517 2683.446533,-1814.585083"
                   stroke="none"/>
-        <polyline fill="#ff6595" fill-opacity="1.0" class="id_17004 id_17299"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17004 id_17299"
                   points="2687.701416,-1722.237671 2651.840332,-1652.674927 2610.534668,-1709.188843"
                   stroke="none"/>
-        <polyline fill="#7fb9d1" fill-opacity="1.0" class="id_17004 id_17327"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17004 id_17327"
                   points="-186.128296,3130.164551 -114.374359,3098.917725 -118.078369,3168.819580"
                   stroke="none"/>
-        <polyline fill="#b53a43" fill-opacity="1.0" class="id_17012 id_17299"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17012 id_17299"
                   points="2701.184082,-1736.549316 2709.610352,-1814.356812 2768.485840,-1776.492554"
                   stroke="none"/>
-        <polyline fill="#aacea5" fill-opacity="1.0" class="id_17022 id_17260"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17022 id_17260"
                   points="-2494.052246,-1626.562134 -2433.071289,-1577.507935 -2496.707031,-1548.344849"
                   stroke="none"/>
-        <polyline fill="#c49b90" fill-opacity="1.0" class="id_17022 id_17255"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17022 id_17255"
                   points="-384.155609,133.343460 -429.234711,69.367889 -360.022614,58.894833"
                   stroke="none"/>
-        <polyline fill="#00afe4" fill-opacity="1.0" class="id_17032 id_17327"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17032 id_17327"
                   points="-187.544998,3124.481201 -145.600128,3058.408447 -109.519753,3118.393311"
                   stroke="none"/>
-        <polyline fill="#6778ce" fill-opacity="1.0" class="id_17032 id_17255"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17032 id_17255"
                   points="-393.297119,329.269653 -376.201141,405.641937 -444.137360,388.769806"
                   stroke="none"/>
-        <polyline fill="#00dcbe" fill-opacity="1.0" class="id_17046 id_17327"
+        <polyline fill="#ff7045" fill-opacity="1.0" class="id_17046 id_17327"
                   points="-200.883331,3138.425049 -203.503235,3216.643555 -265.030090,3183.260254"
                   stroke="none"/>
-        <polyline fill="#d5537b" fill-opacity="1.0" class="id_17057 id_17299"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17057 id_17299"
                   points="2700.055420,-1719.101074 2761.650879,-1670.820557 2698.388184,-1640.856445"
                   stroke="none"/>
-        <polyline fill="#9b504b" fill-opacity="1.0" class="id_17063 id_17299"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17063 id_17299"
                   points="2685.970215,-1726.171509 2624.222412,-1678.086182 2610.453369,-1746.718750"
                   stroke="none"/>
-        <polyline fill="#836d72" fill-opacity="1.0" class="id_17063 id_17255"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17063 id_17255"
                   points="-271.142609,251.862335 -195.630981,231.295441 -209.382111,299.931488"
                   stroke="none"/>
-        <polyline fill="#ed3e43" fill-opacity="1.0" class="id_17071 id_17299"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17071 id_17299"
                   points="2705.486084,-1725.752441 2781.815674,-1743.038574 2765.112549,-1675.060547"
                   stroke="none"/>
-        <polyline fill="#5abfff" fill-opacity="1.0" class="id_17083 id_17327"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17083 id_17327"
                   points="-203.248596,3136.642822 -228.663315,3210.663574 -277.714142,3160.723633"
                   stroke="none"/>
-        <polyline fill="#58cadf" fill-opacity="1.0" class="id_17091 id_17327"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17091 id_17327"
                   points="-186.297897,3127.728027 -124.259315,3080.018311 -110.907005,3148.733154"
                   stroke="none"/>
-        <polyline fill="#d776a3" fill-opacity="1.0" class="id_17091 id_17299"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17091 id_17299"
                   points="2688.184326,-1721.628418 2657.835449,-1649.489868 2612.264160,-1702.624390"
                   stroke="none"/>
-        <polyline fill="#777891" fill-opacity="1.0" class="id_17100 id_17260"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17100 id_17260"
                   points="-2578.987061,-1627.318115 -2577.724854,-1549.065918 -2640.831299,-1579.357178"
                   stroke="none"/>
-        <polyline fill="#2a7c91" fill-opacity="1.0" class="id_17100 id_17327"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17100 id_17327"
                   points="-200.470093,3120.634033 -262.465912,3072.868896 -199.455414,3042.378174"
                   stroke="none"/>
-        <polyline fill="#67a2e4" fill-opacity="1.0" class="id_17110 id_17255"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17110 id_17255"
                   points="-340.513733,136.418945 -353.967133,59.321571 -286.907867,79.397820"
                   stroke="none"/>
-        <polyline fill="#4dd5f9" fill-opacity="1.0" class="id_17110 id_17260"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17110 id_17260"
                   points="-2475.404785,-1637.703247 -2405.270020,-1602.974365 -2461.106934,-1560.758057"
                   stroke="none"/>
-        <polyline fill="#82d0cb" fill-opacity="1.0" class="id_17120 id_17260"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17120 id_17260"
                   points="-2634.363770,-1733.846680 -2709.150635,-1710.782593 -2697.687256,-1779.837524"
                   stroke="none"/>
-        <polyline fill="#b5a358" fill-opacity="1.0" class="id_17120 id_17314"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17120 id_17314"
                   points="-4011.311523,-124.034103 -3998.709473,-201.275223 -3941.957520,-160.297226"
                   stroke="none"/>
-        <polyline fill="#a84da1" fill-opacity="1.0" class="id_17126 id_17255"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17126 id_17255"
                   points="-456.690796,183.799637 -534.884888,180.530701 -500.992096,119.283020"
                   stroke="none"/>
-        <polyline fill="#c05344" fill-opacity="1.0" class="id_17126 id_17314"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17126 id_17314"
                   points="-4016.034180,-105.990875 -3973.338623,-40.400524 -4042.888916,-32.480259"
                   stroke="none"/>
-        <polyline fill="#8c3a77" fill-opacity="1.0" class="id_17138 id_17299"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17138 id_17299"
                   points="2705.197266,-1731.487793 2759.432373,-1787.911011 2782.876709,-1721.953735"
                   stroke="none"/>
-        <polyline fill="#4dd97f" fill-opacity="1.0" class="id_17146 id_17260"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17146 id_17260"
                   points="-2508.543457,-1813.708496 -2523.207520,-1890.584839 -2455.840820,-1871.565552"
                   stroke="none"/>
-        <polyline fill="#5c809d" fill-opacity="1.0" class="id_17155 id_17327"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17155 id_17327"
                   points="-191.876328,3120.577881 -193.912155,3042.342041 -130.509109,3072.007568"
                   stroke="none"/>
-        <polyline fill="#c34987" fill-opacity="1.0" class="id_17155 id_17255"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17155 id_17255"
                   points="-424.717712,315.387177 -434.474976,393.038910 -492.693481,354.172394"
                   stroke="none"/>
-        <polyline fill="#7fa9ff" fill-opacity="1.0" class="id_17230 id_17327"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17230 id_17327"
                   points="-195.796539,3139.630371 -158.589935,3208.483154 -228.554596,3210.707275"
                   stroke="none"/>
-        <polyline fill="#4dd1e7" fill-opacity="1.0" class="id_17235 id_17260"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17235 id_17260"
                   points="-2615.227051,-1778.114014 -2692.111816,-1792.734985 -2649.661133,-1848.394165"
                   stroke="none"/>
-        <polyline fill="#7fa474" fill-opacity="1.0" class="id_17235 id_17314"
+        <polyline fill="#ff7045" fill-opacity="1.0" class="id_17235 id_17314"
                   points="-4014.132568,-125.455650 -4026.254150,-202.773651 -3959.551025,-181.543549"
                   stroke="none"/>
-        <polyline fill="#8d3c5b" fill-opacity="1.0" class="id_17243 id_17299"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17243 id_17299"
                   points="2692.382568,-1737.545532 2635.711914,-1791.521729 2701.561035,-1815.267822"
                   stroke="none"/>
-        <polyline fill="#5b8c97" fill-opacity="1.0" class="id_17243 id_17260"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17243 id_17260"
                   points="-2441.861816,-1682.947998 -2364.082764,-1691.630615 -2388.248291,-1625.934082"
                   stroke="none"/>
-        <polyline fill="#1b9ee1" fill-opacity="1.0" class="id_17250 id_17327"
+        <polyline fill="#ff7045" fill-opacity="1.0" class="id_17250 id_17327"
                   points="-201.921585,3121.494629 -271.066071,3084.833496 -214.079361,3044.182129"
                   stroke="none"/>
-        <polyline fill="#9a6e6f" fill-opacity="1.0" class="id_17250 id_17314"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17250 id_17314"
                   points="-4020.858887,-106.633652 -4014.186035,-28.656258 -4079.236816,-54.508995"
                   stroke="none"/>
-        <polyline fill="#b495e9" fill-opacity="1.0" class="id_17255 id_17260"
+        <polyline fill="#ff7045" fill-opacity="1.0" class="id_17255 id_17260"
                   points="-2507.377930,-1621.569092 -2240.375000,-1335.501953 -2576.029785,-1236.326416"
                   stroke="none"/>
-        <polyline fill="#e645ad" fill-opacity="1.0" class="id_17255 id_17299"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17255 id_17299"
                   points="2685.793701,-1728.750977 2613.781738,-1698.103394 2618.068359,-1767.972046"
                   stroke="none"/>
-        <polyline fill="#6798e9" fill-opacity="1.0" class="id_17255 id_17327"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17255 id_17327"
                   points="-190.740738,3121.201904 -182.643295,3043.359619 -123.608383,3080.974365"
                   stroke="none"/>
-        <polyline fill="#dd946a" fill-opacity="1.0" class="id_17255 id_17192"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17255 id_17192"
                   points="4764.626465,2222.074219 4697.580566,2181.702881 4756.695801,2144.214600"
                   stroke="none"/>
-        <polyline fill="#cc9ff2" fill-opacity="1.0" class="id_17260 id_17167"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17260 id_17167"
                   points="-2990.147705,-36.069530 -2958.256592,-107.539566 -2913.837158,-53.438766"
                   stroke="none"/>
-        <polyline fill="#cc9b8c" fill-opacity="1.0" class="id_17260 id_17314"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17260 id_17314"
                   points="-4007.370605,-117.941116 -3945.856201,-166.324814 -3931.755127,-97.759842"
                   stroke="none"/>
-        <polyline fill="#cc78c3" fill-opacity="1.0" class="id_17260 id_17299"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17260 id_17299"
                   points="2687.708008,-1734.048462 2610.556152,-1747.184082 2651.925293,-1803.651611"
                   stroke="none"/>
-        <polyline fill="#c3c77f" fill-opacity="1.0" class="id_17260 id_17192"
+        <polyline fill="#d3b3b0" fill-opacity="1.0" class="id_17260 id_17192"
                   points="4765.744141,2221.461670 4704.376465,2172.891602 4767.779785,2143.225586"
                   stroke="none"/>
-        <polyline fill="#f6b100" fill-opacity="1.0" class="id_17340 id_17192"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17340 id_17192"
                   points="4776.020020,2222.547852 4790.385254,2145.615234 4846.185059,2187.880371"
                   stroke="none"/>
-        <polyline fill="#ff6243" fill-opacity="1.0" class="id_17340 id_17299"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17340 id_17299"
                   points="2695.964844,-1718.140381 2732.288574,-1648.817993 2662.301270,-1647.487915"
                   stroke="none"/>
-        <polyline fill="#4dc293" fill-opacity="1.0" class="id_17349 id_17260"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17349 id_17260"
                   points="-2568.211182,-1622.898193 -2557.859131,-1545.323364 -2624.059814,-1568.071655"
                   stroke="none"/>
-        <polyline fill="#00c693" fill-opacity="1.0" class="id_17349 id_17327"
+        <polyline fill="#00c7ff" fill-opacity="1.0" class="id_17349 id_17327"
                   points="-197.121048,3119.686279 -238.990601,3053.565674 -169.346252,3046.518311"
                   stroke="none"/>
-        <polyline fill="#67a5e9" fill-opacity="1.0" class="id_17361 id_17255"
+        <polyline fill="#ff7045" fill-opacity="1.0" class="id_17361 id_17255"
                   points="-417.617249,144.723907 -482.136383,100.426239 -420.890594,66.530029"
                   stroke="none"/>
-        <polyline fill="#4dd8ff" fill-opacity="1.0" class="id_17361 id_17260"
+        <polyline fill="#ff8805" fill-opacity="1.0" class="id_17361 id_17260"
                   points="-2523.067383,-1618.273315 -2479.495850,-1553.261597 -2548.933838,-1544.409058"
                   stroke="none"/>
     </g>
@@ -509,514 +509,514 @@
                 stroke-opacity="1.0" stroke-width="8.8"/>
     </g>
     <g id="node-labels">
-        <text font-size="132" x="-2224.9116" y="3191.7917" fill="#000000"
+        <text font-size="198" x="-2224.9116" y="3203.7961" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_16943">
             The Lunar Tides
         </text>
-        <text font-size="78" x="3675.959" y="-1856.1355" fill="#000000"
+        <text font-size="117" x="3675.959" y="-1848.8738" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_16952">
             Rust&amp; Reverie
         </text>
-        <text font-size="132" x="-3389.2332" y="-1063.5865" fill="#000000"
+        <text font-size="198" x="-3389.2332" y="-1048.3004" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_16960">
             Violet Engines
         </text>
-        <text font-size="132" x="3755.671" y="3134.9111" fill="#000000"
+        <text font-size="198" x="3755.671" y="3150.208" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_16966">
             Solace Vesper
         </text>
-        <text font-size="132" x="-4667.7524" y="-773.8759" fill="#000000"
+        <text font-size="198" x="-4667.7524" y="-758.57367" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_16971">
             Jasper Quinn
         </text>
-        <text font-size="132" x="-21.877989" y="-1859.4434" fill="#000000"
+        <text font-size="198" x="-21.877989" y="-1844.1572" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_16977">
             Mira Everly
         </text>
-        <text font-size="132" x="1052.3258" y="-1679.779" fill="#000000"
+        <text font-size="198" x="1052.3258" y="-1667.7747" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_16987">
             Tidal Reverie
         </text>
-        <text font-size="132" x="-371.1765" y="-2949.663" fill="#000000"
+        <text font-size="198" x="-371.1765" y="-2934.1729" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_16996">
             Crimson Carriage
         </text>
-        <text font-size="132" x="1490.8713" y="2087.4993" fill="#000000"
+        <text font-size="198" x="1490.8713" y="2102.9895" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17004">
             Willow Sage
         </text>
-        <text font-size="78" x="2695.4192" y="-2386.1055" fill="#000000"
+        <text font-size="117" x="2695.4192" y="-2378.885" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17012">
             Sienna Fox
         </text>
-        <text font-size="132" x="-1535.7784" y="-1033.8328" fill="#000000"
+        <text font-size="198" x="-1535.7784" y="-1021.6135" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17022">
             Cassette Future
         </text>
-        <text font-size="132" x="291.52075" y="2080.9563" fill="#000000"
+        <text font-size="198" x="291.52075" y="2093.1755" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17032">
             Silver Veil
         </text>
-        <text font-size="78" x="-184.93771" y="3548.995" fill="#000000"
+        <text font-size="117" x="-184.93771" y="3556.2156" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17046">
             The Brine Choir
         </text>
-        <text font-size="78" x="3270.3232" y="-1356.9548" fill="#000000"
+        <text font-size="117" x="3270.3232" y="-1349.8613" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17057">
             Desert Echoes
         </text>
-        <text font-size="132" x="1633.8478" y="-581.2831" fill="#000000"
+        <text font-size="198" x="1633.8478" y="-565.98083" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17063">
             The Phantom Operators
         </text>
-        <text font-size="78" x="3317.791" y="-1926.3932" fill="#000000"
+        <text font-size="117" x="3317.791" y="-1919.1727" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17071">
             Cosmic Reverberation
         </text>
-        <text font-size="78" x="-360.34842" y="3908.8315" fill="#000000"
+        <text font-size="117" x="-360.34842" y="3917.9849" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17083">
             Sylas Dune
         </text>
-        <text font-size="132" x="2121.1782" y="663.6259" fill="#000000"
+        <text font-size="198" x="2121.1782" y="675.6303" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17091">
             Turbo Kill
         </text>
-        <text font-size="132" x="-1858.5408" y="2241.6992" fill="#000000"
+        <text font-size="198" x="-1858.5408" y="2253.9077" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17100">
             Rainfall Fiction
         </text>
-        <text font-size="132" x="-750.0168" y="-1073.9916" fill="#000000"
+        <text font-size="198" x="-750.0168" y="-1061.9872" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17110">
             The Hollow Monarchs
         </text>
-        <text font-size="132" x="-3986.6162" y="-1054.4594" fill="#000000"
+        <text font-size="198" x="-3986.6162" y="-1042.2401" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17120">
             Selkie&apos;s Hollow
         </text>
-        <text font-size="132" x="-3447.5796" y="581.43823" fill="#000000"
+        <text font-size="198" x="-3447.5796" y="593.6575" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17126">
             Cassian Storm
         </text>
-        <text font-size="78" x="3228.7273" y="-2430.1777" fill="#000000"
+        <text font-size="117" x="3228.7273" y="-2422.9573" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17138">
             Iron Cathedral
         </text>
-        <text font-size="78" x="-2778.6223" y="-2615.6853" fill="#000000"
+        <text font-size="117" x="-2778.6223" y="-2608.4648" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17146">
             Julia Carter
         </text>
-        <text font-size="132" x="-371.17664" y="2080.9524" fill="#000000"
+        <text font-size="198" x="-371.17664" y="2093.1716" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17155">
             Claire Holmes
         </text>
-        <text font-size="24" x="-2997.8765" y="-24.091055" fill="#000000"
+        <text font-size="36" x="-2997.8765" y="-21.274649" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17167">
             The Salty Wakes
         </text>
-        <text font-size="24" x="4769.982" y="2236.152" fill="#000000"
+        <text font-size="36" x="4769.982" y="2238.9685" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17192">
             The Fiddle&amp; The Fjord
         </text>
-        <text font-size="78" x="251.92026" y="3780.0308" fill="#000000"
+        <text font-size="117" x="251.92026" y="3787.1243" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17230">
             The Wave Riders
         </text>
-        <text font-size="132" x="-4565.773" y="-1811.4171" fill="#000000"
+        <text font-size="198" x="-4565.773" y="-1799.1979" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17235">
             Genevieve Bell
         </text>
-        <text font-size="132" x="1239.9094" y="-2717.4795" fill="#000000"
+        <text font-size="198" x="1239.9094" y="-2705.271" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17243">
             Mariner&apos;s Refrain
         </text>
-        <text font-size="132" x="-3482.6953" y="2059.365" fill="#000000"
+        <text font-size="198" x="-3482.6953" y="2071.5842" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17250">
             Siren&apos;s Call
         </text>
-        <text font-size="240" x="-369.1941" y="276.6515" fill="#000000"
+        <text font-size="360" x="-369.1941" y="298.8683" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17255">
             Sailor Shift
         </text>
-        <text font-size="240" x="-2535.7139" y="-1661.8845" fill="#000000"
+        <text font-size="360" x="-2535.7139" y="-1634.0916" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17260">
             Ivy Echos
         </text>
-        <text font-size="24" x="2695.775" y="-1723.6952" fill="#000000"
+        <text font-size="36" x="2695.775" y="-1721.4735" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17299">
             The Saltwater Weavers
         </text>
-        <text font-size="24" x="-4017.1655" y="-110.293846" fill="#000000"
+        <text font-size="36" x="-4017.1655" y="-107.47744" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17314">
             The Tide Singer&apos;s Knot
         </text>
-        <text font-size="24" x="-196.11429" y="3134.0007" fill="#000000"
+        <text font-size="36" x="-196.11429" y="3136.1833" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17327">
             Drowned Harbor
         </text>
-        <text font-size="132" x="4823.4575" y="1101.7106" fill="#000000"
+        <text font-size="198" x="4823.4575" y="1113.9352" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17340">
             Orla Seabloom
         </text>
-        <text font-size="132" x="-1587.8844" y="1578.364" fill="#000000"
+        <text font-size="198" x="-1587.8844" y="1593.6501" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17349">
             Beatrice Albright
         </text>
-        <text font-size="132" x="-1299.7805" y="-266.19757" fill="#000000"
+        <text font-size="198" x="-1299.7805" y="-250.70734" fill="#000000"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_17361">
             Copper Canyon Ghosts
         </text>
     </g>
     <g id="edge-labels">
-        <text font-size="48" x="-1216.8708" y="2810.5764" fill="#00a4bc"
+        <text font-size="48" x="-1216.8708" y="2810.5764" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74620">
             InStyleOf
         </text>
-        <text font-size="48" x="-3668.3235" y="1824.6372" fill="#7f7349"
+        <text font-size="48" x="-3668.3235" y="1824.6372" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74621">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="3209.6204" y="-1636.0347" fill="#ff447b"
+        <text font-size="48" x="3209.6204" y="-1636.0347" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74641">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="-3066.359" y="-1548.0679" fill="#94c77f"
+        <text font-size="48" x="-3066.359" y="-1548.0679" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74657">
             InStyleOf
         </text>
-        <text font-size="48" x="-3540.1606" y="-500.38733" fill="#c69a0d"
+        <text font-size="48" x="-3540.1606" y="-500.38733" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74658">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="1783.998" y="3775.6074" fill="#7fbfad"
+        <text font-size="48" x="1783.998" y="3775.6074" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74666">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="4117.1934" y="2498.3665" fill="#f6bb2d"
+        <text font-size="48" x="4117.1934" y="2498.3665" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74667">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="-4227.7" y="-568.6347" fill="#cc740d"
+        <text font-size="48" x="-4227.7" y="-568.6347" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74677">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="-3753.8982" y="-1616.3152" fill="#9aa17f"
+        <text font-size="48" x="-3753.8982" y="-1616.3152" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74678">
             InStyleOf
         </text>
-        <text font-size="48" x="-1723.8402" y="-337.0898" fill="#7f803b"
+        <text font-size="48" x="-1723.8402" y="-337.0898" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74688">
             InStyleOf
         </text>
-        <text font-size="48" x="1363.928" y="-2262.0193" fill="#7f5d71"
+        <text font-size="48" x="1363.928" y="-2262.0193" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74689">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="1869.992" y="-1989.8713" fill="#e97481"
+        <text font-size="48" x="1869.992" y="-1989.8713" fill="#23966f"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74711">
             CoverOf
         </text>
-        <text font-size="48" x="-1217.7764" y="-64.94209" fill="#e9974a"
+        <text font-size="48" x="-1217.7764" y="-64.94209" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74712">
             InStyleOf
         </text>
-        <text font-size="48" x="-1242.9163" y="-1988.3008" fill="#c9baee"
+        <text font-size="48" x="-1242.9163" y="-1988.3008" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74733">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="1371.05" y="-2865.5496" fill="#fc6ab2"
+        <text font-size="48" x="1371.05" y="-2865.5496" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74734">
             InStyleOf
         </text>
-        <text font-size="48" x="1462.5469" y="-36.627155" fill="#ff6595"
+        <text font-size="48" x="1462.5469" y="-36.627155" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74750">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="826.2313" y="2874.2415" fill="#7fb9d1"
+        <text font-size="48" x="826.2313" y="2874.2415" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74751">
             InStyleOf
         </text>
-        <text font-size="48" x="2807.665" y="-2064.4019" fill="#b53a43"
+        <text font-size="48" x="2807.665" y="-2064.4019" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74767">
             InStyleOf
         </text>
-        <text font-size="48" x="-2145.6128" y="-1221.215" fill="#aacea5"
+        <text font-size="48" x="-2145.6128" y="-1221.215" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74788">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="-737.4047" y="-607.4574" fill="#c49b90"
+        <text font-size="48" x="-737.4047" y="-607.4574" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74789">
             InStyleOf
         </text>
-        <text font-size="48" x="226.55618" y="2674.349" fill="#00afe4"
+        <text font-size="48" x="226.55618" y="2674.349" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74810">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="-342.8867" y="1254.487" fill="#6778ce"
+        <text font-size="48" x="-342.8867" y="1254.487" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74811">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="-258.01245" y="3333.9575" fill="#00dcbe"
+        <text font-size="48" x="-258.01245" y="3333.9575" fill="#ff7045"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74845">
             DirectlySamples
         </text>
-        <text font-size="48" x="2923.5496" y="-1453.8821" fill="#d5537b"
+        <text font-size="48" x="2923.5496" y="-1453.8821" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74863">
             InStyleOf
         </text>
-        <text font-size="48" x="1978.7695" y="-1347.001" fill="#9b504b"
+        <text font-size="48" x="1978.7695" y="-1347.001" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74879">
             InStyleOf
         </text>
-        <text font-size="48" x="773.0111" y="144.00546" fill="#836d72"
+        <text font-size="48" x="773.0111" y="144.00546" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74880">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="3042.2322" y="-1730.817" fill="#ed3e43"
+        <text font-size="48" x="3042.2322" y="-1730.817" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74900">
             InStyleOf
         </text>
-        <text font-size="48" x="-405.04626" y="3482.7078" fill="#5abfff"
+        <text font-size="48" x="-405.04626" y="3482.7078" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74921">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="1377.535" y="2270.8418" fill="#58cadf"
+        <text font-size="48" x="1377.535" y="2270.8418" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74938">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="2013.8506" y="-640.02686" fill="#d776a3"
+        <text font-size="48" x="2013.8506" y="-640.02686" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74939">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="-2852.9194" y="362.76807" fill="#777891"
+        <text font-size="48" x="-2852.9194" y="362.76807" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74959">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="-875.2687" y="2396.3877" fill="#2a7c91"
+        <text font-size="48" x="-875.2687" y="2396.3877" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74960">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="-337.9024" y="-496.3617" fill="#67a2e4"
+        <text font-size="48" x="-337.9024" y="-496.3617" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74977">
             InStyleOf
         </text>
-        <text font-size="48" x="-1746.1104" y="-1110.1193" fill="#4dd5f9"
+        <text font-size="48" x="-1746.1104" y="-1110.1193" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74978">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="-3367.5938" y="-1640.0012" fill="#82d0cb"
+        <text font-size="48" x="-3367.5938" y="-1640.0012" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74998">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="-3841.3958" y="-592.3207" fill="#b5a358"
+        <text font-size="48" x="-3841.3958" y="-592.3207" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_74999">
             InStyleOf
         </text>
-        <text font-size="48" x="-1962.5172" y="-118.45545" fill="#a84da1"
+        <text font-size="48" x="-1962.5172" y="-118.45545" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75015">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="-3844.5269" y="315.46753" fill="#c05344"
+        <text font-size="48" x="-3844.5269" y="315.46753" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75016">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="3081.6646" y="-1997.5532" fill="#8c3a77"
+        <text font-size="48" x="3081.6646" y="-1997.5532" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75043">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="-2505.0588" y="-2214.2832" fill="#4dd97f"
+        <text font-size="48" x="-2505.0588" y="-2214.2832" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75062">
             InStyleOf
         </text>
-        <text font-size="48" x="-104.79186" y="2563.8977" fill="#5c809d"
+        <text font-size="48" x="-104.79186" y="2563.8977" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75087">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="-674.23474" y="1144.0355" fill="#c34987"
+        <text font-size="48" x="-674.23474" y="1144.0355" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75088">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="-78.13173" y="3522.412" fill="#7fa9ff"
+        <text font-size="48" x="-78.13173" y="3522.412" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75214">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="-3531.0125" y="-2115.006" fill="#4dd1e7"
+        <text font-size="48" x="-3531.0125" y="-2115.006" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75226">
             InStyleOf
         </text>
-        <text font-size="48" x="-4004.8145" y="-1067.3257" fill="#7fa474"
+        <text font-size="48" x="-4004.8145" y="-1067.3257" fill="#ff7045"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75227">
             DirectlySamples
         </text>
-        <text font-size="48" x="2136.8018" y="-2477.6619" fill="#8d3c5b"
+        <text font-size="48" x="2136.8018" y="-2477.6619" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75245">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="-477.16455" y="-1600.4128" fill="#5b8c97"
+        <text font-size="48" x="-477.16455" y="-1600.4128" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75246">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="-1656.9532" y="2034.5175" fill="#1b9ee1"
+        <text font-size="48" x="-1656.9532" y="2034.5175" fill="#ff7045"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75261">
             DirectlySamples
         </text>
-        <text font-size="48" x="-4108.406" y="1048.5784" fill="#9a6e6f"
+        <text font-size="48" x="-4108.406" y="1048.5784" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75262">
             InStyleOf
         </text>
-        <text font-size="48" x="-1777.4021" y="-381.53964" fill="#b495e9"
+        <text font-size="48" x="-1777.4021" y="-381.53964" fill="#ff7045"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75274">
             DirectlySamples
         </text>
-        <text font-size="48" x="836.56433" y="-1258.7886" fill="#e645ad"
+        <text font-size="48" x="836.56433" y="-1258.7886" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75309">
             InStyleOf
         </text>
-        <text font-size="48" x="200.24872" y="1652.0801" fill="#6798e9"
+        <text font-size="48" x="200.24872" y="1652.0801" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75310">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="2533.444" y="374.8392" fill="#dd946a"
+        <text font-size="48" x="2533.444" y="374.8392" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75311">
             InStyleOf
         </text>
-        <text font-size="48" x="-2485.5042" y="-796.57007" fill="#cc9ff2"
+        <text font-size="48" x="-2485.5042" y="-796.57007" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75348">
             InStyleOf
         </text>
-        <text font-size="48" x="-3009.5156" y="-669.7899" fill="#cc9b8c"
+        <text font-size="48" x="-3009.5156" y="-669.7899" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75349">
             InStyleOf
         </text>
-        <text font-size="48" x="78.2525" y="-2594.7195" fill="#cc78c3"
+        <text font-size="48" x="78.2525" y="-2594.7195" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75350">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="1775.1323" y="-961.09155" fill="#c3c77f"
+        <text font-size="48" x="1775.1323" y="-961.09155" fill="#d3b3b0"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75351">
             InterpolatesFrom
         </text>
-        <text font-size="48" x="4988.929" y="1662.803" fill="#f6b100"
+        <text font-size="48" x="4988.929" y="1662.803" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75485">
             InStyleOf
         </text>
-        <text font-size="48" x="3292.0496" y="29.175192" fill="#ff6243"
+        <text font-size="48" x="3292.0496" y="29.175192" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75487">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="-2606.0095" y="73.132225" fill="#4dc293"
+        <text font-size="48" x="-2606.0095" y="73.132225" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75502">
             InStyleOf
         </text>
-        <text font-size="48" x="-628.3587" y="2106.752" fill="#00c693"
+        <text font-size="48" x="-628.3587" y="2106.752" fill="#00c7ff"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75503">
             LyricalReferenceTo
         </text>
-        <text font-size="48" x="-746.25464" y="-187.5778" fill="#67a5e9"
+        <text font-size="48" x="-746.25464" y="-187.5778" fill="#ff7045"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75537">
             DirectlySamples
         </text>
-        <text font-size="48" x="-2154.4626" y="-801.3353" fill="#4dd8ff"
+        <text font-size="48" x="-2154.4626" y="-801.3353" fill="#ff8805"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Arial" class="id_75538">
             InStyleOf
