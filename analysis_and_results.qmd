@@ -19,34 +19,25 @@ The Sailor Shift Influence Network is a directed graph that illustrates the infl
 
 ### (a) Who has she been most influenced by over time? ###
 
-<!-- 
-![](images/1a.svg){width=100% height=500px} -->
+
+![Most Influenced on Sailor Shift](images/1a.svg){width=100% height=100%}
 
 
-![Most Influential Entities to Sailor Shift](images/1aT.png){width=100% height=100%}
-<!-- ![](images/Influence_Matrix.png){width=100% height=400px} -->
-
-Based on the size of the nodes in the graph, we identify that Ivy Echos had the most influence on Sailor Shift. The larger the node, the more influential it is in terms of influencing Sailor Shift's career and musical style. And based on the edge type, it seems that Sailor Shift Directly Samples quite often from Ivy Echos. This suggests that Ivy Echos played a significant role in shaping Sailor Shift's artistic development and may have had a strong impact on her musical direction and success.
+This graph looks only at the artists who inspired Sailor Shift. It shows that she didn't just invent her sound out of nowhere. Instead, her early music was heavily shaped by older artists. **Ivy Echos** stands out as her biggest influence, acting as the main inspiration that helped launch Sailor Shift’s career.
 
 ### (b) Who has she collaborated with and directly or indirectly influenced? ###
 #### Professional Network ####
-<!-- <iframe 
-  src="gephi/network2/index.html" 
-  width="100%" 
-  height="600px" 
-  style="border: 1px solid #ccc; border-radius: 8px;">
-  
-</iframe> -->
-![Collaborated With Sailor Shift](images/1bT.png){width=100% height=100%}
-Based on the size of the nodes in the graph, we identify that Sailor Shift has collaborated most frequently with a few professionals, as indicated by the larger node size and the weights seen in the table. The edge types indicate that the collaborations were mostly in the form of "LyricistOf" or "PerformerOf" relationships. This suggests that Sailor Shift has had a significant impact on the music created by these professionals, and that her influence extends beyond just her own music to the work of others in the industry.
+
+![Collaborated With Sailor Shift](images/1b1.svg){width=100% height=100%}
+While Sailor Shift maintained creative independence, she did not operate entirely on her own. The massive **Oceanic Records** node stands out as the largest hub in her professional network. The *ProducerOf* arrow pointing from the label to Sailor Shift reveals that her independent style was supported by major institutional power. Oceanic Records acted as the **financial and production engine** that distributed her music, giving her the massive platform needed to become a "Super-Hub" and influence the rest of the folk genre.
 
 #### Directly or Indirectly Influenced ####
-![Directly or Indirectly Influenced by Sailor Shift](images/1bT1.png){width=100% height=100%}
-<!-- ![](images/Professional_Network_Table.png){width=100% height=100%} -->
+![Directly or Indirectly Influenced by Sailor Shift](images/1b2.svg){width=100% height=100%}
+While her working circle was small, her creative impact was **huge**. This graph shows a large ring of arrows pointing toward her, representing artists who cover her songs or copy her style. It proves that she became a **"Super-Hub"**. Hundreds of younger musicians used her sound as a blueprint to build their own careers, even if they never actually met or worked with her.
 
 ### (c) How has she influenced collaborators of the broader Oceanus Folk community? ###
-![Influence on Oceanus Folk Community](images/1cT.png){width=100% height=100%}
-
+![Influence on Oceanus Folk Community](images/1c.svg){width=100% height=100%}
+Filtering the 2nd-degree network exclusively for Oceanus Folk reveals several **disconnected** sub-graphs (isolated nodes). This visually proves that Sailor Shift's influence on her own genre occasionally required 'cross-genre pollination'. She influenced Pop/Electronic artists, who in turn brought her stylistic markers back into the Folk community.
 ### 2. Oceanus Folk Influence Across the Musical World ###
 
 This section examines how Oceanus Folk spread across the wider musical world, whether that spread was gradual or intermittent, which genres and artists were most influenced, and how the genre itself evolved after Sailor Shift’s 2028 breakthrough.

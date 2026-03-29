@@ -8,35 +8,32 @@
     "text": ""
   },
   "text": {
-    "more": "",
-    "intro": "This graph shows the relationship between Sailor Shift and their influence in the music industry",
-    "title": ""
+    "more": "\u003cp\u003eThis interactive network visualizes the comprehensive industry footprint of Oceanus Folk artist \u003cstrong\u003eSailor Shift\u003c/strong\u003e. Generated using a \u003cem\u003e2nd-Degree Ego-Network filter\u003c/em\u003e, this graph captures both her immediate sphere and her broader ripple effect across the music ecosystem.\u003c/p\u003e\u003chr style\u003d\u0027margin: 12px 0; border: 0; border-top: 1px solid #ccc;\u0027 /\u003e\u003cp\u003e\u003cstrong\u003eHow to read this graph:\u003c/strong\u003e\u003c/p\u003e\u003cul style\u003d\u0027padding-left: 20px;\u0027\u003e\u003cli style\u003d\u0027margin-bottom: 8px;\u0027\u003e\u003cstrong\u003e1st-Degree (Direct):\u003c/strong\u003e Artists connected directly to Sailor Shift. This includes her intimate circle of studio collaborators, as well as the initial wave of artists who directly cited her as a stylistic inspiration.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003e2nd-Degree (Indirect):\u003c/strong\u003e The expansive outer network. This captures the \u0027ripple effect\u0027\u0026mdash;artists who collaborated with her bandmates, or younger musicians who were inspired by the artists she originally influenced.\u003c/li\u003e\u003c/ul\u003e\u003cp style\u003d\u0027margin-top: 12px;\u0027\u003eTogether, this unfiltered view demonstrates how a single artist operates as a \u003cstrong\u003e\u0027Super-Hub,\u0027\u003c/strong\u003e bridging distinct communities and permanently altering the trajectory of their genre.\u003c/p\u003e",
+    "intro": "Use the mouse wheel to zoom and click and drag to pan across the network.",
+    "title": "A 2nd-degree ego-network mapping the complete professional and creative footprint of Sailor Shift."
   },
   "legend": {
-    "edgeLabel": "",
-    "colorLabel": "Edge Type Colors",
-    "nodeLabel": ""
+    "edgeLabel": "Industry Connection",
+    "colorLabel": "Entity Category",
+    "nodeLabel": "Overall Influence"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "",
+    "groupSelectorAttribute": "node type",
     "hoverBehavior": "default"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
+    "groupByEdgeDirection": true,
     "imageAttribute": false
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "curve", 
-      "drawEdgeLabels": true,
-      "defaultEdgeLabelSize": 12,
-      "edgeLabelThreshold": 3,
+      "defaultEdgeType": "curve",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 1,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
@@ -44,9 +41,9 @@
     },
     "graphProperties": {
       "maxEdgeSize": 10,
-      "minEdgeSize": 1.5,
-      "minNodeSize": 5,
-      "maxNodeSize": 15
+      "minEdgeSize": 2,
+      "minNodeSize": 2,
+      "maxNodeSize": 10
     },
     "mouseProperties": {
       "maxRatio": 20,

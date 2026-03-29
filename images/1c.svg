@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="2001.1991"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-1208.558350 -763.238586 2001.199097 1571.974121"
+     height="1571.9741" preserveAspectRatio="xMidYMid meet"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#c1801d" r="9.2" cx="-379.36758"
+                class="id_16989" cy="-749.43976" stroke="#875914"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffa73d" r="9.2" cx="-365.52753"
+                class="id_17047" cy="-564.5428" stroke="#b2742a"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#008bad" r="9.2" cx="-150.07346"
+                class="id_17048" cy="-677.06177" stroke="#006179"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#cdc5f7" r="9.2" cx="-108.22418"
+                class="id_17049" cy="-513.3484" stroke="#8f89ac"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00fae6" r="9.2" cx="-780.6894"
+                class="id_17121" cy="-552.2255" stroke="#00afa1"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ed1686" r="10.168421" cx="-565.19086"
+                class="id_17231" cy="312.58267" stroke="#a50f5d"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#619158" r="9.2" cx="-267.90454"
+                class="id_17232" cy="293.7638" stroke="#43653d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00faff" r="9.2" cx="-420.28625"
+                class="id_17236" cy="459.51913" stroke="#00afb2"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#bf6c72" r="9.2" cx="-308.79898"
+                class="id_17237" cy="378.027" stroke="#854b4f"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#004764" r="9.2" cx="-159.32094"
+                class="id_17244" cy="794.93665" stroke="#003146"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00ad34" r="9.2" cx="-295.09573"
+                class="id_17245" cy="680.20044" stroke="#007924"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#009c49" r="9.2" cx="129.88635"
+                class="id_17251" cy="728.30554" stroke="#006d33"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#b37400" r="10.168421" cx="-131.70982"
+                class="id_17252" cy="354.90616" stroke="#7d5100"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#797466" r="10.168421" cx="-456.43942"
+                class="id_17261" cy="149.1319" stroke="#545147"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#ffb087" r="10.168421" cx="-426.55725"
+                class="id_17262" cy="297.21667" stroke="#b27b5e"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#006f49" r="10.168421" cx="-641.0461"
+                class="id_17263" cy="127.358505" stroke="#004d33"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#a2814a" r="9.2" cx="257.0573"
+                class="id_17264" cy="157.77597" stroke="#715a33"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ff72a0" r="9.2" cx="-406.94974"
+                class="id_17265" cy="-172.26155" stroke="#b24f70"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#36303a" r="9.2" cx="202.4855"
+                class="id_17266" cy="-274.72504" stroke="#252128"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#bb2344" r="9.2" cx="564.5133"
+                class="id_17267" cy="129.87244" stroke="#82182f"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00f23f" r="9.2" cx="-34.86249"
+                class="id_17268" cy="7.7391195" stroke="#00a92c"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#fdafff" r="9.2" cx="-60.50109"
+                class="id_17269" cy="143.04677" stroke="#b17ab2"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#5c251b" r="9.2" cx="-283.32672"
+                class="id_17270" cy="-152.91168" stroke="#401912"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#468b00" r="9.2" cx="78.00086"
+                class="id_17271" cy="-43.06182" stroke="#316100"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#b4c8ff" r="10.168421" cx="49.22468"
+                class="id_17272" cy="456.04178" stroke="#7d8cb2"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#f3cc00" r="10.168421" cx="-617.85455"
+                class="id_17273" cy="-36.22609" stroke="#aa8e00"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#5d6200" r="10.168421" cx="-464.329"
+                class="id_17274" cy="0.8442958" stroke="#414400"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#3d8893" r="10.168421" cx="-223.64102"
+                class="id_17275" cy="157.76561" stroke="#2a5f66"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#00f1ff" r="10.168421" cx="-293.76645"
+                class="id_17276" cy="116.52383" stroke="#00a8b2"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#ff98ff" r="10.168421" cx="-387.64584"
+                class="id_17277" cy="-64.34106" stroke="#b26ab2"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#ff0050" r="10.168421" cx="-287.5503"
+                class="id_17278" cy="0.8336226" stroke="#b20038"
+                stroke-opacity="1.0" stroke-width="1.7684209"/>
+        <circle fill-opacity="1.0" fill="#ff61c8" r="9.2" cx="24.82881"
+                class="id_17279" cy="-179.54453" stroke="#b2438c"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#e0b1ff" r="9.2" cx="-136.87283"
+                class="id_17280" cy="-408.87387" stroke="#9c7bb2"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00baff" r="9.2" cx="260.78363"
+                class="id_17281" cy="-179.15375" stroke="#0082b2"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ff7600" r="9.2" cx="258.8702"
+                class="id_17282" cy="-614.2113" stroke="#b25200"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d766f7" r="9.2" cx="127.74035"
+                class="id_17283" cy="-452.32245" stroke="#9647ac"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#b74622" r="9.2" cx="58.406605"
+                class="id_17284" cy="-627.0553" stroke="#803117"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00dbeb" r="9.2" cx="508.70566"
+                class="id_17285" cy="-298.02603" stroke="#0099a4"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00f495" r="9.2" cx="-34.863976"
+                class="id_17286" cy="-348.334" stroke="#00aa68"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f4c2ba" r="9.2" cx="-559.3889"
+                class="id_17287" cy="-447.47186" stroke="#aa8782"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#333a0a" r="9.2" cx="384.45007"
+                class="id_17288" cy="-203.57599" stroke="#232807"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#3591ff" r="9.2" cx="254.9559"
+                class="id_17289" cy="-419.595" stroke="#2565b2"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#869200" r="9.2" cx="256.72638"
+                class="id_17290" cy="39.332806" stroke="#5d6600"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#0085c3" r="9.2" cx="121.58061"
+                class="id_17291" cy="-281.167" stroke="#005d88"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ff88ff" r="9.2" cx="371.28644"
+                class="id_17292" cy="-508.3346" stroke="#b25fb2"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ff52f5" r="9.2" cx="9.590125"
+                class="id_17293" cy="-437.47452" stroke="#b239ab"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#1bae00" r="9.2" cx="-363.27435"
+                class="id_17294" cy="-424.66226" stroke="#127900"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#b7d3ad" r="9.2" cx="246.87415"
+                class="id_17300" cy="297.25577" stroke="#809379"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffa300" r="9.2" cx="113.06391"
+                class="id_17301" cy="311.5176" stroke="#b27200"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00b9c9" r="9.2" cx="377.01215"
+                class="id_17302" cy="284.25345" stroke="#00818c"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#8ae58e" r="9.2" cx="602.45685"
+                class="id_17303" cy="298.52185" stroke="#60a063"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#69dabd" r="9.2" cx="-167.40216"
+                class="id_17304" cy="0.8502459" stroke="#499884"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#83e557" r="9.2" cx="-34.839577"
+                class="id_17305" cy="-253.28778" stroke="#5ba03c"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00e9c6" r="9.2" cx="-121.063255"
+                class="id_17306" cy="264.52576" stroke="#00a38a"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#6b3c00" r="9.2" cx="493.9221"
+                class="id_17307" cy="-1.0632598" stroke="#4a2a00"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#383c70" r="9.2" cx="28.122316"
+                class="id_17308" cy="178.90067" stroke="#272a4e"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#782354" r="9.2" cx="231.84375"
+                class="id_17315" cy="565.5948" stroke="#54183a"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#acd2e1" r="9.2" cx="352.514"
+                class="id_17316" cy="502.8939" stroke="#78939d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ff5f50" r="9.2" cx="428.76807"
+                class="id_17317" cy="349.61758" stroke="#b24238"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#004438" r="9.2" cx="-330.252"
+                class="id_17328" cy="505.91165" stroke="#002f27"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#23ef00" r="9.2" cx="-203.35117"
+                class="id_17329" cy="516.1557" stroke="#18a700"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00a2ff" r="9.2" cx="-48.62326"
+                class="id_17330" cy="540.34094" stroke="#0071b2"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00a77b" r="9.2" cx="-34.852715"
+                class="id_17331" cy="676.8661" stroke="#007456"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#957ba1" r="9.2" cx="331.88702"
+                class="id_17332" cy="-298.99802" stroke="#685670"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#7966c9" r="9.2" cx="199.38046"
+                class="id_17333" cy="427.89648" stroke="#54478c"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffa4d1" r="9.2" cx="379.80542"
+                class="id_17334" cy="0.8405607" stroke="#b27292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#45d8ff" r="9.2" cx="264.5145"
+                class="id_17335" cy="-72.91599" stroke="#3097b2"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00dbff" r="9.2" cx="-34.857677"
+                class="id_17336" cy="-86.54638" stroke="#0099b2"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffc654" r="9.2" cx="473.6084"
+                class="id_17337" cy="-114.556206" stroke="#b28a3a"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#c3c849" r="9.2" cx="-190.02151"
+                class="id_17338" cy="-238.93587" stroke="#888c33"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#b64ba6" r="9.2" cx="157.13446"
+                class="id_17339" cy="0.8374128" stroke="#7f3474"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00efff" r="9.2" cx="-390.8475"
+                class="id_17350" cy="-306.2304" stroke="#00a7b2"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#008883" r="9.2" cx="-582.64636"
+                class="id_17356" cy="-236.51176" stroke="#005f5b"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ff8c71" r="9.2" cx="164.70038"
+                class="id_17362" cy="197.12994" stroke="#b2624f"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#9ed700" r="9.2" cx="-28.176683"
+                class="id_17363" cy="311.39386" stroke="#6e9600"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ff94ad" r="9.2" cx="-229.16898"
+                class="id_17364" cy="-327.49863" stroke="#b26779"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#00590a" r="9.2" cx="639.8275"
+                class="id_17365" cy="-252.05347" stroke="#003e07"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#f04f00" r="9.2" cx="396.4303"
+                class="id_17366" cy="156.68385" stroke="#a83700"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#b5e417" r="9.2" cx="645.0841"
+                class="id_17367" cy="-12.838873" stroke="#7e9f10"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#e7d289" r="9.2" cx="-159.51953"
+                class="id_17368" cy="-110.460976" stroke="#a1935f"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#0074c1" r="9.2" cx="-1102.4978"
+                class="id_17410" cy="-164.12341" stroke="#005187"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="24" x="-379.36758" y="-745.0003" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_16989">
+            Ballads for the End of Time
+        </text>
+        <text font-size="24" x="-365.52753" y="-558.91" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17047">
+            Drifting Between the Stars and the Sea
+        </text>
+        <text font-size="24" x="-150.07346" y="-672.6184" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17048">
+            Artificial Sunsets
+        </text>
+        <text font-size="24" x="-108.22418" y="-508.98315" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17049">
+            Electric Reverie
+        </text>
+        <text font-size="24" x="-780.6894" y="-547.7861" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17121">
+            Ballads for the Low Tide
+        </text>
+        <text font-size="24" x="-565.19086" y="317.02213" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17231">
+            Tides of Echos
+        </text>
+        <text font-size="24" x="-267.90454" y="298.20325" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17232">
+            Driftwood Dreams
+        </text>
+        <text font-size="24" x="-420.28625" y="465.1539" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17236">
+            Oceanic Rythms
+        </text>
+        <text font-size="24" x="-308.79898" y="383.65982" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17237">
+            Seafarer&apos;s Lullaby
+        </text>
+        <text font-size="24" x="-159.32094" y="800.49524" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17244">
+            Harbor Lights
+        </text>
+        <text font-size="24" x="-295.09573" y="685.83325" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17245">
+            Cresting Waves
+        </text>
+        <text font-size="24" x="129.88635" y="732.6708" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17251">
+            Echos Below
+        </text>
+        <text font-size="24" x="-131.70982" y="360.39444" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17252">
+            Hidden Depths
+        </text>
+        <text font-size="24" x="-456.43942" y="154.6944" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17261">
+            The Kelp Forest Canticles
+        </text>
+        <text font-size="24" x="-426.55725" y="301.5819" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17262">
+            Luminescent Tides
+        </text>
+        <text font-size="24" x="-641.0461" y="131.80186" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17263">
+            Shoreline Sonnets
+        </text>
+        <text font-size="24" x="257.0573" y="163.40878" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17264">
+            Sunken Bell Song
+        </text>
+        <text font-size="24" x="-406.94974" y="-166.62874" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17265">
+            Dancer of the Dappled Light
+        </text>
+        <text font-size="24" x="202.4855" y="-269.23676" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17266">
+            Whispers in the Fronds
+        </text>
+        <text font-size="24" x="564.5133" y="135.43103" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17267">
+            The Angler&apos;s Lantern
+        </text>
+        <text font-size="24" x="-34.86249" y="13.30162" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17268">
+            Deepsea Fireflies
+        </text>
+        <text font-size="24" x="-60.50109" y="148.60927" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17269">
+            Sandpiper&apos;s Serenade
+        </text>
+        <text font-size="24" x="-283.32672" y="-147.27887" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17270">
+            Salt-Kissed Rhymes
+        </text>
+        <text font-size="24" x="78.00086" y="-37.503227" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17271">
+            Tidepool Epigrams
+        </text>
+        <text font-size="24" x="49.22468" y="461.53006" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17272">
+            Tidal Pop Waves
+        </text>
+        <text font-size="24" x="-617.85455" y="-30.593277" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17273">
+            Salty Dreams
+        </text>
+        <text font-size="24" x="-464.329" y="5.313046" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17274">
+            The Current&amp; The Chord
+        </text>
+        <text font-size="24" x="-223.64102" y="162.20897" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17275">
+            Coral Beats
+        </text>
+        <text font-size="24" x="-293.76645" y="120.99258" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17276">
+            Tides&amp; Ballads
+        </text>
+        <text font-size="24" x="-387.64584" y="-59.895744" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17277">
+            Oceanbound
+        </text>
+        <text font-size="24" x="-287.5503" y="6.3961225" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17278">
+            Echoes of the Deep
+        </text>
+        <text font-size="24" x="24.82881" y="-173.98593" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17279">
+            High Tide Heartbeat
+        </text>
+        <text font-size="24" x="-136.87283" y="-404.50864" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17280">
+            Electric Eel Love
+        </text>
+        <text font-size="24" x="260.78363" y="-173.52094" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17281">
+            Sun-Drenched Daydream
+        </text>
+        <text font-size="24" x="258.8702" y="-608.6488" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17282">
+            Chord of the Deep
+        </text>
+        <text font-size="24" x="127.74035" y="-447.883" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17283">
+            Heart of the Habitat
+        </text>
+        <text font-size="24" x="58.406605" y="-621.4225" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17284">
+            Reef Rhythm
+        </text>
+        <text font-size="24" x="508.70566" y="-292.39322" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17285">
+            Driftwood Lullaby
+        </text>
+        <text font-size="24" x="-34.863976" y="-342.7012" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17286">
+            Saltwater Hymn
+        </text>
+        <text font-size="24" x="-559.3889" y="-443.02655" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17287">
+            Moon Over the Tide
+        </text>
+        <text font-size="24" x="384.45007" y="-199.13263" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17288">
+            Into the Current
+        </text>
+        <text font-size="24" x="254.9559" y="-415.22977" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17289">
+            Barnacle Heart
+        </text>
+        <text font-size="24" x="256.72638" y="44.96562" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17290">
+            Fog&amp; Fiddle
+        </text>
+        <text font-size="24" x="121.58061" y="-275.6084" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17291">
+            The Fisherman&apos;s Prayer
+        </text>
+        <text font-size="24" x="371.28644" y="-502.70178" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17292">
+            Stormsong
+        </text>
+        <text font-size="24" x="9.590125" y="-431.8417" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17293">
+            Salt in My Veins
+        </text>
+        <text font-size="24" x="-363.27435" y="-420.29703" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17294">
+            The Last Mariner
+        </text>
+        <text font-size="24" x="246.87415" y="301.69913" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17300">
+            Beneath the Coral Moon
+        </text>
+        <text font-size="24" x="113.06391" y="315.96097" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17301">
+            Salt-Stained Chronicles
+        </text>
+        <text font-size="24" x="377.01215" y="289.74173" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17302">
+            The Kelp Forest Ballads
+        </text>
+        <text font-size="24" x="602.45685" y="304.01013" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17303">
+            Tempest&apos;s Wake
+        </text>
+        <text font-size="24" x="-167.40216" y="6.4088397" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17304">
+            Tripping on the Water
+        </text>
+        <text font-size="24" x="-34.839577" y="-248.84247" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17305">
+            The One
+        </text>
+        <text font-size="24" x="-121.063255" y="270.08435" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17306">
+            Alight
+        </text>
+        <text font-size="24" x="493.9221" y="3.3019745" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17307">
+            Albatross
+        </text>
+        <text font-size="24" x="28.122316" y="184.53348" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17308">
+            By the Stars
+        </text>
+        <text font-size="24" x="231.84375" y="571.2276" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17315">
+            Ghostlights&amp; Galleons
+        </text>
+        <text font-size="24" x="352.514" y="507.36264" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17316">
+            Currents&amp; Curses
+        </text>
+        <text font-size="24" x="428.76807" y="355.18204" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17317">
+            The Quiet of the Deep
+        </text>
+        <text font-size="24" x="-330.252" y="510.2769" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17328">
+            Wreck and Reverie
+        </text>
+        <text font-size="24" x="-203.35117" y="521.79047" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17329">
+            Ossuary of the Deep
+        </text>
+        <text font-size="24" x="-48.62326" y="544.7843" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17330">
+            Phantom Currents
+        </text>
+        <text font-size="24" x="-34.852715" y="681.33484" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17331">
+            Lodestone&amp; Lament
+        </text>
+        <text font-size="24" x="331.88702" y="-294.63278" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17332">
+            Where the Lanterns Fade
+        </text>
+        <text font-size="24" x="199.38046" y="432.26562" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17333">
+            The Undertow Waltz
+        </text>
+        <text font-size="24" x="379.80542" y="5.2839203" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17334">
+            Sable Waves
+        </text>
+        <text font-size="24" x="264.5145" y="-67.3574" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17335">
+            Blackwater Hymn
+        </text>
+        <text font-size="24" x="-34.857677" y="-80.98388" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17336">
+            The Coral Spire
+        </text>
+        <text font-size="24" x="473.6084" y="-110.19097" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17337">
+            Wake Drinker
+        </text>
+        <text font-size="24" x="-190.02151" y="-233.37727" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17338">
+            Vanishing Point
+        </text>
+        <text font-size="24" x="157.13446" y="6.399913" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17339">
+            The Sompass Spins
+        </text>
+        <text font-size="24" x="-390.8475" y="-301.86517" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17350">
+            Tidesworn Ballads
+        </text>
+        <text font-size="24" x="-582.64636" y="-230.87895" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17356">
+            Submerged Sonatas
+        </text>
+        <text font-size="24" x="164.70038" y="201.49518" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17362">
+            Tide-Worn Tales
+        </text>
+        <text font-size="24" x="-28.176683" y="316.95636" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17363">
+            The Sunken Compass
+        </text>
+        <text font-size="24" x="-229.16898" y="-321.8658" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17364">
+            Crimson Cliffs Awakening
+        </text>
+        <text font-size="24" x="639.8275" y="-247.6101" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17365">
+            Salt-Stained Letters
+        </text>
+        <text font-size="24" x="396.4303" y="162.31862" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17366">
+            Canyon Echoes, Ocean Dreams
+        </text>
+        <text font-size="24" x="645.0841" y="-7.2060604" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17367">
+            The Cartographer&apos;s Curse
+        </text>
+        <text font-size="24" x="-159.51953" y="-104.82816" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17368">
+            Shadows in Smuggler&apos;s Cove
+        </text>
+        <text font-size="24" x="-1102.4978" y="-159.68005" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_17410">
+            Seashell Serenade
+        </text>
+    </g>
+</svg>
