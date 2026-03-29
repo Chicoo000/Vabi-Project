@@ -37,7 +37,14 @@ While her working circle was small, her creative impact was **huge**. This graph
 
 ### (c) How has she influenced collaborators of the broader Oceanus Folk community? ###
 ![Influence on Oceanus Folk Community](images/1c.svg){width=100% height=100%}
-Filtering the 2nd-degree network exclusively for Oceanus Folk reveals several **disconnected** sub-graphs (isolated nodes). This visually proves that Sailor Shift's influence on her own genre occasionally required 'cross-genre pollination'. She influenced Pop/Electronic artists, who in turn brought her stylistic markers back into the Folk community.
+By filtering the network exclusively for the Oceanus Folk genre, at max hops, we reveal the structural backbone of the music itself. This visualisation maps how Sailor Shift's catalogue is woven into the broader discography of the genre.
+
+- **The Tangled Core**: The dense web of connected nodes represents a highly referential body of work. Within the Oceanus Folk genre, songs and albums are deeply intertwined through covers, lyrical references, and shared album structures. Sailor Shift's catalog sits firmly within this core, proving her music is a foundational part of the genre's shared canon.
+
+- **The Standalone Tracks**: The isolated nodes floating around the perimeter represent standalone works. These are specific Oceanus Folk songs or albums connected to Sailor Shift that exist independently, without musically referencing or being referenced by the rest of the genre's catalog.
+
+Ultimately, this visual shifts the focus from professional networking to musical legacy, proving that Sailor Shift's body of work is deeply embedded in the referential fabric of the Oceanus Folk genre.
+
 ### 2. Oceanus Folk Influence Across the Musical World ###
 
 This section examines how Oceanus Folk spread across the wider musical world, whether that spread was gradual or intermittent, which genres and artists were most influenced, and how the genre itself evolved after Sailor Shift’s 2028 breakthrough.
