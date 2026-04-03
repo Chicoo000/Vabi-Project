@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-16e544efda5fa543d9919adb143136b0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="custom.scss">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -139,7 +139,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#node-types" id="toc-node-types" class="nav-link" data-scroll-target="#node-types">Node Types</a></li>
   <li><a href="#edge-types" id="toc-edge-types" class="nav-link" data-scroll-target="#edge-types">Edge Types</a></li>
   <li><a href="#analytical-procedure" id="toc-analytical-procedure" class="nav-link" data-scroll-target="#analytical-procedure">Analytical Procedure</a></li>
-  <li><a href="#analytical-procedure-1" id="toc-analytical-procedure-1" class="nav-link" data-scroll-target="#analytical-procedure-1">Analytical Procedure</a></li>
   <li><a href="#visualization-design" id="toc-visualization-design" class="nav-link" data-scroll-target="#visualization-design">Visualization Design</a></li>
   </ul></li>
   </ul>
@@ -271,64 +270,55 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>DirectlySamples:</strong> A work directly samples another work</li>
 <li><strong>LyricalReferenceTo:</strong> A work references another work lyrically</li>
 </ul>
+<!-- ### Analytical Procedure
+
+The analysis was carried out in the following stages:
+
+#### 1. Data Preparation
+
+- Loaded the node and edge tables into Python
+- Verified that all `source` and `target` values map correctly to node `id` values
+- Checked node types, edge types, and available attributes
+- Cleaned and organized the data for graph analysis
+
+#### 2. Graph Construction
+
+- Converted the dataset into a directed multigraph
+- Linked node attributes and edge relationships into one graph structure
+- Preserved multiple relationship types between the same pair of nodes using the `key` attribute
+
+#### 3. Career and Influence Analysis
+
+- Filtered the graph around Sailor Shift and related entities
+- Examined:
+  - artists who influenced Sailor Shift
+  - her collaborators
+  - artists and communities she influenced directly or indirectly
+
+#### 4. Temporal Analysis
+
+Used `release_date`, `written_date`, and `notoriety_date` to study:
+
+- Sailor Shift’s career growth over time
+- the spread of Oceanus Folk
+- changes in influence patterns across years
+
+#### 5. Comparative and Predictive Analysis
+
+Compared the careers of selected artists using:
+
+- release activity
+- collaborations
+- notable works
+- influence connections
+
+Used these patterns to identify characteristics of a rising star.
+
+Predicted **three likely future Oceanus Folk stars** based on observed trends. -->
 </section>
 </section>
 <section id="analytical-procedure" class="level3">
 <h3 class="anchored" data-anchor-id="analytical-procedure">Analytical Procedure</h3>
-<p>The analysis was carried out in the following stages:</p>
-<section id="data-preparation" class="level4">
-<h4 class="anchored" data-anchor-id="data-preparation">1. Data Preparation</h4>
-<ul>
-<li>Loaded the node and edge tables into Python</li>
-<li>Verified that all <code>source</code> and <code>target</code> values map correctly to node <code>id</code> values</li>
-<li>Checked node types, edge types, and available attributes</li>
-<li>Cleaned and organized the data for graph analysis</li>
-</ul>
-</section>
-<section id="graph-construction" class="level4">
-<h4 class="anchored" data-anchor-id="graph-construction">2. Graph Construction</h4>
-<ul>
-<li>Converted the dataset into a directed multigraph</li>
-<li>Linked node attributes and edge relationships into one graph structure</li>
-<li>Preserved multiple relationship types between the same pair of nodes using the <code>key</code> attribute</li>
-</ul>
-</section>
-<section id="career-and-influence-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="career-and-influence-analysis">3. Career and Influence Analysis</h4>
-<ul>
-<li>Filtered the graph around Sailor Shift and related entities</li>
-<li>Examined:
-<ul>
-<li>artists who influenced Sailor Shift</li>
-<li>her collaborators</li>
-<li>artists and communities she influenced directly or indirectly</li>
-</ul></li>
-</ul>
-</section>
-<section id="temporal-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="temporal-analysis">4. Temporal Analysis</h4>
-<p>Used <code>release_date</code>, <code>written_date</code>, and <code>notoriety_date</code> to study:</p>
-<ul>
-<li>Sailor Shift’s career growth over time</li>
-<li>the spread of Oceanus Folk</li>
-<li>changes in influence patterns across years</li>
-</ul>
-</section>
-<section id="comparative-and-predictive-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="comparative-and-predictive-analysis">5. Comparative and Predictive Analysis</h4>
-<p>Compared the careers of selected artists using:</p>
-<ul>
-<li>release activity</li>
-<li>collaborations</li>
-<li>notable works</li>
-<li>influence connections</li>
-</ul>
-<p>Used these patterns to identify characteristics of a rising star.</p>
-<p>Predicted <strong>three likely future Oceanus Folk stars</strong> based on observed trends.</p>
-</section>
-</section>
-<section id="analytical-procedure-1" class="level3">
-<h3 class="anchored" data-anchor-id="analytical-procedure-1">Analytical Procedure</h3>
 <p>The analysis was carried out systematically to address the three core research questions.</p>
 <section id="methodology-for-question-1" class="level4">
 <h4 class="anchored" data-anchor-id="methodology-for-question-1">Methodology for Question 1</h4>
@@ -338,9 +328,26 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="data-used" class="level5">
 <h5 class="anchored" data-anchor-id="data-used">1.2 Data Used</h5>
-<p>The analysis used the music knowledge graph dataset: - <code>mc1_nodes.csv</code> for entity information - <code>mc1_edges.csv</code> for relationships</p>
-<p><strong>Relevant node types</strong> - Song - Album - Person - MusicalGroup</p>
-<p><strong>Relevant edge types</strong> To map the internal topology and legacy, the following relationship types were used: - PerformerOf - ComposerOf - CoverOf - LyricalReferenceTo - PartOf</p>
+<p>The analysis used the music knowledge graph dataset:</p>
+<ul>
+<li><p><code>mc1_nodes.csv</code> for entity information</p></li>
+<li><p><code>mc1_edges.csv</code> for relationships</p></li>
+</ul>
+<p><strong>Relevant node types</strong></p>
+<ul>
+<li><p>Song</p></li>
+<li><p>Album</p></li>
+<li><p>Person</p></li>
+<li><p>MusicalGroup</p></li>
+</ul>
+<p><strong>Relevant edge types</strong> To map the internal topology and legacy, the following relationship types were used:</p>
+<ul>
+<li><p>PerformerOf</p></li>
+<li><p>ComposerOf</p></li>
+<li><p>CoverOf</p></li>
+<li><p>LyricalReferenceTo</p></li>
+<li><p>PartOf</p></li>
+</ul>
 </section>
 <section id="analytical-logic" class="level5">
 <h5 class="anchored" data-anchor-id="analytical-logic">1.3 Analytical Logic</h5>
@@ -360,65 +367,183 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="methodology-for-question-2">Methodology for Question 2</h4>
 <section id="objective-1" class="level5">
 <h5 class="anchored" data-anchor-id="objective-1">2.1 Objective</h5>
-<p>Question 2 examines how the influence of Oceanus Folk spread across the wider music industry and how the genre itself evolved after the rise of Sailor Shift. The analysis focuses on three sub-questions: - whether Oceanus Folk’s influence spread gradually or intermittently - which genres and artists were most influenced by Oceanus Folk - how Oceanus Folk changed after Sailor Shift’s rise, and which genres became its main contemporary inspirations</p>
+<p>Question 2 examines how the influence of Oceanus Folk spread across the wider music industry and how the genre itself evolved after the rise of Sailor Shift. The analysis focuses on three sub-questions:</p>
+<ul>
+<li><p>whether Oceanus Folk’s influence spread gradually or intermittently</p></li>
+<li><p>which genres and artists were most influenced by Oceanus Folk</p></li>
+<li><p>how Oceanus Folk changed after Sailor Shift’s rise, and which genres became its main contemporary inspirations</p></li>
+</ul>
 </section>
 <section id="data-used-1" class="level5">
 <h5 class="anchored" data-anchor-id="data-used-1">2.2 Data Used</h5>
-<p>The analysis used the same music knowledge graph dataset: - <code>mc1_nodes.csv</code> for entity information - <code>mc1_edges.csv</code> for relationships between entities</p>
-<p><strong>Relevant node types</strong> - Song - Album - Person - MusicalGroup</p>
-<p><strong>Relevant node attributes</strong> - id - name - genre - release_date - written_date - notable - notoriety_date - type</p>
-<p><strong>Relevant edge types</strong> To capture musical influence, the following relationship types were used: - InStyleOf - InterpolatesFrom - CoverOf - DirectlySamples - LyricalReferenceTo</p>
-<p>To connect works to artists, the following relationship type was also used: - PerformerOf</p>
+<p>The analysis used the same music knowledge graph dataset:</p>
+<ul>
+<li><p><code>mc1_nodes.csv</code> for entity information</p></li>
+<li><p><code>mc1_edges.csv</code> for relationships between entities</p></li>
+</ul>
+<p><strong>Relevant node types</strong></p>
+<ul>
+<li><p>Song</p></li>
+<li><p>Album</p></li>
+<li><p>Person</p></li>
+<li><p>MusicalGroup</p></li>
+</ul>
+<p><strong>Relevant node attributes</strong></p>
+<ul>
+<li><p>id</p></li>
+<li><p>name</p></li>
+<li><p>genre</p></li>
+<li><p>release_date</p></li>
+<li><p>written_date</p></li>
+<li><p>notable</p></li>
+<li><p>notoriety_date</p></li>
+<li><p>type</p></li>
+</ul>
+<p><strong>Relevant edge types</strong> To capture musical influence, the following relationship types were used:</p>
+<ul>
+<li><p>InStyleOf</p></li>
+<li><p>InterpolatesFrom</p></li>
+<li><p>CoverOf</p></li>
+<li><p>DirectlySamples</p></li>
+<li><p>LyricalReferenceTo</p></li>
+</ul>
+<p>To connect works to artists, the following relationship type was also used:</p>
+<ul>
+<li>PerformerOf</li>
+</ul>
 </section>
-<section id="data-preparation-1" class="level5">
-<h5 class="anchored" data-anchor-id="data-preparation-1">2.3 Data Preparation</h5>
-<p><strong>Graph structure</strong> The edge table was used as the base table, and the node table was joined twice: - once to identify the source work - once to identify the target work</p>
-<p>This allowed each influence edge to be interpreted using: - source work genre - target work genre - source work year - target work year</p>
-<p><strong>Time variable</strong> A unified work year field was created using: - release_date as the primary year - written_date as a fallback - notoriety_date as a second fallback where necessary</p>
+<section id="data-preparation" class="level5">
+<h5 class="anchored" data-anchor-id="data-preparation">2.3 Data Preparation</h5>
+<p><strong>Graph structure</strong> The edge table was used as the base table, and the node table was joined twice:</p>
+<ul>
+<li><p>once to identify the source work</p></li>
+<li><p>once to identify the target work</p></li>
+</ul>
+<p>This allowed each influence edge to be interpreted using:</p>
+<ul>
+<li><p>source work genre</p></li>
+<li><p>target work genre</p></li>
+<li><p>source work year</p></li>
+<li><p>target work year</p></li>
+</ul>
+<p><strong>Time variable</strong> A unified work year field was created using:</p>
+<ul>
+<li><p>release_date as the primary year</p></li>
+<li><p>written_date as a fallback</p></li>
+<li><p>notoriety_date as a second fallback where necessary</p></li>
+</ul>
 <p>This derived year was used as the main temporal variable in all Question 2 visualizations.</p>
 <p><strong>Influence filter</strong> Only rows belonging to the five influence-related edge types were retained, so that the analysis focused on stylistic borrowing, referencing, and musical reuse rather than production or membership relationships.</p>
 </section>
 <section id="analytical-logic-1" class="level5">
 <h5 class="anchored" data-anchor-id="analytical-logic-1">2.4 Analytical Logic</h5>
 <p>The analysis depends on the direction of the influence edges.</p>
-<p><strong>Outward influence from Oceanus Folk</strong> To identify how Oceanus Folk spread to the wider music world, the following logic was used: - target genre = Oceanus Folk - source genre ≠ Oceanus Folk</p>
-<p>This means: - the source work is a non-Oceanus Folk work - the target work is an Oceanus Folk work - therefore, the source work is drawing influence from Oceanus Folk</p>
-<p>This outward subset was used for: - influence over time - top influenced genres - top influenced artists</p>
-<p><strong>Inward inspiration into Oceanus Folk</strong> To identify how Oceanus Folk changed over time, the reverse logic was used: - source genre = Oceanus Folk - target genre ≠ Oceanus Folk</p>
-<p>This means: - the Oceanus Folk work is referencing or borrowing from another genre - therefore, the target genre represents a source of inspiration for Oceanus Folk</p>
+<p><strong>Outward influence from Oceanus Folk</strong> To identify how Oceanus Folk spread to the wider music world, the following logic was used:</p>
+<ul>
+<li><p>target genre = Oceanus Folk</p></li>
+<li><p>source genre ≠ Oceanus Folk</p></li>
+</ul>
+<p>This means:</p>
+<ul>
+<li><p>the source work is a non-Oceanus Folk work</p></li>
+<li><p>the target work is an Oceanus Folk work</p></li>
+<li><p>therefore, the source work is drawing influence from Oceanus Folk</p></li>
+</ul>
+<p>This outward subset was used for:</p>
+<ul>
+<li><p>influence over time</p></li>
+<li><p>top influenced genres</p></li>
+<li><p>top influenced artists</p></li>
+</ul>
+<p><strong>Inward inspiration into Oceanus Folk</strong> To identify how Oceanus Folk changed over time, the reverse logic was used:</p>
+<ul>
+<li><p>source genre = Oceanus Folk</p></li>
+<li><p>target genre ≠ Oceanus Folk</p></li>
+</ul>
+<p>This means:</p>
+<ul>
+<li><p>the Oceanus Folk work is referencing or borrowing from another genre</p></li>
+<li><p>therefore, the target genre represents a source of inspiration for Oceanus Folk</p></li>
+</ul>
 <p>This inward subset was used to analyze how Oceanus Folk evolved before and after Sailor Shift’s rise.</p>
 </section>
 <section id="method-for-question-2a-was-the-influence-intermittent-or-gradual" class="level5">
 <h5 class="anchored" data-anchor-id="method-for-question-2a-was-the-influence-intermittent-or-gradual">2.5 Method for Question 2(a): Was the influence intermittent or gradual?</h5>
 <p>To evaluate whether Oceanus Folk’s influence spread intermittently or gradually, the outward influence subset was grouped by the source work year.</p>
-<p><strong>Measures used</strong> - Number of influence mentions: total count of influence edges per year - Number of unique influenced works: distinct count of source works per year - Cumulative unique influenced works: running total of distinct source works over time</p>
+<p><strong>Measures used</strong></p>
+<ul>
+<li><p>Number of influence mentions: total count of influence edges per year</p></li>
+<li><p>Number of unique influenced works: distinct count of source works per year</p></li>
+<li><p>Cumulative unique influenced works: running total of distinct source works over time</p></li>
+</ul>
 <p><strong>Why these measures were used</strong> The distinct count of source works was used as the main metric because a single work could contain multiple influence links, which would overstate spread if only raw edge counts were used.</p>
-<p><strong>Visualization used</strong> - yearly line chart of unique influenced works - cumulative line chart of unique influenced works over time</p>
+<p><strong>Visualization used</strong></p>
+<ul>
+<li><p>yearly line chart of unique influenced works</p></li>
+<li><p>cumulative line chart of unique influenced works over time</p></li>
+</ul>
 <p>These charts made it possible to determine whether Oceanus Folk spread through isolated spikes, steady growth, or a hybrid of both.</p>
 </section>
 <section id="method-for-question-2b-what-genres-and-artists-were-most-influenced-by-oceanus-folk" class="level5">
 <h5 class="anchored" data-anchor-id="method-for-question-2b-what-genres-and-artists-were-most-influenced-by-oceanus-folk">2.6 Method for Question 2(b): What genres and artists were most influenced by Oceanus Folk?</h5>
 <p><strong>Genre analysis</strong> Using the outward influence subset, the source work genre was grouped and ranked.</p>
-<p><strong>Measures used for genres</strong> - distinct count of influenced works - raw count of influence mentions - comparison across genres</p>
+<p><strong>Measures used for genres</strong></p>
+<ul>
+<li><p>distinct count of influenced works</p></li>
+<li><p>raw count of influence mentions</p></li>
+<li><p>comparison across genres</p></li>
+</ul>
 <p><strong>Why this was done</strong> The source genre indicates which genres were borrowing from or referencing Oceanus Folk. Ranking these genres reveals which parts of the music world absorbed Oceanus Folk most strongly.</p>
 <p><strong>Artist analysis</strong> To identify the artists most influenced by Oceanus Folk, influenced works were linked back to performers using PerformerOf.</p>
-<p><strong>Measures used for artists</strong> - distinct count of influenced works per artist - recent activity where relevant - notable works as supporting context</p>
-<p><strong>Filtering approach</strong> - only valid artist-work links were retained - artists were filtered to Person when focusing on solo artists - unique artist identifiers were used to avoid merging different artists with the same name</p>
-<p><strong>Visualization used</strong> - horizontal bar chart of top influenced genres - horizontal bar chart of top influenced artists</p>
+<p><strong>Measures used for artists</strong></p>
+<ul>
+<li><p>distinct count of influenced works per artist</p></li>
+<li><p>recent activity where relevant</p></li>
+<li><p>notable works as supporting context</p></li>
+</ul>
+<p><strong>Filtering approach</strong></p>
+<ul>
+<li><p>only valid artist-work links were retained</p></li>
+<li><p>artists were filtered to Person when focusing on solo artists</p></li>
+<li><p>unique artist identifiers were used to avoid merging different artists with the same name</p></li>
+</ul>
+<p><strong>Visualization used</strong></p>
+<ul>
+<li><p>horizontal bar chart of top influenced genres</p></li>
+<li><p>horizontal bar chart of top influenced artists</p></li>
+</ul>
 <p>These views answered which genres and artists were most strongly shaped by Oceanus Folk.</p>
 </section>
 <section id="method-for-question-2c-how-has-oceanus-folk-changed-with-the-rise-of-sailor-shift" class="level5">
 <h5 class="anchored" data-anchor-id="method-for-question-2c-how-has-oceanus-folk-changed-with-the-rise-of-sailor-shift">2.7 Method for Question 2(c): How has Oceanus Folk changed with the rise of Sailor Shift?</h5>
 <p>To understand how Oceanus Folk evolved, the inward inspiration subset was split into two time periods using Sailor Shift’s breakthrough year.</p>
-<p><strong>Turning point used</strong> - Before 2028 - 2028 and after</p>
+<p><strong>Turning point used</strong></p>
+<ul>
+<li><p>Before 2028</p></li>
+<li><p>2028 and after</p></li>
+</ul>
 <p><strong>Why 2028 was used</strong> The project brief identifies 2028 as the year of Sailor Shift’s breakthrough, making it the most meaningful historical breakpoint for evaluating change in Oceanus Folk.</p>
-<p><strong>Measures used</strong> - distinct count of Oceanus Folk works influenced by each target genre - recent notable Oceanus Folk works where needed for supporting analysis - maximum active year for recency checks</p>
-<p><strong>Visualization used</strong> - side-by-side comparison of inspiration genres before and after 2028 - post-2028 ranking chart of top contemporary inspiration genres</p>
+<p><strong>Measures used</strong></p>
+<ul>
+<li><p>distinct count of Oceanus Folk works influenced by each target genre</p></li>
+<li><p>recent notable Oceanus Folk works where needed for supporting analysis</p></li>
+<li><p>maximum active year for recency checks</p></li>
+</ul>
+<p><strong>Visualization used</strong></p>
+<ul>
+<li><p>side-by-side comparison of inspiration genres before and after 2028</p></li>
+<li><p>post-2028 ranking chart of top contemporary inspiration genres</p></li>
+</ul>
 <p><strong>Why this approach was used</strong> This allowed the analysis to compare which genres shaped Oceanus Folk before Sailor’s rise, which genres became more important afterward, and whether Oceanus Folk became more hybrid and diverse in the contemporary period.</p>
 </section>
 <section id="validation-approach" class="level5">
 <h5 class="anchored" data-anchor-id="validation-approach">2.8 Validation Approach</h5>
-<p>To improve reliability, findings were cross-checked across multiple views: - time-based spread patterns were checked against genre rankings - top influenced genres were compared with top influenced artists - changes in inward inspiration were checked using both before/after comparison and post-2028 ranking</p>
+<p>To improve reliability, findings were cross-checked across multiple views:</p>
+<ul>
+<li><p>time-based spread patterns were checked against genre rankings</p></li>
+<li><p>top influenced genres were compared with top influenced artists</p></li>
+<li><p>changes in inward inspiration were checked using both before/after comparison and post-2028 ranking</p></li>
+</ul>
 <p>This reduced the risk of relying on a single chart or single metric.</p>
 </section>
 <section id="summary-of-method" class="level5">
@@ -432,49 +557,138 @@ ul.task-list li input[type="checkbox"] {
 <section id="objective-2" class="level5">
 <h5 class="anchored" data-anchor-id="objective-2">3.1 Objective</h5>
 <p>Question 3 aims to develop a profile of what it means to be a rising star in the music industry and then use that profile to predict the next Oceanus Folk stars over the next five years.</p>
-<p>The analysis was divided into two parts: - <strong>Part A:</strong> Compare the careers of three artists to define the characteristics of a rising star. - <strong>Part B:</strong> Build a shortlist of recent Oceanus Folk artists and use the rising-star profile to make three predictions.</p>
+<p>The analysis was divided into two parts:</p>
+<ul>
+<li><p><strong>Part A:</strong> Compare the careers of three artists to define the characteristics of a rising star.</p></li>
+<li><p><strong>Part B:</strong> Build a shortlist of recent Oceanus Folk artists and use the rising-star profile to make three predictions.</p></li>
+</ul>
 </section>
 <section id="part-a-build-the-rising-star-profile" class="level5">
 <h5 class="anchored" data-anchor-id="part-a-build-the-rising-star-profile">3.2 Part A: Build the rising-star profile</h5>
-<p><strong>Artist selection</strong> Three artists were selected to represent different career trajectories: - Sailor Shift (17255) as the breakout benchmark - Szymon Pyć (551) as a long, steady-growth artist - Sienna Fox (17012) as a newer high-momentum artist</p>
+<p><strong>Artist selection</strong> Three artists were selected to represent different career trajectories:</p>
+<ul>
+<li><p>Sailor Shift (17255) as the breakout benchmark</p></li>
+<li><p>Szymon Pyć (551) as a long, steady-growth artist</p></li>
+<li><p>Sienna Fox (17012) as a newer high-momentum artist</p></li>
+</ul>
 <p>This combination was used to compare three different pathways to prominence: a rapid breakout trajectory, a long and steady accumulation trajectory, and a recent high-momentum emergence trajectory.</p>
 <p><strong>Part A1: Build the artist-career data source</strong> A separate artist-career data source was created to connect artists to their works.</p>
-<p><strong>Tables used</strong> - <code>mc1_edges.csv</code> as Performer Edge - <code>mc1_nodes.csv</code> as Artist Node - <code>mc1_nodes.csv</code> as Work Node</p>
-<p><strong>Join logic</strong> - Performer Edge.source = Artist Node.id - Performer Edge.target = Work Node.id</p>
+<p><strong>Tables used</strong></p>
+<ul>
+<li><p><code>mc1_edges.csv</code> as Performer Edge</p></li>
+<li><p><code>mc1_nodes.csv</code> as Artist Node</p></li>
+<li><p><code>mc1_nodes.csv</code> as Work Node</p></li>
+</ul>
+<p><strong>Join logic</strong></p>
+<ul>
+<li><p>Performer Edge.source = Artist Node.id</p></li>
+<li><p>Performer Edge.target = Work Node.id</p></li>
+</ul>
 <p>This data source was used to study career output over time, popularity growth over time, and Oceanus Folk candidate activity.</p>
 <p><strong>Part A2: Create calculated fields for artist-career analysis</strong> The following calculated fields were created:</p>
 <ol type="1">
-<li><strong>Is Performer Edge:</strong> Used to keep only performer relationships. <code>[Edge Type] = "PerformerOf"</code></li>
-<li><strong>Work ID:</strong> Used to identify distinct works performed by each artist. <code>[Target]</code></li>
-<li><strong>Work Year:</strong> Used to assign a year to each work. The year was taken from release_date first, then written_date, then notoriety_date.</li>
-<li><strong>Valid Artist Work:</strong> Used to keep only valid artist-work rows.</li>
-<li><strong>Notable Work ID:</strong> Used to identify works marked as notable. <code>IF UPPER(TRIM([Notable (Mc1 Nodes.Csv1)])) = "TRUE" THEN [Work ID] END</code></li>
-<li><strong>Recent Work ID:</strong> Used to identify works in the recent period. <code>IF [Work Year] &gt;= 2035 THEN [Work ID] END</code></li>
-<li><strong>Recent Notable Work ID:</strong> Used to identify notable works in the recent period.</li>
-<li><strong>Artist Name:</strong> Used for display.</li>
-<li><strong>Artist ID:</strong> Used to uniquely identify artists.</li>
-<li><strong>Artist Key:</strong> Used to avoid merging artists with the same name. <code>[Artist Name] + " (" + STR([Artist ID]) + ")"</code></li>
+<li><p><strong>Is Performer Edge:</strong> Used to keep only performer relationships. <code>[Edge Type] = "PerformerOf"</code></p></li>
+<li><p><strong>Work ID:</strong> Used to identify distinct works performed by each artist. <code>[Target]</code></p></li>
+<li><p><strong>Work Year:</strong> Used to assign a year to each work. The year was taken from release_date first, then written_date, then notoriety_date.</p></li>
+<li><p><strong>Valid Artist Work:</strong> Used to keep only valid artist-work rows.</p></li>
+<li><p><strong>Notable Work ID:</strong> Used to identify works marked as notable. <code>IF UPPER(TRIM([Notable (Mc1 Nodes.Csv1)])) = "TRUE" THEN [Work ID] END</code></p></li>
+<li><p><strong>Recent Work ID:</strong> Used to identify works in the recent period. <code>IF [Work Year] &gt;= 2035 THEN [Work ID] END</code></p></li>
+<li><p><strong>Recent Notable Work ID:</strong> Used to identify notable works in the recent period.</p></li>
+<li><p><strong>Artist Name:</strong> Used for display.</p></li>
+<li><p><strong>Artist ID:</strong> Used to uniquely identify artists.</p></li>
+<li><p><strong>Artist Key:</strong> Used to avoid merging artists with the same name. <code>[Artist Name] + " (" + STR([Artist ID]) + ")"</code></p></li>
 </ol>
 <p><strong>Part A3: Build the three comparison visualizations</strong></p>
-<p><strong>Visualization 1: Career Output Over Time</strong> This chart shows how the number of distinct works accumulated over time for the three selected artists. - Columns: Work Year - Rows: COUNTD(Work ID) - Color: Artist Name - Filter: Valid Artist Work = True - Artist filter: Sailor Shift, Szymon Pyć, Sienna Fox - Table calculation: Running Total This chart was used to compare the scale and pace of each artist’s output over time.</p>
-<p><strong>Visualization 2: Popularity Growth Over Time</strong> This chart shows how each artist accumulated notable works over time. - Columns: Work Year - Rows: COUNTD(Notable Work ID) - Color: Artist Name - Filter: Valid Artist Work = True - Artist filter: Sailor Shift, Szymon Pyć, Sienna Fox - Table calculation: Running Total This chart was used as a proxy for popularity growth.</p>
+<p><strong>Visualization 1: Career Output Over Time</strong> This chart shows how the number of distinct works accumulated over time for the three selected artists.</p>
+<ul>
+<li><p>Columns: Work Year</p></li>
+<li><p>Rows: COUNTD(Work ID)</p></li>
+<li><p>Color: Artist Name</p></li>
+<li><p>Filter: Valid Artist Work = True</p></li>
+<li><p>Artist filter: Sailor Shift, Szymon Pyć, Sienna Fox</p></li>
+<li><p>Table calculation: Running Total This chart was used to compare the scale and pace of each artist’s output over time.</p></li>
+</ul>
+<p><strong>Visualization 2: Popularity Growth Over Time</strong> This chart shows how each artist accumulated notable works over time.</p>
+<ul>
+<li><p>Columns: Work Year</p></li>
+<li><p>Rows: COUNTD(Notable Work ID)</p></li>
+<li><p>Color: Artist Name</p></li>
+<li><p>Filter: Valid Artist Work = True</p></li>
+<li><p>Artist filter: Sailor Shift, Szymon Pyć, Sienna Fox</p></li>
+<li><p>Table calculation: Running Total</p></li>
+</ul>
+<p>This chart was used as a proxy for popularity growth.</p>
 <p><strong>Visualization 3: Influence Growth Over Time</strong> This chart shows how often later works referenced each artist’s earlier work. For this visualization, a second data source was required.</p>
 <p><strong>Part A4: Build the artist-influence data source</strong> A separate artist-influence data source was built to measure when later works referenced each artist’s earlier work.</p>
-<p><strong>Tables used</strong> - <code>mc1_edges.csv</code> as Influence Edge - <code>mc1_nodes.csv</code> as Source Work - <code>mc1_nodes.csv</code> as Target Work - <code>mc1_edges.csv</code> as Performer Bridge - <code>mc1_nodes.csv</code> as Artist Node</p>
-<p><strong>Join logic</strong> - Influence Edge.source = Source Work.id - Influence Edge.target = Target Work.id - Influence Edge.target = Performer Bridge.target - Performer Bridge.source = Artist Node.id</p>
+<p><strong>Tables used</strong></p>
+<ul>
+<li><p><code>mc1_edges.csv</code> as Influence Edge</p></li>
+<li><p><code>mc1_nodes.csv</code> as Source Work</p></li>
+<li><p><code>mc1_nodes.csv</code> as Target Work</p></li>
+<li><p><code>mc1_edges.csv</code> as Performer Bridge</p></li>
+<li><p><code>mc1_nodes.csv</code> as Artist Node</p></li>
+</ul>
+<p><strong>Join logic</strong></p>
+<ul>
+<li><p>Influence Edge.source = Source Work.id</p></li>
+<li><p>Influence Edge.target = Target Work.id</p></li>
+<li><p>Influence Edge.target = Performer Bridge.target</p></li>
+<li><p>Performer Bridge.source = Artist Node.id</p></li>
+</ul>
 <p>This structure links the later referencing work to the earlier referenced work to the performer of that earlier work.</p>
-<p><strong>Part A5: Create calculated fields for artist-influence analysis</strong> 1. <strong>Is Influence Edge:</strong> Used to keep only influence-type relationships. 2. <strong>Is Performer Edge:</strong> Used to keep only performer relationships in the bridge table. 3. <strong>Influence Year:</strong> Used to assign a year to the later referencing work. 4. <strong>Valid Artist Influence:</strong> Used to keep only valid influence rows. 5. <strong>Referencing Work ID:</strong> Used to count distinct later works that referenced the artist’s earlier work. <code>[Source]</code> 6. <strong>Artist Key:</strong> Used to uniquely identify artists and avoid merging duplicate names.</p>
-<p><strong>Part A6: Build the influence chart</strong> <strong>Visualization 3: Influence Growth Over Time</strong> - Columns: Influence Year - Rows: COUNTD(Referencing Work ID) - Color: Artist Key - Filter: Valid Artist Influence = True - Artist filter: Sailor Shift, Szymon Pyć, Sienna Fox - Table calculation: Running Total This chart was used as a proxy for influence growth over time.</p>
+<p><strong>Part A5: Create calculated fields for artist-influence analysis</strong></p>
+<ol type="1">
+<li><p><strong>Is Influence Edge:</strong> Used to keep only influence-type relationships.</p></li>
+<li><p><strong>Is Performer Edge:</strong> Used to keep only performer relationships in the bridge table.</p></li>
+<li><p><strong>Influence Year:</strong> Used to assign a year to the later referencing work.</p></li>
+<li><p><strong>Valid Artist Influence:</strong> Used to keep only valid influence rows.</p></li>
+<li><p><strong>Referencing Work ID:</strong> Used to count distinct later works that referenced the artist’s earlier work. <code>[Source]</code></p></li>
+<li><p><strong>Artist Key:</strong> Used to uniquely identify artists and avoid merging duplicate names.</p></li>
+</ol>
+<p><strong>Part A6: Build the influence chart</strong> <strong>Visualization 3: Influence Growth Over Time</strong></p>
+<ul>
+<li><p>Columns: Influence Year</p></li>
+<li><p>Rows: COUNTD(Referencing Work ID)</p></li>
+<li><p>Color: Artist Key</p></li>
+<li><p>Filter: Valid Artist Influence = True</p></li>
+<li><p>Artist filter: Sailor Shift, Szymon Pyć, Sienna Fox</p></li>
+<li><p>Table calculation: Running Total</p></li>
+</ul>
+<p>This chart was used as a proxy for influence growth over time.</p>
 </section>
 <section id="part-b-build-the-oceanus-folk-prediction-shortlist" class="level5">
 <h5 class="anchored" data-anchor-id="part-b-build-the-oceanus-folk-prediction-shortlist">3.3 Part B: Build the Oceanus Folk prediction shortlist</h5>
 <p>The three comparison charts were sufficient to define the profile of a rising star, but they were not sufficient to predict the next Oceanus Folk stars. A separate shortlist sheet was therefore created using only recent Oceanus Folk artists.</p>
-<p><strong>Part B1: Create calculated fields for Oceanus Folk candidate ranking</strong> Using the artist-career data source, the following fields were created: 1. <strong>Oceanus Folk Work ID:</strong> <code>IF [Genre (Mc1 Nodes.Csv1)] = "Oceanus Folk" THEN [Work ID] END</code> 2. <strong>Recent Oceanus Folk Work ID:</strong> <code>IF [Genre (Mc1 Nodes.Csv1)] = "Oceanus Folk" AND [Work Year] &gt;= 2030 THEN [Work ID] END</code> 3. <strong>Recent Notable Oceanus Folk Work ID:</strong> <code>IF [Genre (Mc1 Nodes.Csv1)] = "Oceanus Folk" AND [Work Year] &gt;= 2030 AND UPPER(TRIM([Notable (Mc1 Nodes.Csv1)])) = "TRUE" THEN [Work ID] END</code> 4. <strong>Oceanus Folk Active Year:</strong> <code>IF [Genre (Mc1 Nodes.Csv1)] = "Oceanus Folk" THEN [Work Year] END</code></p>
+<p><strong>Part B1: Create calculated fields for Oceanus Folk candidate ranking</strong> Using the artist-career data source, the following fields were created:</p>
+<ol type="1">
+<li><p><strong>Oceanus Folk Work ID:</strong> <code>IF [Genre (Mc1 Nodes.Csv1)] = "Oceanus Folk" THEN [Work ID] END</code></p></li>
+<li><p><strong>Recent Oceanus Folk Work ID:</strong> <code>IF [Genre (Mc1 Nodes.Csv1)] = "Oceanus Folk" AND [Work Year] &gt;= 2030 THEN [Work ID] END</code></p></li>
+<li><p><strong>Recent Notable Oceanus Folk Work ID:</strong> <code>IF [Genre (Mc1 Nodes.Csv1)] = "Oceanus Folk" AND [Work Year] &gt;= 2030 AND UPPER(TRIM([Notable (Mc1 Nodes.Csv1)])) = "TRUE" THEN [Work ID] END</code></p></li>
+<li><p><strong>Oceanus Folk Active Year:</strong> <code>IF [Genre (Mc1 Nodes.Csv1)] = "Oceanus Folk" THEN [Work Year] END</code></p></li>
+</ol>
 <p><strong>Part B2: Build the shortlist table</strong> A shortlist sheet called Oceanus Folk Rising Star Candidates was created.</p>
-<p><strong>Filters applied</strong> - Valid Artist Work = True - Node Type = Person</p>
-<p><strong>Rows</strong> - Artist Key</p>
-<p><strong>Measures shown</strong> - MAX(Oceanus Folk Active Year) - COUNTD(Oceanus Folk Work ID) - COUNTD(Recent Oceanus Folk Work ID) - COUNTD(Recent Notable Oceanus Folk Work ID)</p>
-<p><strong>Sorting logic</strong> Candidates were ranked using the following priority: 1. COUNTD(Recent Notable Oceanus Folk Work ID) descending 2. COUNTD(Recent Oceanus Folk Work ID) descending 3. MAX(Oceanus Folk Active Year) descending</p>
+<p><strong>Filters applied</strong></p>
+<ul>
+<li><p>Valid Artist Work = True</p></li>
+<li><p>Node Type = Person</p></li>
+</ul>
+<p><strong>Rows</strong></p>
+<ul>
+<li>Artist Key</li>
+</ul>
+<p><strong>Measures shown</strong></p>
+<ul>
+<li><p>MAX(Oceanus Folk Active Year)</p></li>
+<li><p>COUNTD(Oceanus Folk Work ID)</p></li>
+<li><p>COUNTD(Recent Oceanus Folk Work ID)</p></li>
+<li><p>COUNTD(Recent Notable Oceanus Folk Work ID)</p></li>
+</ul>
+<p><strong>Sorting logic</strong> Candidates were ranked using the following priority:</p>
+<ol type="1">
+<li><p>COUNTD(Recent Notable Oceanus Folk Work ID) descending</p></li>
+<li><p>COUNTD(Recent Oceanus Folk Work ID) descending</p></li>
+<li><p>MAX(Oceanus Folk Active Year) descending</p></li>
+</ol>
 <p>This shortlist was then used to select the final three Oceanus Folk star predictions based on the “High-Momentum” profile.</p>
 </section>
 </section>

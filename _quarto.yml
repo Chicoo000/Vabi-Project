@@ -28,8 +28,8 @@ format:
   html:
     theme:
       - cosmo
-      - brand
-    css: styles.css
+      - custom.scss 
+    css: custom.scss
     toc: true
 
 resources:
