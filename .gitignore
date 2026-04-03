@@ -2,5 +2,5 @@
 **/*.quarto_ipynb
 MC1_data.zip
 MC1_data/
-vabi_project.twbx
-vabi_project_flow.tfl
+**.twbx
+**.tfl
