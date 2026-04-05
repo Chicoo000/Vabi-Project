@@ -97,12 +97,24 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./overview.html"> 
+<span class="menu-text">Overview</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./proposal.html"> 
 <span class="menu-text">Proposal</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./methodology.html"> 
 <span class="menu-text">Methodology</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./prototypes.html"> 
+<span class="menu-text">Prototypes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./storyboards.html"> 
+<span class="menu-text">Storyboards</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./analysis_and_results.html"> 
@@ -127,8 +139,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#part-1-navigating-the-interactive-graph" id="toc-part-1-navigating-the-interactive-graph" class="nav-link" data-scroll-target="#part-1-navigating-the-interactive-graph">Part 1: Navigating the Interactive Graph</a>
+  <ul class="collapse">
+  <li><a href="#basic-navigation" id="toc-basic-navigation" class="nav-link" data-scroll-target="#basic-navigation">Basic Navigation</a></li>
+  <li><a href="#using-the-search-and-filter-panel" id="toc-using-the-search-and-filter-panel" class="nav-link" data-scroll-target="#using-the-search-and-filter-panel">Using the Search and Filter Panel</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -152,10 +175,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This user guide will explain how to use our visual analytics application.</p>
-<p>It will provide step-by-step instructions on how to interact with the visualizations and interpret the results.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This guide explains how to interact with the interactive network graph generated for this project and provides technical instructions on how to embed the exported Sigma.js HTML file into a Quarto website.</p>
+</section>
+<section id="part-1-navigating-the-interactive-graph" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-navigating-the-interactive-graph">Part 1: Navigating the Interactive Graph</h2>
+<p>The network graph provides a dynamic view of the Sailor Shift’s influence in the music industry as well as the Oceanus Folk ecosystem. Use the following controls to explore the data:</p>
+<section id="basic-navigation" class="level3">
+<h3 class="anchored" data-anchor-id="basic-navigation">Basic Navigation</h3>
+<ul>
+<li><strong>Zooming:</strong> Use your mouse scroll wheel or the <code>+</code> and <code>-</code> buttons in the control panel to zoom in and out of the network.</li>
+<li><strong>Panning:</strong> Click and drag anywhere on the background canvas to move around the graph.</li>
+<li><strong>Hovering:</strong> Hover over any node (circle) to reveal its label (e.g., Artist Name, Song Title).</li>
+<li><strong>Clicking:</strong> Click on a specific node to highlight its direct connections (edges) while dimming the rest of the network. Click the background canvas to clear the selection.</li>
+</ul>
+</section>
+<section id="using-the-search-and-filter-panel" class="level3">
+<h3 class="anchored" data-anchor-id="using-the-search-and-filter-panel">Using the Search and Filter Panel</h3>
+<p>The control panel (typically located on the right or left side of the screen) allows for advanced exploration:</p>
+<ul>
+<li><strong>Search by Node:</strong> Use the search bar to find a specific artist or song. The graph will center on your search result.</li>
+<li><strong>Group Selection:</strong> If the data was partitioned in Gephi (e.g., by Node Type or Modularity Class), use the dropdown menus to filter the network to display only specific groups.</li>
+</ul>
+<hr>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

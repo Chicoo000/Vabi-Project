@@ -1,13 +1,32 @@
 ---
 title: "Project Overview"
+description: "A comprehensive look at the motivation, approach, and future directions for analyzing the Oceanus Folk ecosystem."
+toc: true
 ---
 
-This project, part of the VAST Challenge 2025, Mini Challenge 1, aims to analyze the career of musician Sailor Shift and the rise of the Oceanus Folk genre. 
+## Motivation
 
-Our primary objective is to develop a visual analytics website to explore:
-- Sailor Shift's career development and collaborations.
-- The influence network of Sailor Shift and Oceanus Folk.
-- The evolution and spread of the Oceanus Folk genre.
-- Identification of potential future stars in the Oceanus Folk scene.
+Understanding the lifecycle of a musical genre requires more than simply tracking album sales. It requires a deep structural analysis of its influence. Our motivation was to map the complete evolutionary trajectory of the "Oceanus Folk" genre. We set out to answer three core questions: **How is the genre’s foundational catalogue interconnected?** **How did its influence historically spread to the wider music industry?** And finally, **can we use visual analytics to predict the next generation of breakout stars?** By combining structural network topology with temporal momentum analytics, we aimed to build a comprehensive model of musical evolution.
+## Issues and Problems Addressed
 
-This website will present our analysis, visualizations, and findings.
+The core challenge of this project was untangling a dense, multi-relational knowledge graph of the music industry to assist music historians. To accurately map the ecosystem, we had to overcome several specific analytical hurdles:
+
+* **Isolating Musical Legacy:** The initial graph was an overwhelming hairball of professional and personal connections. The challenge was mathematically filtering the network to strip away the noise and isolate Sailor Shift's true referential footprint, proving how her specific catalogue acts as the foundational anchor for the Oceanus Folk genre.
+* **Temporal Data Engineering:** The dataset lacked chronological start dates for individual artists, creating a barrier to tracking the genre's evolution over time. The problem required engineering a directed-influence data model (linking artists to the release dates of their performed works) to accurately map the outward spread and shifting internal inspirations of the genre.
+* **Overcoming the "Newcomer Blindspot":** We discovered that traditional network metrics (such as PageRank and Degree Centrality) are lagging indicators that mathematically punish emerging talent. The core predictive challenge was pivoting from structural topology to "Momentum Analytics" to identify rising stars before they establish a mature network footprint.
+
+## Approach
+
+Our methodology fused graph-based network analysis (Gephi) with temporal data engineering (Tableau) to analyse the ecosystem across three distinct phases:
+
+* **Phase 1: Internal Topology (Mapping the Music):** We utilised an Ego Network filter centred on Sailor Shift intersected with the Oceanus Folk genre partition. This isolated her specific maximum reach within her community's discography. By visualising relationships like *CoverOf* and *DirectlySamples* among these specific songs and albums, we established how her catalogue acts as a foundational anchor for a highly referential, interconnected core of music.
+* **Phase 2: Historical Spread (Tracking the Influence):** To track external evolution, we engineered a directed-influence model in Tableau. By analysing outward edges against time, we tracked how Oceanus Folk spread to outside genres (e.g., Pop, Electronic) and how its own internal inspirations shifted over time.
+* **Phase 3: Predictive Momentum (Finding the Future):** To predict rising stars, we tested traditional network metrics (PageRank) but discovered they act as lagging indicators that mathematically punish newcomers. To solve this, we pivoted to "Momentum Analytics," identifying artists who lack mature network structures but exhibit a hyper-accelerated output of recent notable works, indicating imminent breakout status.
+
+## Future Work
+
+While this visual analytics model successfully maps the past, present, and predicted future of the Oceanus Folk ecosystem, future iterations can expand its capabilities:
+
+* **The Lag-Time Coefficient:** Tracking our predicted stars over the next five years of data to calculate exactly how long it takes for "Production Momentum" to translate into actual "Structural Network Centrality" (PageRank).
+* **Granular Temporal Slicing**: Transitioning from yearly aggregations to monthly or weekly time-series analyses to capture micro-trends and viral influence spikes even closer to an artist's initial debut.
+* **Thematic Sentiment Analysis:** Integrating **Natural Language Processing (NLP)** into the dataset's lyrical metadata to determine whether the highly referential core catalogue exhibits specific thematic signatures that act as catalysts for its influence on outside genres.

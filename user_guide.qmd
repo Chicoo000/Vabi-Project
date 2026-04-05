@@ -1,7 +1,29 @@
 ---
 title: "User Guide"
+toc: true
 ---
 
-This user guide will explain how to use our visual analytics application.
+## Overview
 
-It will provide step-by-step instructions on how to interact with the visualizations and interpret the results.
+This guide explains how to interact with the interactive network graph generated for this project and provides technical instructions on how to embed the exported Sigma.js HTML file into a Quarto website.
+
+## Part 1: Navigating the Interactive Graph
+
+The network graph provides a dynamic view of the Sailor Shift's influence in the music industry as well as the Oceanus Folk ecosystem. Use the following controls to explore the data:
+
+### Basic Navigation
+
+* **Zooming:** Use your mouse scroll wheel or the `+` and `-` buttons in the control panel to zoom in and out of the network.
+* **Panning:** Click and drag anywhere on the background canvas to move around the graph.
+* **Hovering:** Hover over any node (circle) to reveal its label (e.g., Artist Name, Song Title).
+* **Clicking:** Click on a specific node to highlight its direct connections (edges) while dimming the rest of the network. Click the background canvas to clear the selection.
+
+### Using the Search and Filter Panel
+
+The control panel (typically located on the right or left side of the screen) allows for advanced exploration:
+
+* **Search by Node:** Use the search bar to find a specific artist or song. The graph will center on your search result.
+* **Group Selection:** If the data was partitioned in Gephi (e.g., by Node Type or Modularity Class), use the dropdown menus to filter the network to display only specific groups.
+
+---
+

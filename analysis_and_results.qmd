@@ -18,7 +18,7 @@ The Sailor Shift Influence Network is a directed graph that illustrates the infl
 
 ![Most Influenced on Sailor Shift](images/1a.svg){width="100%" height="100%"}
 
-This graph looks only at the artists who inspired Sailor Shift. It shows that she didn't just invent her sound out of nowhere. Instead, her early music was heavily shaped by older artists. **Ivy Echos** stands out as her biggest influence, acting as the main inspiration that helped launch Sailor Shift’s career.
+This graph examines the foundational roots of Sailor Shift’s musical style. It reveals that her record-breaking sound did not emerge in a vacuum; rather, it evolved directly from her early collaborative work. **Ivy Echoes** stands out as the most significant node in her early network. Rather than being an external 'older' influence, this represents her own former band (active 2023–2026). The graph proves that her 2028 solo breakthrough was built heavily upon the stylistic foundation, catalog, and collaborative network she initially developed during her time with the group.
 
 ### (b) Who has she collaborated with and directly or indirectly influenced?
 

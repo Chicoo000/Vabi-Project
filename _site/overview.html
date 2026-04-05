@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="A comprehensive look at the motivation, approach, and future directions for analyzing the Oceanus Folk ecosystem.">
 
 <title>Project Overview – Visual Analytics Project</title>
 <style>
@@ -97,12 +98,24 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./overview.html" aria-current="page"> 
+<span class="menu-text">Overview</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./proposal.html"> 
 <span class="menu-text">Proposal</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./methodology.html"> 
 <span class="menu-text">Methodology</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./prototypes.html"> 
+<span class="menu-text">Prototypes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./storyboards.html"> 
+<span class="menu-text">Storyboards</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./analysis_and_results.html"> 
@@ -127,8 +140,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
+  <li><a href="#future-work" id="toc-future-work" class="nav-link" data-scroll-target="#future-work">Future Work</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -138,6 +159,11 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Project Overview</h1>
 </div>
 
+<div>
+  <div class="description">
+    A comprehensive look at the motivation, approach, and future directions for analyzing the Oceanus Folk ecosystem.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -152,11 +178,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project, part of the VAST Challenge 2025, Mini Challenge 1, aims to analyze the career of musician Sailor Shift and the rise of the Oceanus Folk genre.</p>
-<p>Our primary objective is to develop a visual analytics website to explore: - Sailor Shift’s career development and collaborations. - The influence network of Sailor Shift and Oceanus Folk. - The evolution and spread of the Oceanus Folk genre. - Identification of potential future stars in the Oceanus Folk scene.</p>
-<p>This website will present our analysis, visualizations, and findings.</p>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>Understanding the lifecycle of a musical genre requires more than simply tracking album sales. It requires a deep structural analysis of its influence. Our motivation was to map the complete evolutionary trajectory of the “Oceanus Folk” genre. We set out to answer three core questions: <strong>How is the genre’s foundational catalogue interconnected?</strong> <strong>How did its influence historically spread to the wider music industry?</strong> And finally, <strong>can we use visual analytics to predict the next generation of breakout stars?</strong> By combining structural network topology with temporal momentum analytics, we aimed to build a comprehensive model of musical evolution. ## Issues and Problems Addressed</p>
+<p>The core challenge of this project was untangling a dense, multi-relational knowledge graph of the music industry to assist music historians. To accurately map the ecosystem, we had to overcome several specific analytical hurdles:</p>
+<ul>
+<li><strong>Isolating Musical Legacy:</strong> The initial graph was an overwhelming hairball of professional and personal connections. The challenge was mathematically filtering the network to strip away the noise and isolate Sailor Shift’s true referential footprint, proving how her specific catalogue acts as the foundational anchor for the Oceanus Folk genre.</li>
+<li><strong>Temporal Data Engineering:</strong> The dataset lacked chronological start dates for individual artists, creating a barrier to tracking the genre’s evolution over time. The problem required engineering a directed-influence data model (linking artists to the release dates of their performed works) to accurately map the outward spread and shifting internal inspirations of the genre.</li>
+<li><strong>Overcoming the “Newcomer Blindspot”:</strong> We discovered that traditional network metrics (such as PageRank and Degree Centrality) are lagging indicators that mathematically punish emerging talent. The core predictive challenge was pivoting from structural topology to “Momentum Analytics” to identify rising stars before they establish a mature network footprint.</li>
+</ul>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<p>Our methodology fused graph-based network analysis (Gephi) with temporal data engineering (Tableau) to analyse the ecosystem across three distinct phases:</p>
+<ul>
+<li><strong>Phase 1: Internal Topology (Mapping the Music):</strong> We utilised an Ego Network filter centred on Sailor Shift intersected with the Oceanus Folk genre partition. This isolated her specific maximum reach within her community’s discography. By visualising relationships like <em>CoverOf</em> and <em>DirectlySamples</em> among these specific songs and albums, we established how her catalogue acts as a foundational anchor for a highly referential, interconnected core of music.</li>
+<li><strong>Phase 2: Historical Spread (Tracking the Influence):</strong> To track external evolution, we engineered a directed-influence model in Tableau. By analysing outward edges against time, we tracked how Oceanus Folk spread to outside genres (e.g., Pop, Electronic) and how its own internal inspirations shifted over time.</li>
+<li><strong>Phase 3: Predictive Momentum (Finding the Future):</strong> To predict rising stars, we tested traditional network metrics (PageRank) but discovered they act as lagging indicators that mathematically punish newcomers. To solve this, we pivoted to “Momentum Analytics,” identifying artists who lack mature network structures but exhibit a hyper-accelerated output of recent notable works, indicating imminent breakout status.</li>
+</ul>
+</section>
+<section id="future-work" class="level2">
+<h2 class="anchored" data-anchor-id="future-work">Future Work</h2>
+<p>While this visual analytics model successfully maps the past, present, and predicted future of the Oceanus Folk ecosystem, future iterations can expand its capabilities:</p>
+<ul>
+<li><strong>The Lag-Time Coefficient:</strong> Tracking our predicted stars over the next five years of data to calculate exactly how long it takes for “Production Momentum” to translate into actual “Structural Network Centrality” (PageRank).</li>
+<li><strong>Granular Temporal Slicing</strong>: Transitioning from yearly aggregations to monthly or weekly time-series analyses to capture micro-trends and viral influence spikes even closer to an artist’s initial debut.</li>
+<li><strong>Thematic Sentiment Analysis:</strong> Integrating <strong>Natural Language Processing (NLP)</strong> into the dataset’s lyrical metadata to determine whether the highly referential core catalogue exhibits specific thematic signatures that act as catalysts for its influence on outside genres.</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
