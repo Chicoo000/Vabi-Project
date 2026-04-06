@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.30">
+<meta name="generator" content="quarto-1.9.28">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-49e51e44f424ea8c7044b429bdbbbfe2.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-16e544efda5fa543d9919adb143136b0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -150,6 +150,19 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#basic-navigation" id="toc-basic-navigation" class="nav-link" data-scroll-target="#basic-navigation">Basic Navigation</a></li>
   <li><a href="#using-the-search-and-filter-panel" id="toc-using-the-search-and-filter-panel" class="nav-link" data-scroll-target="#using-the-search-and-filter-panel">Using the Search and Filter Panel</a></li>
   </ul></li>
+  <li><a href="#part-2-using-the-question-2-dashboard-spread-and-evolution-of-oceanus-folk" id="toc-part-2-using-the-question-2-dashboard-spread-and-evolution-of-oceanus-folk" class="nav-link" data-scroll-target="#part-2-using-the-question-2-dashboard-spread-and-evolution-of-oceanus-folk">Part 2: Using the Question 2 Dashboard — Spread and Evolution of Oceanus Folk</a>
+  <ul class="collapse">
+  <li><a href="#dashboard-components" id="toc-dashboard-components" class="nav-link" data-scroll-target="#dashboard-components">Dashboard Components</a></li>
+  <li><a href="#how-to-read-the-dashboard" id="toc-how-to-read-the-dashboard" class="nav-link" data-scroll-target="#how-to-read-the-dashboard">How to Read the Dashboard</a></li>
+  <li><a href="#suggested-interpretation-flow-for-question-2" id="toc-suggested-interpretation-flow-for-question-2" class="nav-link" data-scroll-target="#suggested-interpretation-flow-for-question-2">Suggested Interpretation Flow for Question 2</a></li>
+  </ul></li>
+  <li><a href="#part-3-using-the-question-3-dashboard-rising-star-profile-and-prediction" id="toc-part-3-using-the-question-3-dashboard-rising-star-profile-and-prediction" class="nav-link" data-scroll-target="#part-3-using-the-question-3-dashboard-rising-star-profile-and-prediction">Part 3: Using the Question 3 Dashboard — Rising Star Profile and Prediction</a>
+  <ul class="collapse">
+  <li><a href="#dashboard-components-1" id="toc-dashboard-components-1" class="nav-link" data-scroll-target="#dashboard-components-1">Dashboard Components</a></li>
+  <li><a href="#how-to-read-the-dashboard-1" id="toc-how-to-read-the-dashboard-1" class="nav-link" data-scroll-target="#how-to-read-the-dashboard-1">How to Read the Dashboard</a></li>
+  <li><a href="#suggested-interpretation-flow-for-question-3" id="toc-suggested-interpretation-flow-for-question-3" class="nav-link" data-scroll-target="#suggested-interpretation-flow-for-question-3">Suggested Interpretation Flow for Question 3</a></li>
+  </ul></li>
+  <li><a href="#general-interaction-tips-for-tableau-dashboards" id="toc-general-interaction-tips-for-tableau-dashboards" class="nav-link" data-scroll-target="#general-interaction-tips-for-tableau-dashboards">General Interaction Tips for Tableau Dashboards</a></li>
   </ul>
 </nav>
     </div>
@@ -198,10 +211,137 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Search by Node:</strong> Use the search bar to find a specific artist or song. The graph will center on your search result.</li>
 <li><strong>Group Selection:</strong> If the data was partitioned in Gephi (e.g., by Node Type or Modularity Class), use the dropdown menus to filter the network to display only specific groups.</li>
 </ul>
-<hr>
-
-
 </section>
+</section>
+<section id="part-2-using-the-question-2-dashboard-spread-and-evolution-of-oceanus-folk" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-using-the-question-2-dashboard-spread-and-evolution-of-oceanus-folk">Part 2: Using the Question 2 Dashboard — Spread and Evolution of Oceanus Folk</h2>
+<p>This dashboard explains how <strong>Oceanus Folk</strong> spread through the wider music industry, which genres and artists were most influenced by it, and how the genre itself changed after the rise of <strong>Sailor Shift</strong>.</p>
+<section id="dashboard-components" class="level3">
+<h3 class="anchored" data-anchor-id="dashboard-components">Dashboard Components</h3>
+<p>The Question 2 dashboard is divided into three main analytical views:</p>
+<ul>
+<li><strong>Influence Over Time:</strong> shows whether Oceanus Folk spread gradually or in bursts.</li>
+<li><strong>Top Genres and Artists Influenced by Oceanus Folk:</strong> shows which genres and artists most frequently adopted Oceanus Folk influence.</li>
+<li><strong>Genres Inspiring Oceanus Folk (Before vs After Sailor Shift):</strong> shows how Oceanus Folk’s own inspirations changed before and after Sailor Shift’s 2028 breakthrough.</li>
+</ul>
+</section>
+<section id="how-to-read-the-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-read-the-dashboard">How to Read the Dashboard</h3>
+<section id="influence-over-time" class="level4">
+<h4 class="anchored" data-anchor-id="influence-over-time">1. Influence Over Time</h4>
+<p><img src="images/paste-4.png" class="img-fluid"></p>
+<p>This section usually contains: * a <strong>yearly trend line</strong> showing the number of unique works influenced by Oceanus Folk each year * a <strong>cumulative line</strong> showing how Oceanus Folk influence built up over time</p>
+<p><strong>How to use it:</strong> * <strong>Hover</strong> over each point to see the year and value. * Look for whether the line rises steadily or shows sudden spikes. * Use the annotated <strong>2028 reference line</strong> (if included) to compare the spread before and after Sailor Shift’s breakthrough.</p>
+<p><strong>What it helps answer:</strong> * Was Oceanus Folk influence gradual or intermittent? * Did its spread accelerate after Sailor Shift’s rise?</p>
+</section>
+<section id="top-genres-influenced-by-oceanus-folk" class="level4">
+<h4 class="anchored" data-anchor-id="top-genres-influenced-by-oceanus-folk">2. Top Genres Influenced by Oceanus Folk</h4>
+<p><img src="images/paste-6.png" class="img-fluid"></p>
+<p>This section ranks the genres whose works most frequently reference or borrow from Oceanus Folk.</p>
+<p><strong>How to use it:</strong> * <strong>Hover</strong> over each bar to see the genre name and count. * Compare the bar lengths to identify which genres were influenced most strongly. * Read the highest-ranked genres first to identify the main receiving communities.</p>
+<p><strong>What it helps answer:</strong> * Which genres most strongly adopted Oceanus Folk? * Did the genre mostly spread to similar folk-based genres, or did it expand into more distant styles?</p>
+</section>
+<section id="top-artists-influenced-by-oceanus-folk" class="level4">
+<h4 class="anchored" data-anchor-id="top-artists-influenced-by-oceanus-folk">3. Top Artists Influenced by Oceanus Folk</h4>
+<p><img src="images/paste-7.png" class="img-fluid"></p>
+<p>This section ranks artists whose works show the strongest Oceanus Folk influence.</p>
+<p><strong>How to use it:</strong> * <strong>Hover</strong> over a bar to view the artist name and number of influenced works. * Where available, use the filter panel to focus on solo artists or compare across all performers. * Interpret the bars as showing <strong>distinct influenced works</strong>, not just raw reference counts.</p>
+<p><strong>What it helps answer:</strong> * Which artists most strongly absorbed Oceanus Folk into their own music? * Is the influence concentrated in a few artists or spread across many?</p>
+</section>
+<section id="genres-inspiring-oceanus-folk-before-vs-after-sailor-shift" class="level4">
+<h4 class="anchored" data-anchor-id="genres-inspiring-oceanus-folk-before-vs-after-sailor-shift">4. Genres Inspiring Oceanus Folk Before vs After Sailor Shift</h4>
+<p><img src="images/paste-8.png" class="img-fluid"></p>
+<p>This section compares the genres that influenced Oceanus Folk <strong>before 2028</strong> and <strong>from 2028 onward</strong>.</p>
+<p><strong>How to use it:</strong> * Use the color legend to distinguish <strong>Before 2028</strong> and <strong>2028 and After</strong>. * Compare the two bars for each genre to see whether that inspiration source increased or decreased after Sailor Shift’s rise. * Read from top to bottom to see which genres remained dominant and which newly emerged.</p>
+<p><strong>What it helps answer:</strong> * How did Oceanus Folk change after Sailor Shift became successful? * Which genres are its strongest contemporary inspirations?</p>
+</section>
+<section id="top-contemporary-inspiration-genres" class="level4">
+<h4 class="anchored" data-anchor-id="top-contemporary-inspiration-genres">5. Top Contemporary Inspiration Genres</h4>
+<p><img src="images/paste-9.png" class="img-fluid"></p>
+<p>This section isolates the <strong>post-2028</strong> period and ranks the genres most strongly influencing Oceanus Folk in the present era.</p>
+<p><strong>How to use it:</strong> * Hover over each bar for the exact count. * Focus on the top few genres to identify the clearest present-day inspiration sources. * Use this together with the before/after chart to distinguish long-term roots from newer influences.</p>
+<hr>
+</section>
+</section>
+<section id="suggested-interpretation-flow-for-question-2" class="level3">
+<h3 class="anchored" data-anchor-id="suggested-interpretation-flow-for-question-2">Suggested Interpretation Flow for Question 2</h3>
+<p>A good way to explore the Question 2 dashboard is:</p>
+<ol type="1">
+<li>Start with <strong>Influence Over Time</strong> to understand whether the spread was gradual or intermittent.</li>
+<li>Move to <strong>Top Genres Influenced by Oceanus Folk</strong> to see where the influence spread outward.</li>
+<li>Check <strong>Top Artists Influenced by Oceanus Folk</strong> to identify the human side of that spread.</li>
+<li>Finish with <strong>Genres Inspiring Oceanus Folk Before vs After Sailor Shift</strong> to understand how the genre evolved internally.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="part-3-using-the-question-3-dashboard-rising-star-profile-and-prediction" class="level2">
+<h2 class="anchored" data-anchor-id="part-3-using-the-question-3-dashboard-rising-star-profile-and-prediction">Part 3: Using the Question 3 Dashboard — Rising Star Profile and Prediction</h2>
+<p>This dashboard compares the careers of three artists to define what a <strong>rising star</strong> looks like in the dataset, then uses that profile to predict the next Oceanus Folk stars.</p>
+<section id="dashboard-components-1" class="level3">
+<h3 class="anchored" data-anchor-id="dashboard-components-1">Dashboard Components</h3>
+<p>The Question 3 dashboard is divided into four main views:</p>
+<ul>
+<li><strong>Career Output Over Time</strong></li>
+<li><strong>Popularity Growth Over Time</strong></li>
+<li><strong>Influence Growth Over Time</strong></li>
+<li><strong>Oceanus Folk Rising Star Candidates</strong></li>
+</ul>
+</section>
+<section id="how-to-read-the-dashboard-1" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-read-the-dashboard-1">How to Read the Dashboard</h3>
+<p><img src="images/paste-10.png" class="img-fluid"></p>
+<section id="career-output-over-time" class="level4">
+<h4 class="anchored" data-anchor-id="career-output-over-time">1. Career Output Over Time</h4>
+<p>This chart shows how each selected artist’s body of work grows over time.</p>
+<p><strong>How to use it:</strong> * <strong>Hover</strong> over a point on the line to see the year and cumulative number of works. * Compare the steepness of each line: * a steeper line means faster output growth * a flatter line means slower or more gradual output growth * Use the legend to identify which line belongs to which artist.</p>
+<p><strong>What it helps answer:</strong> * Which artist had the fastest career expansion? * Which artist built their catalog more steadily over time?</p>
+</section>
+<section id="popularity-growth-over-time" class="level4">
+<h4 class="anchored" data-anchor-id="popularity-growth-over-time">2. Popularity Growth Over Time</h4>
+<p>This chart shows the cumulative growth of <strong>notable works</strong> over time.</p>
+<p><strong>How to use it:</strong> * Hover over each point to see the cumulative number of notable works. * Compare how quickly the lines rise: * a fast-rising line indicates rapid recognition * a slow-rising line suggests more gradual visibility * Compare this chart with the output chart to see whether high productivity is translating into recognition.</p>
+<p><strong>What it helps answer:</strong> * Which artists converted their releases into recognition most effectively? * Did popularity rise gradually or through breakout moments?</p>
+</section>
+<section id="influence-growth-over-time" class="level4">
+<h4 class="anchored" data-anchor-id="influence-growth-over-time">3. Influence Growth Over Time</h4>
+<p>This chart shows how much each artist influenced later works by others.</p>
+<p><strong>How to use it:</strong> * Hover over each point to see cumulative referencing works. * Compare the slope of the lines: * a steep line indicates faster growth in influence * a slow line indicates slower or longer-term accumulation of impact * Compare this chart with the popularity chart to see whether influence follows after recognition.</p>
+<p><strong>What it helps answer:</strong> * Which artist’s work began influencing others most strongly? * Did influence grow immediately, or only after popularity increased?</p>
+</section>
+<section id="oceanus-folk-rising-star-candidates" class="level4">
+<h4 class="anchored" data-anchor-id="oceanus-folk-rising-star-candidates">4. Oceanus Folk Rising Star Candidates</h4>
+<p><img src="images/paste-11.png" class="img-fluid"></p>
+<p>This table ranks recent Oceanus Folk artists using measures such as: * total Oceanus Folk works * recent Oceanus Folk works * recent notable Oceanus Folk works * latest active year</p>
+<p><strong>How to use it:</strong> * Read the table from top to bottom after sorting by recent Oceanus Folk activity. * Use <strong>Recent Notable Oceanus Folk Works</strong> as the main indicator of current breakout potential. * Use <strong>Recent Oceanus Folk Works</strong> and <strong>Max Active Year</strong> as supporting indicators of momentum and recency. * Exclude <strong>Sailor Shift</strong> when focusing on “next-generation” predictions, since she is already the benchmark star.</p>
+<p><strong>What it helps answer:</strong> * Which Oceanus Folk artists currently show the strongest recent momentum? * Who best fits the rising-star profile developed from the three comparison charts?</p>
+<hr>
+</section>
+</section>
+<section id="suggested-interpretation-flow-for-question-3" class="level3">
+<h3 class="anchored" data-anchor-id="suggested-interpretation-flow-for-question-3">Suggested Interpretation Flow for Question 3</h3>
+<p>A good way to explore the Question 3 dashboard is:</p>
+<ol type="1">
+<li>Begin with <strong>Career Output Over Time</strong> to compare release momentum.</li>
+<li>Move to <strong>Popularity Growth Over Time</strong> to see how recognition developed.</li>
+<li>Use <strong>Influence Growth Over Time</strong> to compare broader industry impact.</li>
+<li>Finally, check the <strong>Oceanus Folk Rising Star Candidates</strong> table to identify who best matches the rising-star profile.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="general-interaction-tips-for-tableau-dashboards" class="level2">
+<h2 class="anchored" data-anchor-id="general-interaction-tips-for-tableau-dashboards">General Interaction Tips for Tableau Dashboards</h2>
+<p>If the dashboard is embedded from Tableau, the following controls may be available:</p>
+<ul>
+<li><strong>Hovering:</strong> reveals detailed values in the tooltip.</li>
+<li><strong>Clicking a bar or line:</strong> may highlight or filter related data in the dashboard.</li>
+<li><strong>Legend selection:</strong> allows you to isolate a category or artist visually.</li>
+<li><strong>Toolbar options:</strong> depending on the embed, you may be able to use fullscreen, download, or share features.</li>
+<li><strong>Resetting the view:</strong> click outside the selected mark or use the Tableau reset/revert option if available.</li>
+</ul>
+
+
 </section>
 
 </main> <!-- /main -->

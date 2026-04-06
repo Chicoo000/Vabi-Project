@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.30">
+<meta name="generator" content="quarto-1.9.28">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-49e51e44f424ea8c7044b429bdbbbfe2.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-16e544efda5fa543d9919adb143136b0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -152,6 +152,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#iteration-2-tableau-diagram-chart-extension" id="toc-iteration-2-tableau-diagram-chart-extension" class="nav-link" data-scroll-target="#iteration-2-tableau-diagram-chart-extension">Iteration 2: Tableau Diagram Chart Extension</a></li>
   <li><a href="#iteration-3-final-sigma.js-interactive-integration" id="toc-iteration-3-final-sigma.js-interactive-integration" class="nav-link" data-scroll-target="#iteration-3-final-sigma.js-interactive-integration">Iteration 3 (Final): Sigma.js Interactive Integration</a></li>
   </ul></li>
+  <li><a href="#iterations-for-question-2-tracing-the-spread-of-oceanus-folk" id="toc-iterations-for-question-2-tracing-the-spread-of-oceanus-folk" class="nav-link" data-scroll-target="#iterations-for-question-2-tracing-the-spread-of-oceanus-folk">Iterations for Question 2: Tracing the Spread of Oceanus Folk</a>
+  <ul class="collapse">
+  <li><a href="#iteration-1-the-raw-influence-count-prototype" id="toc-iteration-1-the-raw-influence-count-prototype" class="nav-link" data-scroll-target="#iteration-1-the-raw-influence-count-prototype">Iteration 1: The Raw Influence Count Prototype</a></li>
+  <li><a href="#iteration-2-the-one-view-genre-ranking-prototype" id="toc-iteration-2-the-one-view-genre-ranking-prototype" class="nav-link" data-scroll-target="#iteration-2-the-one-view-genre-ranking-prototype">Iteration 2: The One-View Genre Ranking Prototype</a></li>
+  <li><a href="#iteration-3-final-the-directional-diffusion-dashboard" id="toc-iteration-3-final-the-directional-diffusion-dashboard" class="nav-link" data-scroll-target="#iteration-3-final-the-directional-diffusion-dashboard">Iteration 3 (Final): The Directional Diffusion Dashboard</a></li>
+  </ul></li>
   <li><a href="#iterations-for-question-3-predicting-rising-stars" id="toc-iterations-for-question-3-predicting-rising-stars" class="nav-link" data-scroll-target="#iterations-for-question-3-predicting-rising-stars">Iterations for Question 3: Predicting Rising Stars</a>
   <ul class="collapse">
   <li><a href="#iteration-1-the-structural-network-hypothesis" id="toc-iteration-1-the-structural-network-hypothesis" class="nav-link" data-scroll-target="#iteration-1-the-structural-network-hypothesis">Iteration 1: The Structural Network Hypothesis</a></li>
@@ -217,7 +223,60 @@ ul.task-list li input[type="checkbox"] {
 <section id="iteration-3-final-sigma.js-interactive-integration" class="level3">
 <h3 class="anchored" data-anchor-id="iteration-3-final-sigma.js-interactive-integration">Iteration 3 (Final): Sigma.js Interactive Integration</h3>
 <p>To solve the interactivity problem, we bypassed Tableau entirely for this specific question. We utilised the <strong>Sigma.js exporter plugin</strong> directly within Gephi. * <strong>The Solution:</strong> This generated a self-contained, lightweight HTML/JavaScript application that preserved all of Gephi’s structural math while adding dynamic user controls (zooming, panning, and click-to-highlight). We then embedded this interactive widget directly into our Quarto website as our final solution for Question 1.</p>
-<hr>
+</section>
+</section>
+<section id="iterations-for-question-2-tracing-the-spread-of-oceanus-folk" class="level2">
+<h2 class="anchored" data-anchor-id="iterations-for-question-2-tracing-the-spread-of-oceanus-folk">Iterations for Question 2: Tracing the Spread of Oceanus Folk</h2>
+<p>Our goal for Question 2 was to understand how Oceanus Folk spread across the broader music world, identify which genres and artists were most influenced by it, and examine how the genre itself changed after Sailor Shift’s rise. Unlike Question 1, which focused on a specific ego network, Question 2 required us to work at the community and genre level. This created several analytical challenges around edge direction, double-counting, and how to clearly separate outward influence from inward inspiration.</p>
+<section id="iteration-1-the-raw-influence-count-prototype" class="level3">
+<h3 class="anchored" data-anchor-id="iteration-1-the-raw-influence-count-prototype">Iteration 1: The Raw Influence Count Prototype</h3>
+<p>Our initial prototype attempted to answer the question by simply filtering the five influence-related edge types (<code>InStyleOf</code>, <code>InterpolatesFrom</code>, <code>CoverOf</code>, <code>DirectlySamples</code>, and <code>LyricalReferenceTo</code>) and plotting the total number of influence connections over time.</p>
+<ul>
+<li><strong>The Problem:</strong> This first version was too crude. A single song could reference multiple Oceanus Folk works, which inflated the counts and made the spread look larger than it actually was. More importantly, the chart mixed together different directions of influence. It did not clearly distinguish between:
+<ul>
+<li><strong>other genres being influenced by Oceanus Folk</strong>, and</li>
+<li><strong>Oceanus Folk drawing inspiration from other genres</strong>.</li>
+</ul></li>
+</ul>
+<p>As a result, the prototype produced noisy trends and could not answer whether the spread was truly gradual or just an artifact of repeated references.</p>
+</section>
+<section id="iteration-2-the-one-view-genre-ranking-prototype" class="level3">
+<h3 class="anchored" data-anchor-id="iteration-2-the-one-view-genre-ranking-prototype">Iteration 2: The One-View Genre Ranking Prototype</h3>
+<p>To improve clarity, we next grouped the influence data by genre and ranked the top genres and artists associated with Oceanus Folk references. This produced an early genre-ranking and top-artist prototype in Tableau.</p>
+<ul>
+<li><strong>The Problem:</strong> While the ranking view was more readable, it still contained two major analytical issues.<br>
+First, it treated all influence links as equal, which meant internal Oceanus Folk-to-Oceanus Folk references could dominate the results and hide the genre’s outward spread to the rest of the music world.<br>
+Second, the artist view was misleading because some artists shared the same name, and grouping by name alone merged different artist IDs together. In addition, counting raw role-level links rather than distinct works sometimes overstated an artist’s apparent influence.</li>
+</ul>
+<p>This prototype was useful in revealing broad patterns, but it was not yet rigorous enough for final interpretation.</p>
+</section>
+<section id="iteration-3-final-the-directional-diffusion-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="iteration-3-final-the-directional-diffusion-dashboard">Iteration 3 (Final): The Directional Diffusion Dashboard</h3>
+<p>To solve these issues, we redesigned the analysis around <strong>directional influence logic</strong>. Instead of treating all influence links the same way, we split the problem into two separate analytical flows:</p>
+<ul>
+<li><strong>Outward Influence from Oceanus Folk</strong>
+<ul>
+<li><code>target genre = Oceanus Folk</code><br>
+</li>
+<li><code>source genre ≠ Oceanus Folk</code><br>
+This captures cases where non-Oceanus works were influenced by Oceanus Folk.</li>
+</ul></li>
+<li><strong>Inward Inspiration into Oceanus Folk</strong>
+<ul>
+<li><code>source genre = Oceanus Folk</code><br>
+</li>
+<li><code>target genre ≠ Oceanus Folk</code><br>
+This captures cases where Oceanus Folk itself was borrowing from other genres.</li>
+</ul></li>
+<li><strong>The Solution:</strong> This directional redesign led to three final views:
+<ol type="1">
+<li>a <strong>time diffusion view</strong> showing whether Oceanus Folk spread gradually or intermittently,</li>
+<li>a <strong>genre and artist adoption view</strong> showing which parts of the music world were most influenced by Oceanus Folk,</li>
+<li>a <strong>before/after 2028 inspiration comparison</strong> showing how Oceanus Folk evolved after Sailor Shift’s breakthrough.</li>
+</ol></li>
+</ul>
+<p>We also replaced raw edge counts with <strong>distinct influenced works</strong> wherever possible to avoid overcounting repeated references. For artists, we used unique artist identifiers rather than names alone to avoid merging different people with the same label.</p>
+<p>This final structure allowed us to answer all three sub-questions clearly: how Oceanus Folk spread, who adopted it most strongly, and how the genre itself became more hybrid in the Sailor Shift era.</p>
 </section>
 </section>
 <section id="iterations-for-question-3-predicting-rising-stars" class="level2">
