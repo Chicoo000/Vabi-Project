@@ -1,4 +1,4 @@
 ---
 title: "Project Poster"
 ---
-![Poster](images/vabi-project.png)
+![Poster](images/Grp11_Poster.png)
