@@ -19,3 +19,91 @@ The following storyboard outlines how a music historian interacts with our dashb
 
 ![**Step 4:** Hovering reveals the tooltip detailing her specific momentum metrics.](images/step4.png)
 :::
+
+## Storyboard for Question 2: Spread and Evolution of Oceanus Folk
+
+### Step 1: Understanding the spread over time
+Silas begins with the **Influence Over Time** view. He hovers over the yearly and cumulative trend lines to see how many unique works were influenced by Oceanus Folk each year.
+
+**User goal:** Determine whether Oceanus Folk spread gradually or intermittently.
+
+**Expected insight:** Oceanus Folk’s influence rises gradually overall, but with noticeable bursts of expansion rather than a perfectly smooth trend.
+
+### Step 2: Identifying the most influenced genres
+Silas then moves to the **Top Genres Influenced by Oceanus Folk** chart. By comparing bar lengths and hovering over each genre, he identifies which parts of the music world adopted Oceanus Folk most strongly.
+
+**User goal:** Discover which genres were most influenced by Oceanus Folk.
+
+**Expected insight:** Oceanus Folk spread most strongly into compatible genres such as Indie Folk and Dream Pop, while also reaching a wider mix of styles over time.
+
+### Step 3: Identifying the most influenced artists
+Next, Silas explores the **Top Artists Influenced by Oceanus Folk** chart. He reads the ranked artist list to see which performers most frequently produced works influenced by Oceanus Folk.
+
+**User goal:** Find the artists who most clearly absorbed Oceanus Folk influence.
+
+**Expected insight:** Oceanus Folk’s impact is not limited to one or two artists, but is distributed across several performers in the wider music ecosystem.
+
+### Step 4: Comparing Oceanus Folk before and after Sailor Shift
+Silas then examines the **Before vs After 2028 Inspiration** chart. He compares the genre bars across the two periods to see how Oceanus Folk’s own inspirations changed after Sailor Shift’s breakthrough.
+
+**User goal:** Understand how Oceanus Folk evolved with the rise of Sailor Shift.
+
+**Expected insight:** Oceanus Folk remained rooted in Indie Folk, but became more hybrid after 2028 by drawing more inspiration from Dream Pop, Indie Rock, Alternative Rock, and other adjacent genres.
+
+### Step 5: Interpreting contemporary inspiration
+Finally, Silas checks the **Top Contemporary Inspiration Genres** chart to focus only on the post-2028 period.
+
+**User goal:** Identify the strongest present-day inspiration sources for Oceanus Folk.
+
+**Expected insight:** Contemporary Oceanus Folk is still anchored in Indie Folk, but now also draws strongly from Dream Pop, Indie Rock, and Alternative Rock.
+
+---
+
+## Storyboard for Question 3: Rising Star Profile and Prediction
+
+### Step 1: Comparing career output
+Silas begins with the **Career Output Over Time** chart. He compares the cumulative release trajectories of three selected artists: **Sailor Shift**, **Szymon Pyć**, and **Sienna Fox**.
+
+**User goal:** Understand how different artists build their careers over time.
+
+**Expected insight:** Sailor Shift shows rapid expansion, Szymon Pyć shows long-term steady growth, and Sienna Fox shows strong recent momentum.
+
+### Step 2: Comparing popularity growth
+Silas moves to the **Popularity Growth Over Time** chart, which tracks cumulative notable works.
+
+**User goal:** See how recognition develops across different career paths.
+
+**Expected insight:** Sailor Shift converts her output into recognition quickly, Szymon Pyć builds recognition steadily across a long span, and Sienna Fox shows early but promising growth.
+
+### Step 3: Comparing influence growth
+Silas then studies the **Influence Growth Over Time** chart to see how each artist’s work begins to influence later artists.
+
+**User goal:** Compare the broader industry impact of the three career trajectories.
+
+**Expected insight:** Szymon Pyć has the strongest long-term influence, Sailor Shift shows fast-growing influence in a shorter period, and Sienna Fox is still in the early phase of building impact.
+
+### Step 4: Defining the rising-star profile
+After comparing the three charts together, Silas summarizes the shared characteristics of a rising star.
+
+**User goal:** Form a clear definition of what makes an artist a rising star in this dataset.
+
+**Expected insight:** A rising star is not defined by output alone, but by a combination of recent activity, growing notable works, and an upward influence trajectory.
+
+### Step 5: Predicting the next Oceanus Folk stars
+Finally, Silas reviews the **Oceanus Folk Rising Star Candidates** table, which ranks recent Oceanus Folk artists by recent works, recent notable works, and recency of activity.
+
+**User goal:** Identify the strongest candidates to become the next Oceanus Folk stars.
+
+**Expected insight:** Artists such as **Beatrice Albright**, **Daniel O’Connell**, and **Genevieve Bell** emerge as the strongest next-generation candidates because they best match the rising-star profile.
+
+---
+
+## Summary of User Journey
+
+The storyboard is designed to guide the user from **understanding genre diffusion** to **understanding future talent prediction**.
+
+For **Question 2**, the user starts by examining how Oceanus Folk spread outward and then explores how the genre itself changed internally.
+
+For **Question 3**, the user compares different artist trajectories, derives a rising-star profile, and then applies that profile to identify the next likely Oceanus Folk stars.
+
+Together, these storyboards ensure that the dashboards do not function only as isolated charts, but as a connected analytical journey from historical influence to future prediction.
