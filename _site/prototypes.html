@@ -162,7 +162,6 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#iteration-1-the-structural-network-hypothesis" id="toc-iteration-1-the-structural-network-hypothesis" class="nav-link" data-scroll-target="#iteration-1-the-structural-network-hypothesis">Iteration 1: The Structural Network Hypothesis</a></li>
   <li><a href="#iteration-2-the-scatter-plot-prototype" id="toc-iteration-2-the-scatter-plot-prototype" class="nav-link" data-scroll-target="#iteration-2-the-scatter-plot-prototype">Iteration 2: The Scatter Plot Prototype</a></li>
-  <li><a href="#iteration-3-final-the-momentum-pivot" id="toc-iteration-3-final-the-momentum-pivot" class="nav-link" data-scroll-target="#iteration-3-final-the-momentum-pivot">Iteration 3 (Final): The Momentum Pivot</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -208,17 +207,34 @@ ul.task-list li input[type="checkbox"] {
 <section id="iteration-1-the-tableau-coordinate-approach" class="level3">
 <h3 class="anchored" data-anchor-id="iteration-1-the-tableau-coordinate-approach">Iteration 1: The Tableau Coordinate Approach</h3>
 <p>Our initial prototype attempted to build the entire Ego Network directly within Tableau. Because Tableau is not a native graph-rendering engine, this required manually engineering a dataset with calculated X and Y coordinates to force Tableau to draw nodes and edges. * <strong>The Problem:</strong> While technically possible, this prototype resulted in a highly rigid, static visual. The manual coordinate calculations were computationally heavy, and the resulting “hairball” was difficult for a user to navigate or interpret, defeating the purpose of an interactive visual analytics tool.</p>
+<blockquote class="blockquote">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/q1_proto1.png" class="img-fluid figure-img"></p>
 <figcaption>Iteration 1: Manual Coordinate Network in Tableau</figcaption>
 </figure>
 </div>
+</blockquote>
 </section>
 <section id="iteration-2-tableau-diagram-chart-extension" class="level3">
 <h3 class="anchored" data-anchor-id="iteration-2-tableau-diagram-chart-extension">Iteration 2: Tableau Diagram Chart Extension</h3>
 <p>Realising that manually calculating coordinates was inefficient, we pivoted to using <strong>Gephi</strong> strictly as a data-filtering engine. We anchored the graph on Sailor Shift, extracted her specific Ego Network, and exported this cleaned, filtered node/edge list back into Tableau. We then utilised a Tableau Diagram/Network Extension to render the graph. * <strong>The Problem:</strong> While the extension successfully drew the network without requiring manual X/Y coordinates, it introduced severe performance bottlenecks. Tableau dashboard extensions often struggle to render dense, multi-relational graphs smoothly. Furthermore, the extension lacked the native physics layouts (like ForceAtlas2) and deep interactive customisations required to make the hairball legible, resulting in a clunky user experience.</p>
-<p><img src="images/q1_proto2.png" class="img-fluid" alt="Iteration 2: Attempting to use a Network Chart Extension in Tableau"> <img src="images/q1_proto3.png" class="img-fluid" alt="Iteration 2: Attempting to use a Network Chart Extension in Tableau"></p>
+<blockquote class="blockquote">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/q1_proto2.png" class="img-fluid figure-img"></p>
+<figcaption>Iteration 2: Attempting to use a Network Chart Extension in Tableau</figcaption>
+</figure>
+</div>
+</blockquote>
+<blockquote class="blockquote">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/q1_proto3.png" class="img-fluid figure-img"></p>
+<figcaption>Iteration 2: Attempting to use a Network Chart Extension in Tableau</figcaption>
+</figure>
+</div>
+</blockquote>
 </section>
 <section id="iteration-3-final-sigma.js-interactive-integration" class="level3">
 <h3 class="anchored" data-anchor-id="iteration-3-final-sigma.js-interactive-integration">Iteration 3 (Final): Sigma.js Interactive Integration</h3>
@@ -284,20 +300,18 @@ This captures cases where Oceanus Folk itself was borrowing from other genres.</
 <p>Question 3 required us to define the characteristics of a rising star and predict the next industry leaders. This section required the most significant pivot of the entire project, as our initial mathematical hypothesis proved to be flawed.</p>
 <section id="iteration-1-the-structural-network-hypothesis" class="level3">
 <h3 class="anchored" data-anchor-id="iteration-1-the-structural-network-hypothesis">Iteration 1: The Structural Network Hypothesis</h3>
-<p>Our initial assumption was that “influence” is best measured by network topology. We used Gephi to calculate standard centrality metrics for the entire dataset: * <strong>PageRank:</strong> To measure elite institutional influence. * <strong>In-Degree:</strong> To measure how often an artist was covered or sampled. * <strong>Out-Degree (Node Size):</strong> To measure their historical output.</p>
+<p>Our initial assumption was that “influence” is best measured by network topology. We used Gephi to calculate standard centrality metrics for the entire dataset: <strong>PageRank:</strong> To measure elite institutional influence. <strong>In-Degree:</strong> To measure how often an artist was covered or sampled. <strong>Out-Degree (Node Size):</strong> To measure their historical output.</p>
 </section>
 <section id="iteration-2-the-scatter-plot-prototype" class="level3">
 <h3 class="anchored" data-anchor-id="iteration-2-the-scatter-plot-prototype">Iteration 2: The Scatter Plot Prototype</h3>
 <p>We exported these Gephi metrics into Tableau and built a scatter plot prototype. The goal was to find the “rising stars” by looking for artists with high PageRank and low Out-Degree. * <strong>The Problem:</strong> When we plotted the data, we discovered a massive “newcomer blindspot.” Brand-new artists were completely isolated in the bottom-left corner of the chart with zero PageRank. We realised that network math is a <strong>lagging indicator</strong>; because it takes years for other artists to copy a newcomer’s style, purely structural metrics inherently punish emerging talent and heavily favor established veterans.</p>
 <blockquote class="blockquote">
-<p><em>[Insert your scatter plot screenshot here! This is the crucial visual. Name it: <code>![Iteration 2: The PageRank Scatter Plot revealing the lagging indicator trap](images/q3_proto1.jpg)</code>]</em></p>
-</blockquote>
-</section>
-<section id="iteration-3-final-the-momentum-pivot" class="level3">
-<h3 class="anchored" data-anchor-id="iteration-3-final-the-momentum-pivot">Iteration 3 (Final): The Momentum Pivot</h3>
-<p>Because our Gephi prototype proved that structure cannot predict real-time breakouts, we completely scrapped the scatter plot. We pivoted our methodology from “Structural Analytics” to “Momentum Analytics.” * <strong>The Solution:</strong> Using Tableau, we engineered a temporal dataset that bypassed lagging network edges. Instead, we filtered for artists who debuted recently and ranked them by the sheer volume and velocity of their <strong>Recent Notable Works</strong>. This final prototype successfully bypassed the structural lag and accurately identified high-momentum newcomers like Min Qin and Carlos Duffy.</p>
-<blockquote class="blockquote">
-<p><em>[Insert a screenshot of Ewan’s early/unpolished Tableau bar chart here. Name it: <code>![Iteration 3: Shifting to Momentum Analytics in Tableau](images/q3_proto2.jpg)</code>]</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/q3_proto1.png" class="img-fluid figure-img"></p>
+<figcaption>Iteration 2: The PageRank Scatter Plot revealing the lagging indicator trap</figcaption>
+</figure>
+</div>
 </blockquote>
 
 

@@ -28,13 +28,15 @@ Our goal for Question 1 was to map the internal topology of the Oceanus Folk gen
 
 Our initial prototype attempted to build the entire Ego Network directly within Tableau. Because Tableau is not a native graph-rendering engine, this required manually engineering a dataset with calculated X and Y coordinates to force Tableau to draw nodes and edges. \* **The Problem:** While technically possible, this prototype resulted in a highly rigid, static visual. The manual coordinate calculations were computationally heavy, and the resulting "hairball" was difficult for a user to navigate or interpret, defeating the purpose of an interactive visual analytics tool.
 
-![Iteration 1: Manual Coordinate Network in Tableau](images/q1_proto1.png)
+> ![Iteration 1: Manual Coordinate Network in Tableau](images/q1_proto1.png)
 
 ### Iteration 2: Tableau Diagram Chart Extension
 
 Realising that manually calculating coordinates was inefficient, we pivoted to using **Gephi** strictly as a data-filtering engine. We anchored the graph on Sailor Shift, extracted her specific Ego Network, and exported this cleaned, filtered node/edge list back into Tableau. We then utilised a Tableau Diagram/Network Extension to render the graph. \* **The Problem:** While the extension successfully drew the network without requiring manual X/Y coordinates, it introduced severe performance bottlenecks. Tableau dashboard extensions often struggle to render dense, multi-relational graphs smoothly. Furthermore, the extension lacked the native physics layouts (like ForceAtlas2) and deep interactive customisations required to make the hairball legible, resulting in a clunky user experience.
 
-![Iteration 2: Attempting to use a Network Chart Extension in Tableau](images/q1_proto2.png) ![Iteration 2: Attempting to use a Network Chart Extension in Tableau](images/q1_proto3.png)
+>![Iteration 2: Attempting to use a Network Chart Extension in Tableau](images/q1_proto2.png) 
+
+>![Iteration 2: Attempting to use a Network Chart Extension in Tableau](images/q1_proto3.png)
 
 ### Iteration 3 (Final): Sigma.js Interactive Integration
 
@@ -91,16 +93,10 @@ Question 3 required us to define the characteristics of a rising star and predic
 
 ### Iteration 1: The Structural Network Hypothesis
 
-Our initial assumption was that "influence" is best measured by network topology. We used Gephi to calculate standard centrality metrics for the entire dataset: \* **PageRank:** To measure elite institutional influence. \* **In-Degree:** To measure how often an artist was covered or sampled. \* **Out-Degree (Node Size):** To measure their historical output.
+Our initial assumption was that "influence" is best measured by network topology. We used Gephi to calculate standard centrality metrics for the entire dataset: **PageRank:** To measure elite institutional influence. **In-Degree:** To measure how often an artist was covered or sampled. **Out-Degree (Node Size):** To measure their historical output.
 
 ### Iteration 2: The Scatter Plot Prototype
 
 We exported these Gephi metrics into Tableau and built a scatter plot prototype. The goal was to find the "rising stars" by looking for artists with high PageRank and low Out-Degree. \* **The Problem:** When we plotted the data, we discovered a massive "newcomer blindspot." Brand-new artists were completely isolated in the bottom-left corner of the chart with zero PageRank. We realised that network math is a **lagging indicator**; because it takes years for other artists to copy a newcomer's style, purely structural metrics inherently punish emerging talent and heavily favor established veterans.
 
-> *\[Insert your scatter plot screenshot here! This is the crucial visual. Name it: `![Iteration 2: The PageRank Scatter Plot revealing the lagging indicator trap](images/q3_proto1.jpg)`\]*
-
-### Iteration 3 (Final): The Momentum Pivot
-
-Because our Gephi prototype proved that structure cannot predict real-time breakouts, we completely scrapped the scatter plot. We pivoted our methodology from "Structural Analytics" to "Momentum Analytics." \* **The Solution:** Using Tableau, we engineered a temporal dataset that bypassed lagging network edges. Instead, we filtered for artists who debuted recently and ranked them by the sheer volume and velocity of their **Recent Notable Works**. This final prototype successfully bypassed the structural lag and accurately identified high-momentum newcomers like Min Qin and Carlos Duffy.
-
-> *\[Insert a screenshot of Ewan's early/unpolished Tableau bar chart here. Name it: `![Iteration 3: Shifting to Momentum Analytics in Tableau](images/q3_proto2.jpg)`\]*
+> ![Iteration 2: The PageRank Scatter Plot revealing the lagging indicator trap](images/q3_proto1.png)
