@@ -144,7 +144,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#user-scenario-identifying-a-breakout-star" id="toc-user-scenario-identifying-a-breakout-star" class="nav-link active" data-scroll-target="#user-scenario-identifying-a-breakout-star">User Scenario: Identifying a Breakout Star</a></li>
+  <li><a href="#storyboard-for-question-1-structural-position-of-sailor-shift" id="toc-storyboard-for-question-1-structural-position-of-sailor-shift" class="nav-link active" data-scroll-target="#storyboard-for-question-1-structural-position-of-sailor-shift">Storyboard for Question 1: Structural Position of Sailor Shift</a>
+  <ul class="collapse">
+  <li><a href="#the-visual-approach-interactive-ego-network" id="toc-the-visual-approach-interactive-ego-network" class="nav-link" data-scroll-target="#the-visual-approach-interactive-ego-network">The Visual Approach: Interactive Ego Network</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key Findings</a></li>
+  </ul></li>
   <li><a href="#storyboard-for-question-2-spread-and-evolution-of-oceanus-folk" id="toc-storyboard-for-question-2-spread-and-evolution-of-oceanus-folk" class="nav-link" data-scroll-target="#storyboard-for-question-2-spread-and-evolution-of-oceanus-folk">Storyboard for Question 2: Spread and Evolution of Oceanus Folk</a>
   <ul class="collapse">
   <li><a href="#step-1-understanding-the-spread-over-time" id="toc-step-1-understanding-the-spread-over-time" class="nav-link" data-scroll-target="#step-1-understanding-the-spread-over-time">Step 1: Understanding the spread over time</a></li>
@@ -189,47 +193,68 @@ ul.task-list li input[type="checkbox"] {
 
 <p>In this section, we will present the storyboards that guide the user experience of our visual analytics tool.</p>
 <p>Our storyboards will illustrate how users can interact with the visualizations to gain insights into the music knowledge graph.</p>
-<section id="user-scenario-identifying-a-breakout-star" class="level2">
-<h2 class="anchored" data-anchor-id="user-scenario-identifying-a-breakout-star">User Scenario: Identifying a Breakout Star</h2>
-<p>The following storyboard outlines how a music historian interacts with our dashboard to discover the next generation of Oceanus Folk artists.</p>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<section id="storyboard-for-question-1-structural-position-of-sailor-shift" class="level2">
+<h2 class="anchored" data-anchor-id="storyboard-for-question-1-structural-position-of-sailor-shift">Storyboard for Question 1: Structural Position of Sailor Shift</h2>
+<p>The goal of this analysis was to untangle the dense music industry knowledge graph to answer a micro-level question: <em>What are the roots, collaborators, and indirect creative reach of Sailor Shift within the Oceanus Folk genre?</em> Rather than looking at raw album sales, we sought to map the physical structure of the music itself to understand how her record-breaking sound was developed.</p>
+<section id="the-visual-approach-interactive-ego-network" class="level3">
+<h3 class="anchored" data-anchor-id="the-visual-approach-interactive-ego-network">The Visual Approach: Interactive Ego Network</h3>
+<p>Because static diagrams fail to capture the complexity of thousands of musical connections, we generated a dynamic <strong>Sigma.js Interactive Network</strong>.</p>
+<p>By anchoring an Ego Network specifically on Sailor Shift (Node ID = 17255) at maximum depth, and intersecting it with the Oceanus Folk genre, we stripped away the industry noise. The resulting visualization allows users to physically explore the structural core of the genre’s discography.</p>
+<p><em>(Note: To explore the live graph, please see the Interactive Graph section. The findings below highlight the key discoveries from this visual model.)</em></p>
+<hr>
+</section>
+<section id="key-findings" class="level3">
+<h3 class="anchored" data-anchor-id="key-findings">Key Findings</h3>
+<section id="step-1.-the-collaborative-core-vs.-the-independent-periphery" class="level4">
+<h4 class="anchored" data-anchor-id="step-1.-the-collaborative-core-vs.-the-independent-periphery">Step 1. The Collaborative Core vs.&nbsp;The Independent Periphery</h4>
+<p>When viewing the network from a macro level via the ForceAtlas2 layout, a distinct topological pattern emerges. The Oceanus Folk genre is not evenly distributed.</p>
+<ul>
+<li><strong>Visual Evidence:</strong> The center of the graph forms a dense, highly entangled “hairball” of nodes connected by thick structural edges, while dozens of smaller artist clusters float completely disconnected on the periphery.</li>
+<li><strong>The Insight:</strong> This proves that the mainstream success of the genre is driven by a highly referential, collaborative core of artists who frequently perform, cover, and write together. The independent artists on the periphery, while sharing the genre tag, do not contribute to the structural momentum of the core sound.</li>
+</ul>
+<blockquote class="blockquote">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/step1.png" class="img-fluid figure-img"></p>
-<figcaption><strong>Step 1:</strong> The user filters the timeline to post-2030.</figcaption>
+<p><img src="images/q1_macro.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1.1: The dense structural core of the Oceanus Folk ecosystem.</figcaption>
 </figure>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+</blockquote>
+</section>
+<section id="step-2.-the-ivy-echoes-origin-story" class="level4">
+<h4 class="anchored" data-anchor-id="step-2.-the-ivy-echoes-origin-story">Step 2. The Ivy Echoes Origin Story</h4>
+<p>By utilizing the interactive search and click-to-highlight features, we isolated Sailor Shift’s direct connections to determine her biggest inspirations.</p>
+<ul>
+<li><strong>Visual Evidence:</strong> The graph reveals a massive, heavily weighted cluster of connections between Sailor Shift and the entity <strong>Ivy Echoes</strong>. Initially, purely structural analysis might suggest Ivy Echoes was an older mentor band that inspired her.</li>
+<li><strong>The Insight:</strong> By cross-referencing the network topology with historical context, we discovered that Ivy Echoes is actually Sailor Shift’s <em>own former band</em> (active 2023–2026). The graph proves that her 2028 solo breakthrough did not happen in a vacuum; it was built directly upon the stylistic foundation, catalog, and collaborative network she initially developed during her time with Maya, Lilly, Jade, and Sophie.</li>
+</ul>
+<blockquote class="blockquote">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/step2.png" class="img-fluid figure-img"></p>
-<figcaption><strong>Step 2:</strong> The dashboard updates, and the user sorts by Notable Works.</figcaption>
+<p><img src="images/q1_ivyechoes.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1.2: Isolating the foundational structural link between Sailor Shift and Ivy Echoes.</figcaption>
 </figure>
 </div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+</blockquote>
+</section>
+<section id="step-3.-a-culture-of-musical-referencing" class="level4">
+<h4 class="anchored" data-anchor-id="step-3.-a-culture-of-musical-referencing">Step 3. A Culture of Musical Referencing</h4>
+<p>By selecting nodes within the central cluster, we can analyze the specific types of relationships that define the genre’s internal growth.</p>
+<ul>
+<li><strong>Visual Evidence:</strong> When a central work is selected, the network highlights a dense web of connections. While <code>PerformerOf</code> links artists to their music, a significant portion of the internal structure is built on <code>CoverOf</code> and <code>InStyleOf</code> relationships.</li>
+<li><strong>The Insight:</strong> Sailor Shift’s legacy is defined by a culture of stylistic continuity. The genre remains tightly knit because artists are constantly covering her foundational works or releasing music explicitly marked as being in her style. This creates a “structural echo” that keeps her early work relevant decades after its release.</li>
+</ul>
+<blockquote class="blockquote">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/step3.png" class="img-fluid figure-img"></p>
-<figcaption><strong>Step 3:</strong> The user selects ‘Min Qin’ to isolate her trajectory.</figcaption>
+<p><img src="images/q1_edges.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1.3: Analyzing the ‘CoverOf’ and ‘InStyleOf’ connections.</figcaption>
 </figure>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/step4.png" class="img-fluid figure-img"></p>
-<figcaption><strong>Step 4:</strong> Hovering reveals the tooltip detailing her specific momentum metrics.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
+</blockquote>
+<hr>
+</section>
+</section>
 </section>
 <section id="storyboard-for-question-2-spread-and-evolution-of-oceanus-folk" class="level2">
 <h2 class="anchored" data-anchor-id="storyboard-for-question-2-spread-and-evolution-of-oceanus-folk">Storyboard for Question 2: Spread and Evolution of Oceanus Folk</h2>
@@ -302,6 +327,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="summary-of-user-journey" class="level2">
 <h2 class="anchored" data-anchor-id="summary-of-user-journey">Summary of User Journey</h2>
 <p>The storyboard is designed to guide the user from <strong>understanding genre diffusion</strong> to <strong>understanding future talent prediction</strong>.</p>
+<p>For <strong>Question 1</strong>, the user starts by visualizing the macro-topology of the Oceanus Folk ecosystem to distinguish the densely connected, collaborative core from the independent periphery. They then transition to a micro-anchored view of Sailor Shift, utilizing interactive selection to map her specific neighborhood and artistic origins. By isolating the critical structural link to Ivy Echoes, the user uncovers the stylistic foundations of her breakthrough, shifting the narrative from a sudden rise to a gradual evolution from her collaborative roots.</p>
 <p>For <strong>Question 2</strong>, the user starts by examining how Oceanus Folk spread outward and then explores how the genre itself changed internally.</p>
 <p>For <strong>Question 3</strong>, the user compares different artist trajectories, derives a rising-star profile, and then applies that profile to identify the next likely Oceanus Folk stars.</p>
 <p>Together, these storyboards ensure that the dashboards do not function only as isolated charts, but as a connected analytical journey from historical influence to future prediction.</p>

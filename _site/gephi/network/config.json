@@ -19,7 +19,7 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "node type",
+    "groupSelectorAttribute": "entity_category ",
     "hoverBehavior": "default"
   },
   "informationPanel": {
