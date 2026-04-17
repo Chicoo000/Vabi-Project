@@ -39,8 +39,4 @@ The project will also investigate how Oceanus Folk has spread into other musical
 
 # Project Schedule (Gantt Chart)
 
-![](images/paste-1.png)
-
-
-
-   
+![](images/paste-12.png)
